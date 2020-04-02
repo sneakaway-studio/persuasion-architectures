@@ -1,2 +1,3 @@
-# persuasion-architectures
-The 2020 prototypes developed by DIG 404 Humanities Startup students
+# Persuasion Architectures
+
+Prototypes for an interactive documentary about the power of persuasion. Developed by DIG 404 Humanities Startup students at Davidson College
