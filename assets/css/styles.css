@@ -1,9 +1,9 @@
 
 
 
-
+body{ background-color: #282828 !important; }
 .navbar-brand { font: 1.5rem/1.9rem 'PT Serif', serif; font-weight: 400; }
-.navbar-dark { background-color: #2B3E50 !important; }
+.navbar-dark { background-color: #282828 !important; }
 
 .project-thumb {
     margin-top: 20px;
