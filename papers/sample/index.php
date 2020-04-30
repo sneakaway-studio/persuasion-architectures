@@ -1,38 +1,6 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Persuasion Architectures</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="assets/libs/superhero/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Persuasion<br>Architectures</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav my-2 my-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/sneakaway-studio/persuasion-architectures">Github</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <?php $subdirectory = true; ?>
+    <?php include_once('../../inc/header.php'); ?>
 
 
     <div class="container">
@@ -78,7 +46,7 @@
     <div class="container">
         <div class="row my-2">
             <div class="col-12 col-lg-12" style="padding: 0 40px;">
-                <img src="interactives/sample/sample-minard.jpg" class="img-fluid">
+                <img src="img/sample-minard.jpg" class="img-fluid">
             </div>
         </div>
     </div>
@@ -150,7 +118,7 @@
     <div class="container">
         <div class="row my-2">
             <div class="col-12 col-lg-6">
-                <img src="interactives/sample/sample-chart.png" alt="">
+                <img src="img/sample-chart.png" alt="">
             </div>
             <div class="col-12 col-lg-6">
 
@@ -195,7 +163,7 @@
         <div class="row my-2">
 
             <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
-                <img src="interactives/sample/sample-cat.jpg" class="img-fluid">
+                <img src="img/sample-cat.jpg" class="img-fluid">
             </div>
 
         </div>
@@ -245,7 +213,7 @@
         <div class="container px-0">
             <div class="row">
                 <div class="col-12">
-                    <iframe id="my_iframe" width="100%" height="400px" frameBorder="0" src="interactives/ortiz/twine.html" scrolling="no"> </iframe>
+                    <iframe id="my_iframe" width="100%" height="400px" frameBorder="0" src="../ortiz/twine.html" scrolling="no"> </iframe>
                 </div>
             </div>
         </div>
@@ -366,13 +334,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="assets/libs/bootstrap-carousel/slide1.svg" alt="First slide">
+                        <img class="d-block w-100" src="<?php print ($file_root); ?>assets/libs/bootstrap-carousel/slide1.svg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/libs/bootstrap-carousel/slide2.svg" alt="Second slide">
+                        <img class="d-block w-100" src="<?php print ($file_root); ?>assets/libs/bootstrap-carousel/slide2.svg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/libs/bootstrap-carousel/slide3.svg" alt="Third slide">
+                        <img class="d-block w-100" src="<?php print ($file_root); ?>assets/libs/bootstrap-carousel/slide3.svg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -416,7 +384,7 @@
 
 
 
-    <div class="vittoria container-fluid px-0 my-2 mb-4">
+    <div class="de-angelis-slideshow container-fluid px-0 my-2 mb-4">
         <div class="container px-0">
 
 
@@ -446,7 +414,7 @@
                     <div class="carousel-item">
                         <div class="row white-bg py-5">
                             <div class="col-sm-4 offset-sm-1">
-                                <img src="interactives/de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-sm-6">
                                 <h3 class="header blue">We follow our peers</h3>
@@ -461,14 +429,14 @@
                                 <p>Electronic word of mouth plays a significant role in determining the reputation of products. Items with reviews receive higher ratings than those without, thus they sell better.</p>
                             </div>
                             <div class="col-sm-4">
-                                <img src="interactives/de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row white-bg py-5">
                             <div class="col-sm-4 offset-sm-1">
-                                <img src="interactives/de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-sm-6">
                                 <h3 class="header blue">Canned laughter</h3>
@@ -483,14 +451,14 @@
                                 <p>Individuals participate more often in hotel towel reuse programs if the signs in their rooms state that the majority of other guests participated in the program as well.</p>
                             </div>
                             <div class="col-sm-4">
-                                <img src="interactives/de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row white-bg py-5">
                             <div class="col-sm-4 offset-sm-1">
-                                <img src="interactives/de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-sm-6">
                                 <h3 class="header blue">Manipulates our opinions and shopping behaviors</h3>
@@ -505,7 +473,7 @@
                                 <p>It can help brands gain more visibility and traction. It creates a “social ‘chain reaction’ that leads others to similar behaviors.” It also creates a mutual relationship between businesses and customers which can benefit both.</p>
                             </div>
                             <div class="col-sm-4">
-                                <img src="interactives/de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
+                                <img src="../de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>

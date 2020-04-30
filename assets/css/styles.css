@@ -13,8 +13,6 @@ body{ background-color: #282828 !important; }
     height: 230px;
     background-color: #444;
 }
-
-
 iframe {
     border: none;
 }
@@ -24,24 +22,26 @@ iframe {
 
 
 
+/*  de-angelis-slideshow
+ ******************************************************************************/
 
-.vittoria { font-family: 'Open Sans Light', sans-serif;}
-.vittoria .carousel-item { height: 400px;}
-.vittoria .row { height: 100%;}
-.vittoria .col-sm-10 { font-size: 1.8rem; }
-.vittoria .col-sm-6 { font-size: 1.3rem; }
-.vittoria .header { color: #fff;font-family: Georgia; font-size: 3rem; }
-.vittoria .header2 { font-size: 2rem; }
-.vittoria .col-sm-6 .header { font-size: 2.5rem; }
-.vittoria .blue { color: #00b8e2;}
-.vittoria .white { color: #fff; }
-.vittoria .blue-bg { color: #000; background: #00b8e2; }
-.vittoria .white-bg { color: #000; background: #fff; }
-.vittoria .img-fluid {width: 100%;height: auto; }
-.vittoria .carousel-indicators li { background-color: #000 !important; }
-.vittoria .carousel-control-next-icon {
+.de-angelis-slideshow { font-family: 'Open Sans Light', sans-serif;}
+.de-angelis-slideshow .carousel-item { height: 400px;}
+.de-angelis-slideshow .row { height: 100%;}
+.de-angelis-slideshow .col-sm-10 { font-size: 1.8rem; }
+.de-angelis-slideshow .col-sm-6 { font-size: 1.3rem; }
+.de-angelis-slideshow .header { color: #fff;font-family: Georgia; font-size: 3rem; }
+.de-angelis-slideshow .header2 { font-size: 2rem; }
+.de-angelis-slideshow .col-sm-6 .header { font-size: 2.5rem; }
+.de-angelis-slideshow .blue { color: #00b8e2;}
+.de-angelis-slideshow .white { color: #fff; }
+.de-angelis-slideshow .blue-bg { color: #000; background: #00b8e2; }
+.de-angelis-slideshow .white-bg { color: #000; background: #fff; }
+.de-angelis-slideshow .img-fluid {width: 100%;height: auto; }
+.de-angelis-slideshow .carousel-indicators li { background-color: #000 !important; }
+.de-angelis-slideshow .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-.vittoria  .carousel-control-prev-icon {
+.de-angelis-slideshow  .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
