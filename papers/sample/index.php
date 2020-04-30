@@ -16,7 +16,7 @@
 
     <div class="container">
         <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <blockquote class="blockquote" style="font-size:160%">
                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -31,7 +31,7 @@
 
     <div class="container">
         <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ante turpis, venenatis sed vestibulum ac, iaculis ac nisl. Nam dignissim placerat sollicitudin. Sed egestas a magna sed fringilla. Pellentesque hendrerit erat nec
                     libero placerat ullamcorper id at nulla. Praesent eros magna, scelerisque ullamcorper quam vel, vehicula tincidunt tortor. Etiam aliquam, nisi eget suscipit placerat, lacus eros lacinia est, non congue sapien est in risus.
                     Suspendisse nec quam metus. Pellentesque vel elit metus. Nunc bibendum non ante nec mollis.</p>
@@ -45,7 +45,7 @@
 
     <div class="container">
         <div class="row my-2">
-            <div class="col-12 col-lg-12" style="padding: 0 40px;">
+            <div class="col-12 col-lg-12">
                 <img src="img/sample-minard.jpg" class="img-fluid">
             </div>
         </div>
@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
                 <p>Proin interdum nisi urna, ac interdum justo mattis sit amet. Praesent quis elementum sapien. Suspendisse convallis nisl eget dapibus faucibus. Mauris et mauris varius, egestas quam in, tincidunt sapien. Vestibulum
                     elementum odio et euismod tempor. Integer eget volutpat felis. Vivamus suscipit ex iaculis enim dapibus volutpat.</p>
@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
@@ -138,7 +138,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
@@ -162,7 +162,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <img src="img/sample-cat.jpg" class="img-fluid">
             </div>
 
@@ -178,7 +178,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
@@ -223,7 +223,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
@@ -262,7 +262,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
                 <p>Proin interdum nisi urna, ac interdum justo mattis sit amet. Praesent quis elementum sapien. Suspendisse convallis nisl eget dapibus faucibus. Mauris et mauris varius, egestas quam in, tincidunt sapien. Vestibulum
                     elementum odio et euismod tempor. Integer eget volutpat felis. Vivamus suscipit ex iaculis enim dapibus volutpat.</p>
@@ -282,7 +282,7 @@
 
     <div class="container">
         <div class="row my-2">
-            <div class="col-12 col-lg-12" style="padding: 0 40px;">
+            <div class="col-12 col-lg-12">
                 <div id="my_dataviz" style="width:100%; background:#fff; text-align:center"></div>
             </div>
         </div>
@@ -295,7 +295,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
                 <p>Proin interdum nisi urna, ac interdum justo mattis sit amet. Praesent quis elementum sapien. Suspendisse convallis nisl eget dapibus faucibus. Mauris et mauris varius, egestas quam in, tincidunt sapien. Vestibulum
                     elementum odio et euismod tempor. Integer eget volutpat felis. Vivamus suscipit ex iaculis enim dapibus volutpat.</p>
@@ -363,7 +363,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
@@ -515,7 +515,7 @@
     <div class="container">
         <div class="row my-2">
 
-            <div class="col-12 col-lg-8 offset-lg-2" style="padding: 0 40px;">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 <p>Vestibulum in congue eros. Sed est erat, semper non pulvinar in, rutrum eu tortor. Curabitur efficitur, urna sed sagittis porta, neque urna pharetra purus, condimentum dignissim est erat vitae arcu. Duis vitae sem
                     aliquam, porttitor arcu ut, volutpat ipsum. Etiam risus mauris, pharetra vitae iaculis eu, varius convallis magna. Mauris quam ligula, mattis iaculis eleifend vel, vulputate at nisi. Fusce id risus et dolor lobortis
                     euismod dapibus ac tellus. Ut at viverra nisl. Maecenas dapibus lacus id ipsum hendrerit pellentesque. Sed a convallis nunc. Praesent tincidunt, nisl sit amet pellentesque feugiat, urna tellus maximus odio, ut laoreet
