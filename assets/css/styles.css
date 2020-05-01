@@ -8,16 +8,21 @@ body{ background-color: #282828 !important; }
 .project-thumb {
     margin-top: 20px;
 }
+
 .thumb {
     width: 100%;
-    height: 230px;
+    height: 220px;
     background-color: #444;
+    background-repeat: no-repeat;
 }
 iframe {
     border: none;
 }
 
-
+.card a, .card a:hover, .card a:visited, .card a:active, .card a:focus {
+    color: #fff;
+    text-decoration: none;
+}
 
 
 
