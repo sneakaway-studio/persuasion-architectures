@@ -5,9 +5,9 @@
 
     <div class="container">
         <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center">
+            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
                 <h2>Drinking the Kool-Aid</h2>
-                <h5>Ginny Gerig</h5>
+                <h4>Ginny Gerig</h4>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
 
 <li id='#bib12'>Stark, R., Bainbridge, W., & Doyle, D. (1979). Cults of America: A Reconnaissance in Space and Time. Sociological Analysis, 40(4), 347-359. doi:10.2307/3709963</li>
 
-
+</ol>
 
 
         </div>

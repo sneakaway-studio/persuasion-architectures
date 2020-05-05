@@ -10,7 +10,7 @@ $page_title = "";
 if (isLocalhost()) {
     $site_root = "http://localhost/SneakawayStudio/Pursuasion%20Architectures/persuasion-architectures/";
 }
-if ($subdirectory){
+if ($subdirectory) {
     $file_root = "../../";
 }
 
@@ -23,15 +23,14 @@ if ($subdirectory){
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Persuasion Architectures<?php print ($page_title); ?></title>
+    <title>Persuasion Architectures<?php print($page_title); ?></title>
 
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="<?php print ($file_root); ?>assets/libs/bootstrap-darkly.min.css">
-    <!-- <link rel="stylesheet" href="<?php print ($file_root); ?>assets/libs/superhero/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="<?php print ($file_root); ?>assets/css/styles.css">
+    <link rel="stylesheet" href="<?php print($file_root); ?>assets/libs/bootstrap-darkly.min.css">
+    <link rel="stylesheet" href="<?php print($file_root); ?>assets/css/styles.css">
 </head>
 
 <body>
@@ -44,7 +43,7 @@ if ($subdirectory){
         <ul class="navbar-nav mr-auto"></ul>
         <ul class="navbar-nav my-2 my-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="about/">About</a>
+                <a class="nav-link" href="<?php print($site_root); ?>papers/about/">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/sneakaway-studio/persuasion-architectures">Github</a>
