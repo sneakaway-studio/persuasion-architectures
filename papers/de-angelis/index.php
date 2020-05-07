@@ -197,6 +197,7 @@ In group discussions too, social proof plays a relevant role. When people learn 
                     <a href="https://www.buzzfeed.com/videangelis/how-does-social-proof-affect-your-life-8c30v4saj3" target="_blank">
                         <img src="img/how-does-image.png" alt="cult map" class="figure-img w-100 img-fluid">
                     </a>
+                    <figcaption class="figure-caption">Click the image above to see common experiences in which social proof plays an important role and how this phenomenon affects your life.</figcaption>
                 </figure>
 
 
