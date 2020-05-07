@@ -22,6 +22,16 @@
             <div class="col-12 col-lg-8 offset-lg-2">
 
 
+                <figure class="figure w-100">
+                    <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
+                    <figcaption class="figure-caption">Above, a Florida Citrus Commission advertisement was altered to reference “Drinking the Kool-Aid,” a popular expression referring to how persuasion techniques permeate our everyday lives. In 1978, over 900 members of the People's Temple movement died from drinking cyanide-laced Kool-aid in Jonestown, Guyana.</figcaption>
+                </figure>
+
+
+
+
+
+
 <p>Every moment our autonomy is under attack. Predatory ads, corrupted media, and our own leaders whisper promises of a better life. We listen to them. When we listen, we hand over our individualism. In this way, cults are just an extreme example of the loss of autonomy we face every day. Cults are divided into several different categories, including destructive cults, polygamist cults, racist cults, and terrorist cults. All of these cults are extremely dangerous and have their own perceived risks and threats. Destructive cults are categorized by their tendency to exploit people physically and psychologically. Polygamist cults are viewed negatively because of the perceived links to domestic violence and child abuse. However, it is argued the racist and terrorist cults are the most dangerous because of their ability and desire to harm the general populations. There are many similarities in these cults, specifically these cults all have charismatic and dangerous leaders. The leaders of cults use coercive persuasion techniques baiting everyday people. They promise them an escape from normalcy, and when that promise falls short the use more extreme techniques. These techniques include indoctrination, persuasive coercion, and brainwashing. These cults do more than just foster a change in ideology, they reprogram their followers’ personalities. Followers of cults, many times, have to go through years of “deprogramming therapy” in order to regain themselves. This paper will investigate cult recruiting tactics, cult brainwashing tactics, and how followers recover from this extreme persuasion.</p>
 
 
@@ -38,7 +48,7 @@
                     <a href="https://www.buzzfeed.com/gigerig/how-likely-would-you-be-to-join-a-cult-fdqy20snph" target="_blank">
                         <img src="img/quiz.png" alt="cult map" class="figure-img w-100 img-fluid">
                     </a>
-                    <figcaption class="figure-caption">Click the above image to take the quiz</figcaption>
+                    <figcaption class="figure-caption">Click the image above to see the traits cult followers have, and how likely you may be to join a cult!</figcaption>
                 </figure>
 
 

@@ -13,8 +13,7 @@ Prototypes for an interactive documentary about the power of persuasion. Develop
 
 ### The theme
 
-[Bootswatch Superhero](https://bootswatch.com/superhero/) (click to see components)
-
+...
 
 ### Fonts
 

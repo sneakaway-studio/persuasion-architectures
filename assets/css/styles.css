@@ -36,7 +36,7 @@ body{ background-color: #282828 !important; }
  ******************************************************************************/
 
  .paper-title h2 {
-     font-family: 'PT Serif', serif; 
+     font-family: 'PT Serif', serif;
  }
 .paper-title h4 {
     margin-top:30px;
@@ -53,6 +53,26 @@ iframe {
     border: none;
 }
 
+.floating-card-left {
+    float: left;
+    margin: 5px;
+    max-width: 300px;
+    left:-100px;
+    margin-right:-80px;
+}
+.floating-card-right {
+    float: right;
+    margin: 5px;
+    max-width: 300px;
+    left:100px;
+}
+@media (max-width: 700px) {
+    .floating-card-left, .floating-card-right {
+        float: none;
+        left: 0;
+        margin-right:0;
+    }
+}
 
 
 /*  de-angelis-slideshow
