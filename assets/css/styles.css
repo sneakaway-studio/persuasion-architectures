@@ -38,6 +38,12 @@ body {
         display: inline-block;
     }
 }
+
+.subheading {
+    text-align: center;
+}
+
+
 iframe {
     border: none;
 }
