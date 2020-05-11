@@ -450,6 +450,10 @@
 <li id='#bib09'>Shamdasani, Prem N., et al. “Location, Location, Location: Insights for Advertising Placement on the Web.” Journal of Advertising Research, vol. 41, no. 4, 2001, pp. 7–21., doi:10.2501/jar-41-4-7-21.</li>
 <li id='#bib10'>Strong, Edward K. The Psychology of Selling and Advertising. McGraw-Hill, 1925.</li>
 <li id='#bib11'>Sudman, S., & Schwarz, N. (1989). Contributions of cognitive psychology to advertising 	research. Journal of Advertising Research, 29(3), 43–53.</li>
+<li id='#bib12'>“Thinking vs Feeling: Psychology of Advertising: USC Online.” USC MAPP Online, 2 Apr. 2020, appliedpsychologydegree.usc.edu/blog/thinking-vs-feeling-the-psychology-of advertising/.</li>
+<li id='#bib13'>“Tobacco Free Florida.” Tobacco Free Florida, tobaccofreeflorida.com/.</li>
+<li id='#bib14'>Yilmaz, Recep. Narrative Advertising Models and Conceptualization in the Digital Age. IGI Global., 2017.</li>
+<li id='#bib15'>Yonchev, Oliver. “The Most Powerful Emotion in Marketing May Surprise You - and More Brands Need to Tap into It, According to an Expert in Social Influencer Marketing.” Business Insider, Business Insider, 22 May 2019, www.businessinsider.in/The-most-powerful-emotion-in-marketing-may-surprise-you-and-more-brands-need-to-tap-into-it-according-to-an-expert-in-social-influencer-marketing/articleshow/69448613.cms.</li>
 
 </ol>
 
