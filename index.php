@@ -92,9 +92,9 @@
                     <img class="card-img-top" src="<?php print($file_root); ?>assets/libs/bootstrap-carousel/placeholder.svg" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/williams/" title="" class="stretched-link">
-                            <h4 class="card-title">This will be the descriptive title</h4>
+                            <h4 class="card-title">Fear Not</h4>
                             <h6>George Williams</h6>
-                            <p class="card-text text-muted">A short one-sentence summary of your research paper</p>
+                            <p class="card-text text-muted">A History of Anxiety in Advertising</p>
                         </a>
                     </div>
                 </div>

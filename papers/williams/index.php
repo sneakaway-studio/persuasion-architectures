@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row my-5">
         <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>Title will go here</h2>
+            <h2>Fear Not: A History of Anxiety in Advertising</h2>
             <h4>George Williams</h4>
         </div>
     </div>

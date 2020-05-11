@@ -23,7 +23,7 @@
 
 
                 <figure class="figure w-100">
-                    <img src="img/women.png" alt="thumb" class="figure-img w-100 img-fluid">
+                    <img src="img/women-high.jpg" alt="thumb" class="figure-img w-100 img-fluid">
                     <figcaption class="figure-caption"></figcaption>
                 </figure>
 
