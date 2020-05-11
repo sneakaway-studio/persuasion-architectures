@@ -176,12 +176,211 @@
 
 
 
+        </div>
+    </div>
+
+    <div class="container py-2">
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">1776</h4>
+                        <p class="card-text text-muted">At the dawn of the Revolutionary War, the government used ads to try to convince men to enlist to fight the British. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <img class="card-img-top" src="img/first-billboard.png" alt="thumbnail">
+                    <div class="card-body">
+                        <h4 class="card-title">1835</h4>
+                        <p class="card-text text-muted">As the first cars start to emerge, roads are built to help get cars from place to place, usually dirt or asphalt, there was now space on the roads to advertise and billboards were born. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm"> <!--spacer--> </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <img class="card-img-top" src="img/sears.png" alt="thumbnail">
+                    <div class="card-body">
+                        <h4 class="card-title">1892</h4>
+                        <p class="card-text text-muted">Sears sends out the first ever direct advertising, sending post cards in to potential customers through the US Mail. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8JenAyMmZ68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+
+                    <div class="card-body">
+                        <h4 class="card-title">1941</h4>
+                        <p class="card-text text-muted">Bulova pays $9 for the first ever television commercial. It was 20 seconds long and it played before a baseball game. Television advertising was officially born. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm"> <!--spacer--> </div>
+        </div>
+        <!--/row-->
+
+    </div>
+
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
+
 
             <h5 class="subheading">Getting Psychological</h5>
 
             <p>Ever since people started to understand the human mind, they have been trying to figure out a way to monetize it.  1955 was the first year that psychologists entered the world of advertising, and it would forever change the movement.  Psychologists now know that the hardness of a bench at a McDonalds makes it less comfortable and therefore people are less likely to sit, and converse and they can move more customers through the restaurant. Then there is the psychology of color.  This is everything from “purple makes people think so never paint a room purple” to “bright colors like yellow often make people happy.” (Ciotti) </p>
 
             <p>“In the 1970’s, people were exposed to about 500 ads per day. At present, people see roughly 5,000 ads per day. There are 5.3 trillion display ads shown online every year. On average, children see 20,000 thirty-second commercials each year. Adults see an average of 2 million of those on a yearly basis.” (USC) These are massive numbers and psychology plays a role in all of these different types of ads.  Radio ads must focus on sound because you only hear them.  Print ads must focus on visuals because you cannot hear them, and video ads are quite possibly the most difficult of them all because they rely on almost all of a person’s senses and they can be the most psychological.  There is nothing like turning on the tv to see an ad of a solider coming home to his family or his dog that was sponsored by a specific brand.  That brand sticks with you because it grabbed a specific emotion that you now associate with that product.</p>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="container py-2">
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">1955</h4>
+                        <p class="card-text text-muted">This is the first known time of psychologists working in advertising to help decipher humans wants and how they can be used to advertise products. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">1970</h4>
+                        <p class="card-text text-muted">The infomercial is born. These are long segments of tv designed to market and then sell a product to potential customers. The first informercial attempted to sell homes in San Francisco. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm"> <!--spacer--> </div>
+        </div>
+        <!--/row-->
+
+
+    </div>
+
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
+
+
+
 
             <p>There are two main types of content in an advertisement.  The first one we will look at is rational content.  This content is specifically numbers or facts.  These do not necessarily play to an emotion except maybe a wow factor.  We often see these types of ads for technological products like a new iPhone and how it has a better camera than a Samsung phone.  A computer might have a 30% better graphics response than the last model.  </p>
 
