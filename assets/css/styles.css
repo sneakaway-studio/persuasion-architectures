@@ -1,48 +1,37 @@
-
-
-
-body{ background-color: #282828 !important; }
-.navbar-brand { font: 1.5rem/1.9rem 'PT Serif', serif; font-weight: 400; }
-.navbar-dark { background-color: #282828 !important; }
-
+body {
+    background-color: #282828 !important;
+}
+.navbar-brand {
+    font: 1.5rem/1.9rem 'PT Serif', serif;
+    font-weight: 400;
+}
+.navbar-dark {
+    background-color: #282828 !important;
+}
 
 
 
 /*  FRONT PAGE
  ******************************************************************************/
-
-.project-thumb {
-    margin-top: 20px;
-}
-
-.thumb {
-    width: 100%;
-    height: 220px;
-    background-color: #444;
-    background-repeat: no-repeat;
-}
-
-
 .card a, .card a:hover, .card a:visited, .card a:active, .card a:focus {
     color: #fff;
     text-decoration: none;
 }
-
-
+.home-card h6 {
+    color: #ccc;
+}
 
 
 
 /*  PAPERS
  ******************************************************************************/
-
- .paper-title h2 {
-     font-family: 'PT Serif', serif;
- }
+.paper-title h2 {
+    font-family: 'PT Serif', serif;
+}
 .paper-title h4 {
-    margin-top:30px;
+    margin-top: 30px;
     color: #aaa;
 }
-
 /* break the title on mobile */
 @media (min-width: 700px) {
     .title-break {
@@ -52,49 +41,83 @@ body{ background-color: #282828 !important; }
 iframe {
     border: none;
 }
-
 .floating-card-left {
     float: left;
     margin: 5px;
     max-width: 300px;
-    left:-100px;
-    margin-right:-80px;
+    left: -100px;
+    margin-right: -80px;
 }
 .floating-card-right {
     float: right;
     margin: 5px;
     max-width: 300px;
-    left:100px;
+    left: 100px;
 }
 @media (max-width: 700px) {
     .floating-card-left, .floating-card-right {
         float: none;
         left: 0;
-        margin-right:0;
+        margin-right: 0;
     }
 }
 
 
+
+
+
 /*  de-angelis-slideshow
  ******************************************************************************/
-
-.de-angelis-slideshow { font-family: 'Open Sans Light', sans-serif;}
-.de-angelis-slideshow .carousel-item { height: 400px;}
-.de-angelis-slideshow .row { height: 100%;}
-.de-angelis-slideshow .col-sm-10 { font-size: 1.8rem; }
-.de-angelis-slideshow .col-sm-6 { font-size: 1.3rem; }
-.de-angelis-slideshow .header { color: #fff;font-family: Georgia; font-size: 3rem; }
-.de-angelis-slideshow .header2 { font-size: 2rem; }
-.de-angelis-slideshow .col-sm-6 .header { font-size: 2.5rem; }
-.de-angelis-slideshow .blue { color: #00b8e2;}
-.de-angelis-slideshow .white { color: #fff; }
-.de-angelis-slideshow .blue-bg { color: #000; background: #00b8e2; }
-.de-angelis-slideshow .white-bg { color: #000; background: #fff; }
-.de-angelis-slideshow .img-fluid {width: 100%;height: auto; }
-.de-angelis-slideshow .carousel-indicators li { background-color: #000 !important; }
+.de-angelis-slideshow {
+    font-family: 'Open Sans Light', sans-serif;
+}
+.de-angelis-slideshow .carousel-item {
+    height: 400px;
+}
+.de-angelis-slideshow .row {
+    height: 100%;
+}
+.de-angelis-slideshow .col-sm-10 {
+    font-size: 1.8rem;
+}
+.de-angelis-slideshow .col-sm-6 {
+    font-size: 1.3rem;
+}
+.de-angelis-slideshow .header {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 3rem;
+}
+.de-angelis-slideshow .header2 {
+    font-size: 2rem;
+}
+.de-angelis-slideshow .col-sm-6 .header {
+    font-size: 2.5rem;
+}
+.de-angelis-slideshow .blue {
+    color: #00b8e2;
+}
+.de-angelis-slideshow .white {
+    color: #fff;
+}
+.de-angelis-slideshow .blue-bg {
+    color: #000;
+    background: #00b8e2;
+}
+.de-angelis-slideshow .white-bg {
+    color: #000;
+    background: #fff;
+}
+.de-angelis-slideshow .img-fluid {
+    width: 100%;
+    height: auto;
+}
+.de-angelis-slideshow .carousel-indicators li {
+    background-color: #000 !important;
+}
 .de-angelis-slideshow .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-.de-angelis-slideshow  .carousel-control-prev-icon {
+.de-angelis-slideshow .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }

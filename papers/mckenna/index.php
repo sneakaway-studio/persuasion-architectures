@@ -48,7 +48,7 @@
 
                 <figure class="figure">
                     <img src="img/facebook-spending-2020.png" alt="cult map" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">Caption goes here</figcaption>
+                    <figcaption class="figure-caption">This is the total spending from the Top 4 Presidential Candidates as of January of 2020 through the platform of Facebook (Guttmann).</figcaption>
                 </figure>
 
             </div>
@@ -82,7 +82,26 @@
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFoJpjEpKxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-            <figcaption class="figure-caption">Caption goes here</figcaption>
+            <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" combined with Facebook's political ads.  Every couple of seconds, a new advertisement will "pop up" on a personal Facebook page (made in iMovie).</figcaption>
+
+
+        <div class="row my-4">
+            <div class="col-12 col-lg-8 offset-lg-2">
+
+<p>Similarly, I wanted to create another video focusing on the politician’s perspective rather than the users.  With this in mind, I flipped the concept of the first video and moved it to the second.  I decided to use this thinking in alignment and high like/shares/comments with bias towards politicians, but in the eye of the politician.  The video initially shows the candidate who is viewing their own political campaigns’ website, and continuously gets “Facebook pop-up” posts all across their pages.  With adding this feature, it makes the politician feel as though they have “pop-up ads” that are targeted by the users, and the users are essentially “getting back” at the politician.  In this second video, I included both hate and fan based Facebook messages and used the presidential candidates Donald Trump and Joe Biden.</p>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvH3UWSfLoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" targeted back towards politicians by using Facebook posts from users.  Every few seconds, a new hate or supportive Facebook post pops up on the politician's presidential campaign website (made in iMovie).</figcaption>
+
 
 
         <div class="row my-4">
