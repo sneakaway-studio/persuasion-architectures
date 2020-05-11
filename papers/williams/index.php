@@ -142,7 +142,7 @@
                     <img class="card-img-top" src="img/dentifrice.png" alt="thumbnail">
                     <div class="card-body">
                         <h4 class="card-title">1661</h4>
-                        <p class="card-text text-muted">The first known instance of product branding. The branding was for a toothpaste called Dentifrice Tooth Gel </p>
+                        <p class="card-text text-muted">The first known instance of product branding. The branding was for a toothpaste called Dentifrice Tooth Gel.</p>
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                     <img class="card-img-top" src="img/first-billboard.png" alt="thumbnail">
                     <div class="card-body">
                         <h4 class="card-title">1835</h4>
-                        <p class="card-text text-muted">As the first cars start to emerge, roads are built to help get cars from place to place, usually dirt or asphalt, there was now space on the roads to advertise and billboards were born. </p>
+                        <p class="card-text text-muted">The first billboard was created, considered at the time to be “large format posters” a man named Jared Bell began printing advertisements for the circus coming to New York.</p>
                     </div>
                 </div>
             </div>
@@ -352,7 +352,7 @@
                 <div class="card bg-dark text-white">
                     <div class="card-body">
                         <h4 class="card-title">1970</h4>
-                        <p class="card-text text-muted">The infomercial is born. These are long segments of tv designed to market and then sell a product to potential customers. The first informercial attempted to sell homes in San Francisco. </p>
+                        <p class="card-text text-muted">The infomercial is born. These are long segments of tv designed to market and then sell a product to potential customers. The first informercial attempted to sell homes in San Francisco.</p>
                     </div>
                 </div>
             </div>
@@ -390,6 +390,74 @@
 
 
 
+
+        </div>
+    </div>
+
+    <div class="container py-2">
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <img class="card-img-top" src="img/online.png" alt="thumbnail">
+                    <div class="card-body">
+                        <h4 class="card-title">1994</h4>
+                        <p class="card-text text-muted">With the internet in its infancy, companies find that they can advertise to people while they browse on their computers and the first banner ad is created. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">2000</h4>
+                        <p class="card-text text-muted">Google introduces "adwords" which are advertisements that appear at the top of search results, Google finds its niche and will make billions of dollars on adwords. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm"> <!--spacer--> </div>
+        </div>
+        <!--/row-->
+
+    
+    </div>
+
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
+
+
             <h5 class="subheading">Shutting Out Fear</h5>
 
             <p>“Only 2 seats left at this price!” “Book now and save 20%!”  These are the types of ads you see when booking everything from concert tickets to hotel rooms.  This is a very simple type of fear that is constantly used in advertising.  The fear of missing out is the most powerful form of fear in the digital world.  What if I miss out on the last pair of shoes? What if my flight home doubles in price? Some of these are real fears, and many people give in to them.  Partly because advertisers know that fear is such a powerful emotion.  </p>
@@ -403,6 +471,100 @@
             <p>Tobacco Free Florida is an initiative set up by the state of Florida to help spread the word about the harms of smoking. (TFF) They often show commercials of people who used to be smokers and what they look like now and it is often harrowing.  They use the human emotion of fear to “scare people out of buying tobacco products”.  This is a good use of fear, but as stated above there are also bad uses of fear, and we as consumers are finally starting to figure out ways to resist certain types of fear in advertising. </p>
 
 
+
+
+        </div>
+    </div>
+
+    <div class="container py-2">
+
+
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">2007</h4>
+                        <p class="card-text text-muted">Facebook starts their rise in advertising by implementing behavior based advertising. This will go on to be used in elections and will become a huge public issue with privacy. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">2011</h4>
+                        <p class="card-text text-muted">Online advertising overtakes print and radio advertising becoming the second most spent on medium. Advertisers spend billions of dollars yearly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm"> <!--spacer--> </div>
+        </div>
+        <!--/row-->
+
+        <!-- timeline item -->
+        <div class="row no-gutters">
+            <div class="col-sm"> <!--spacer--> </div>
+            <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <div class="col-sm py-2">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4 class="card-title">2015</h4>
+                        <p class="card-text text-muted">Advertisers lose $22bn in ad spending due to content blockers. Content blockers block popups and some even block banner ads. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+    </div>
+
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
