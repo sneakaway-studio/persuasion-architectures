@@ -37,6 +37,19 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
+                    <img class="card-img-top w-100 img-fluid" src="papers/mackie/img/women-600x400.png" alt="thumbnail">
+                    <div class="card-body">
+                        <a href="papers/mackie/" title="" class="stretched-link">
+                            <h4 class="card-title">Redefining Beauty</h4>
+                            <h6>Clare Mackie</h6>
+                            <p class="card-text text-muted">An investigation into the Irresistible lure of beauty in media.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/mckenna/img/broken-facebook-600x400.png" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/mckenna/" title="" class="stretched-link">
