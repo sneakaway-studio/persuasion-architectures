@@ -50,6 +50,19 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
+                    <img class="card-img-top w-100 img-fluid" src="papers/henderson/img/thumb-600x400.png" alt="thumbnail">
+                    <div class="card-body">
+                        <a href="papers/henderson/" title="" class="stretched-link">
+                            <h4 class="card-title">Why We Spend Billions on Cosmetic Items In Video Games</h4>
+                            <h6>Patrick Henderson</h6>
+                            <p class="card-text text-muted">How videogame companies turn the free-to-play genre into an $80 billion industry</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/mckenna/img/broken-facebook-600x400.png" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/mckenna/" title="" class="stretched-link">
@@ -66,7 +79,7 @@
                     <img class="card-img-top" src="<?php print($file_root); ?>assets/libs/bootstrap-carousel/placeholder.svg" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/sherrill/" title="" class="stretched-link">
-                            <h4 class="card-title">This will be the descriptive title</h4>
+                            <h4 class="card-title">The User Experience</h4>
                             <h6>Andrew Sherrill</h6>
                             <p class="card-text text-muted">A short one-sentence summary of your research paper</p>
                         </a>
