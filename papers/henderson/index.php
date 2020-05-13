@@ -22,10 +22,7 @@
             <div class="col-12 col-lg-8 offset-lg-2">
 
 
-                <figure class="figure w-100">
-                    <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption"></figcaption>
-                </figure>
+
 
 
 <p>How do you convince someone to buy something they don’t need? This has been a question that shady salesmen, scams and now videogames have sought to answer for decades. The answer is dependent on the industry you are in to some extent, though there are some commonalities between them. If you are selling an accessory then you convince the buyer that they cannot live without this item, or that it will take an everyday task that feels arduous and make it easy, and even fun. If you are running a scam then you prey on the weakness of people, you target the vulnerable, namely the elderly. Pretend to offer a service like technical support or financial advice, and then invent a problem in that field that they need you to solve because they themselves are incapable of doing so or even understanding. If the elderly aren’t the audience for you then target the poor and offer something that seems almost too good to be true. A vacation to the Bahamas perhaps, or even an opportunity to win a cash prize. That is what the lottery is after-all, pay me and I might pay you… if you’re really, really, impossibly lucky. At a completely functional level, after-install purchases in videogames are really no different. You pay real money for visual character upgrades, and season passes that don’t serve any purpose other than making you look cool. While this sounds like a bad business model, Fortnite pulled in 1.9 billion dollars in 2019 doing just that. It was hardly just Fortnite that raked in the cash with this method though, League of Legends made $1.5 billion, and free-to-play games as a genre pulled in a whopping $88 billion in 2018 alone. How? </p>
