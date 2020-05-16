@@ -115,7 +115,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
-                    <img class="card-img-top" src="<?php print($file_root); ?>assets/libs/bootstrap-carousel/placeholder.svg" alt="thumbnail">
+                    <img class="card-img-top" src="papers/williams/img/dentifrice-600x400.png" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/williams/" title="" class="stretched-link">
                             <h4 class="card-title">Fear Not</h4>
