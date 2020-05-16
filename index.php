@@ -37,6 +37,19 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
+                    <img class="card-img-top w-100 img-fluid" src="papers/henderson/img/thumb-600x400.png" alt="thumbnail">
+                    <div class="card-body">
+                        <a href="papers/henderson/" title="" class="stretched-link">
+                            <h4 class="card-title">Why We Spend Billions on Cosmetic Items In Games</h4>
+                            <h6>Patrick Henderson</h6>
+                            <p class="card-text text-muted">How videogame companies turn the free-to-play genre into an $80 billion industry</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" src="papers/mackie/img/women-600x400.png" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/mackie/" title="" class="stretched-link">
@@ -50,12 +63,12 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
-                    <img class="card-img-top w-100 img-fluid" src="papers/henderson/img/thumb-600x400.png" alt="thumbnail">
+                    <img class="card-img-top" src="papers/mckenna/img/broken-facebook-600x400.png" alt="thumbnail">
                     <div class="card-body">
-                        <a href="papers/henderson/" title="" class="stretched-link">
-                            <h4 class="card-title">Why We Spend Billions on Cosmetic Items In Video Games</h4>
-                            <h6>Patrick Henderson</h6>
-                            <p class="card-text text-muted">How videogame companies turn the free-to-play genre into an $80 billion industry</p>
+                        <a href="papers/mckenna/" title="" class="stretched-link">
+                            <h4 class="card-title">'Donald Trump' Liked Your Post</h4>
+                            <h6>Sydney McKenna</h6>
+                            <p class="card-text text-muted">An in-depth look at political advertising on Facebook.</p>
                         </a>
                     </div>
                 </div>
@@ -63,12 +76,12 @@
 
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
                 <div class="card home-card bg-dark text-white h-100">
-                    <img class="card-img-top" src="papers/mckenna/img/broken-facebook-600x400.png" alt="thumbnail">
+                    <img class="card-img-top w-100 img-fluid" src="papers/ortiz/img/thumb-600x400.png" alt="thumbnail">
                     <div class="card-body">
-                        <a href="papers/mckenna/" title="" class="stretched-link">
-                            <h4 class="card-title">'Donald Trump' Liked Your Post</h4>
-                            <h6>Sydney McKenna</h6>
-                            <p class="card-text text-muted">An in-depth look at political advertising on Facebook.</p>
+                        <a href="papers/ortiz/" title="" class="stretched-link">
+                            <h4 class="card-title">Forecasting Human Action</h4>
+                            <h6>Bryan Ortiz</h6>
+                            <p class="card-text text-muted">Can economic models predict human behavior?</p>
                         </a>
                     </div>
                 </div>
