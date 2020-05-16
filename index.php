@@ -9,7 +9,7 @@
         <div class="row">
 
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" src="papers/de-angelis/img/thumb-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/gerig/img/thumb-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" src="papers/henderson/img/thumb-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" src="papers/mackie/img/women-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/mckenna/img/broken-facebook-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" src="papers/ortiz/img/thumb-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="<?php print($file_root); ?>assets/libs/bootstrap-carousel/placeholder.svg" alt="thumbnail">
                     <div class="card-body">
@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/weld/img/brain-600x400.png" alt="thumbnail">
                     <div class="card-body">
@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top" src="papers/williams/img/dentifrice-600x400.png" alt="thumbnail">
                     <div class="card-body">
