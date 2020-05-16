@@ -105,9 +105,9 @@
                     <img class="card-img-top" src="papers/weld/img/brain-600x400.png" alt="thumbnail">
                     <div class="card-body">
                         <a href="papers/weld/" title="" class="stretched-link">
-                            <h4 class="card-title">Sufferring from Addiction?</h4>
+                            <h4 class="card-title">Sufferring from Social Media Addiction</h4>
                             <h6>Emily Weld</h6>
-                            <p class="card-text text-muted">A short one-sentence summary of your research paper</p>
+                            <p class="card-text text-muted">How apps stimulate chemicals in your brain to keep you hooked.</p>
                         </a>
                     </div>
                 </div>

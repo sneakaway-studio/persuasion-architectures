@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row my-5">
             <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Sufferring from Addiction?</h2>
+                <h2>Sufferring from Social Media Addiction</h2>
                 <h4>Emily Weld</h4>
             </div>
         </div>
