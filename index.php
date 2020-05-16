@@ -16,7 +16,7 @@
                         <a href="papers/de-angelis/" title="" class="stretched-link">
                             <h4 class="card-title">If many are doing something, it must be worthwhile</h4>
                             <h6>Vittoria De Angelis</h6>
-                            <p class="card-text text-muted">Social proof as a persuasion technique.</p>
+                            <p class="card-text text-muted">Social proof as a persuasion technique</p>
                         </a>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <a href="papers/gerig/" title="" class="stretched-link">
                             <h4 class="card-title">Drinking the Kool-Aid</h4>
                             <h6>Ginny Gerig</h6>
-                            <p class="card-text text-muted">Cult recruiting, brainwashing, and how followers recover from this extreme persuasion.</p>
+                            <p class="card-text text-muted">Cult recruiting, brainwashing, and how followers recover from this extreme persuasion</p>
                         </a>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         <a href="papers/mackie/" title="" class="stretched-link">
                             <h4 class="card-title">Redefining Beauty</h4>
                             <h6>Clare Mackie</h6>
-                            <p class="card-text text-muted">An investigation into the Irresistible lure of beauty in media.</p>
+                            <p class="card-text text-muted">An investigation into the Irresistible lure of beauty in media</p>
                         </a>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <a href="papers/mckenna/" title="" class="stretched-link">
                             <h4 class="card-title">'Donald Trump' Liked Your Post</h4>
                             <h6>Sydney McKenna</h6>
-                            <p class="card-text text-muted">An in-depth look at political advertising on Facebook.</p>
+                            <p class="card-text text-muted">An in-depth look at political advertising on Facebook</p>
                         </a>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         <a href="papers/weld/" title="" class="stretched-link">
                             <h4 class="card-title">Sufferring from Social Media Addiction</h4>
                             <h6>Emily Weld</h6>
-                            <p class="card-text text-muted">How apps stimulate chemicals in your brain to keep you hooked.</p>
+                            <p class="card-text text-muted">How apps stimulate chemicals in your brain to keep you hooked</p>
                         </a>
                     </div>
                 </div>

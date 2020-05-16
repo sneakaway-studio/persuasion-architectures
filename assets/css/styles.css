@@ -22,7 +22,7 @@ body {
 }
 
 
-/*  FRONT PAGE
+/*  FOOTER
  ******************************************************************************/
 
 .footer-wrapper {
@@ -80,7 +80,10 @@ iframe {
     }
 }
 
-
+.blockquote p {
+    border-left: 3px solid #aaa;
+    padding-left: 20px;
+}
 
 
 
