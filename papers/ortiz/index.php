@@ -49,7 +49,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1200px" frameBorder="0" src="marketing.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="marketing2.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuason-models.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuason-models2.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuade-friend.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuade-friend2.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
