@@ -29,138 +29,148 @@
                 <p>Social proof, a term coined by Robert Cialdini, is the tendency of people to perceive actions as correct if they see others performing them. This phenomenon alters individuals’ concept of normative behavior and it encourages them to conform to it. In modern society, social proof is taken advantage of in several instances. Additionally, with the development of social networks and online transactions, it is often present on the internet. A feature that many digital services and sites have implemented are ratings and reviews. People are more likely to buy a product if it has a large number of positive reviews and higher ratings, because if others like it and are satisfied with it, people are convinced it must be good and worth having.</p>
 
 
+            </div>
+        </div>
+    </div>
 
 
 
 
-                    <div class="de-angelis-slideshow container-fluid px-0 my-2 mb-4">
-                        <div class="container px-0">
+
+    <div class="de-angelis-slideshow container-fluid px-0 my-2 mb-4">
+        <div class="container px-0">
 
 
-                            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
-                                    <li data-target="#carouselExampleIndicators3" data-slide-to="8"></li>
-                                </ol>
-                                <div class="carousel-inner">
+            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="8"></li>
+                </ol>
+                <div class="carousel-inner">
 
 
-                                    <div class="carousel-item active">
-                                        <div class="row text-center blue-bg py-5">
-                                            <div class="col-sm-10 offset-sm-1">
-                                                <h3 class="header white py-2">Social Proof</h3>
-                                                <p>The tendency of people to consider what others are doing correct, and adapt their behavior according to it. There are countless examples of situations that take advantage of this phenomenon. Here are a few of them:</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-4 offset-sm-1">
-                                                <img src="../de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <h3 class="header blue">We follow our peers</h3>
-                                                <p>A 2013 study found that students were more likely to volunteer if they read a blog post of another student asking for help with comments from other students expressing their willingness to volunteer, than when the comments were indicating they could not help.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-6 offset-sm-1">
-                                                <h3 class="header blue">Influences what we buy</h3>
-                                                <p>Electronic word of mouth plays a significant role in determining the reputation of products. Items with reviews receive higher ratings than those without, thus they sell better.</p>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <img src="../de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-4 offset-sm-1">
-                                                <img src="../de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <h3 class="header blue">Canned laughter</h3>
-                                                <p>It was found in a 2005 study that participants rated a comedian and the comic material more favorably, laughed more and for longer, and smiled more when they heard audience members laugh.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-6 offset-sm-1">
-                                                <h3 class="header blue">We follow strangers too</h3>
-                                                <p>Individuals participate more often in hotel towel reuse programs if the signs in their rooms state that the majority of other guests participated in the program as well.</p>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <img src="../de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-4 offset-sm-1">
-                                                <img src="../de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <h3 class="header blue">Manipulates our opinions and shopping behaviors</h3>
-                                                <p>A set of studies revealed that people are willing to pay more for certain products if they read positive comments reinforced by a lot of people.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row white-bg py-5">
-                                            <div class="col-sm-6 offset-sm-1">
-                                                <h3 class="header blue">Vital to marketers</h3>
-                                                <p>It can help brands gain more visibility and traction. It creates a “social ‘chain reaction’ that leads others to similar behaviors.” It also creates a mutual relationship between businesses and customers which can benefit both.</p>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <img src="../de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row text-center white-bg py-5">
-                                            <div class="col-sm-10 offset-sm-1">
-                                                <h3 class="header2 blue py-2">Social proof is prevalent and impacts many aspects of our lives, from the way we act on social media to the actions we take in unknown situations. It is important to be aware of it, and make sure that our decisions are based on useful information, not just driven by the actions of others.</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row text-center blue-bg py-5">
-                                            <div class="col-sm-10 offset-sm-1">
-                                                <h3 class="header white py-2">Can you think of instances in which you think your choices were influenced by what other people were doing?</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                    <div class="carousel-item active">
+                        <div class="row text-center blue-bg py-5">
+                            <div class="col-sm-10 offset-sm-1">
+                                <h3 class="header white py-2">Social Proof</h3>
+                                <p>The tendency of people to consider what others are doing correct, and adapt their behavior according to it. There are countless examples of situations that take advantage of this phenomenon. Here are a few of them:</p>
                             </div>
-
-
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-4 offset-sm-1">
+                                <img src="../de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3 class="header blue">We follow our peers</h3>
+                                <p>A 2013 study found that students were more likely to volunteer if they read a blog post of another student asking for help with comments from other students expressing their willingness to volunteer, than when the comments were indicating they could not help.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-6 offset-sm-1">
+                                <h3 class="header blue">Influences what we buy</h3>
+                                <p>Electronic word of mouth plays a significant role in determining the reputation of products. Items with reviews receive higher ratings than those without, thus they sell better.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="../de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-4 offset-sm-1">
+                                <img src="../de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3 class="header blue">Canned laughter</h3>
+                                <p>It was found in a 2005 study that participants rated a comedian and the comic material more favorably, laughed more and for longer, and smiled more when they heard audience members laugh.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-6 offset-sm-1">
+                                <h3 class="header blue">We follow strangers too</h3>
+                                <p>Individuals participate more often in hotel towel reuse programs if the signs in their rooms state that the majority of other guests participated in the program as well.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="../de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-4 offset-sm-1">
+                                <img src="../de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3 class="header blue">Manipulates our opinions and shopping behaviors</h3>
+                                <p>A set of studies revealed that people are willing to pay more for certain products if they read positive comments reinforced by a lot of people.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row white-bg py-5">
+                            <div class="col-sm-6 offset-sm-1">
+                                <h3 class="header blue">Vital to marketers</h3>
+                                <p>It can help brands gain more visibility and traction. It creates a “social ‘chain reaction’ that leads others to similar behaviors.” It also creates a mutual relationship between businesses and customers which can benefit both.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="../de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row text-center white-bg py-5">
+                            <div class="col-sm-10 offset-sm-1">
+                                <h3 class="header2 blue py-2">Social proof is prevalent and impacts many aspects of our lives, from the way we act on social media to the actions we take in unknown situations. It is important to be aware of it, and make sure that our decisions are based on useful information, not just driven by the actions of others.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row text-center blue-bg py-5">
+                            <div class="col-sm-10 offset-sm-1">
+                                <h3 class="header white py-2">Can you think of instances in which you think your choices were influenced by what other people were doing?</h3>
+                            </div>
                         </div>
                     </div>
 
 
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
 
 
 
+
+
+
+
+
+                    <div class="container">
+                        <div class="row my-2">
+                            <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>That social proof increases sales can be considered intuitive, but this principle has the ability to increase compliance, make people act differently or engage in certain actions more frequently, as well. A 2013 study (Guadagno, Muscanell, Rice and Roberts) analyzed the behavior of university students when asked to volunteer to help with a fundraiser related to their university. To do so, they read a blog entry in which another student asked for volunteers; the blog posts were fictious and different conditions were generated, to range from high social validation (comments from other students expressing their willingness to volunteer) to low social validation (comments from student indicating they could not help the blog author). Students in the high social validation condition perceived that others were more willing to help and themselves were willing to volunteer for more hours than students in the low social validation condition. This experiment shows that the opinion and response of peers, people with several shared characteristics, is valued highly and taken as an example for what the most appropriate thing to do is.</p>
 

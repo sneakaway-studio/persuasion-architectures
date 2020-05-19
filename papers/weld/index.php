@@ -98,15 +98,9 @@
 <p>Apple offers a special setting in each device to help monitor the amount of time spent using social media applications to help alleviate some of the negative impacts cause by excessive use of these media platforms.  Apple Screen Time, “lets you know how much time you and your kids spend on apps, websites, and more” (Apple Suppot).  iPhone owners (and parents of those children) can use Apple Screen Time to lock off access to certain applications after they are used for a certain amount of time.  The goal of this setting is to eliminate excessive use of social media apps (and other apps that occupy too much time and can be abused). </p>
 
 
-
-
-Use this link to use your apple screen time and see how much time you spend using social media apps
-
-
-
-
-
-
+<p>
+    Curious? <a href="https://support.apple.com/en-us/HT210387" target="_blank">See how much time you spend using social media apps</a>.
+</p>
 
 
 <p>In summary, extensive use of social media applications coupled with the chemical makeup of the brain combine to result in social media addiction.  It is important for people to understand the ways spending too much time on social media can negatively impact many different parts of their lives.  The brain acts the same way with social media as it does with any other substance in terms of addiction.  The brain enjoys feedback from “likes” similar to how it enjoys the feeling drugs provide the body; it is all because of the amounts of dopamine released in the brain.  People need to be careful they do not spend too much time using social media otherwise they may begin to suffer from social media addiction. </p>
