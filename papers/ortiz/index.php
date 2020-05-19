@@ -49,7 +49,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="marketing2.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="twines/marketing4.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuason-models2.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="700px" frameBorder="0" src="twines/persuason-models4.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
     <div class="container px-0">
         <div class="row">
             <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="1000px" frameBorder="0" src="persuade-friend2.html" scrolling="no"> </iframe>
+                <iframe id="my_iframe" width="100%" height="800px" frameBorder="0" src="twines/persuade-friend4.html" scrolling="no"> </iframe>
             </div>
         </div>
     </div>
@@ -134,7 +134,7 @@ https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590</li>
     <li id='#bib13'>Peter M. DeMarzo, Dimitri Vayanos, Jeffrey Zwiebel, Persuasion Bias, Social Influence, and Unidimensional Opinions, The
 Quarterly Journal of Economics, Volume 118, Issue 3, August 2003, Pages	https://academic.oup.com/qje/article/118/3/909/1943014
 </li>
-    <li id='#bib14'>SAQIB RAHIM of ClimateWire. “Finding the 'Weapons' of Persuasion to Save Energy.” The New York Times, The New York Times		 21 June 2010, archive.nytimes.com/www.nytimes.com/cwire/2010/06/21/21climatewire-finding-the-weapons-of-persuasion-	to-save-ene-8137.html? pagewanted=1.</li>
+    <li id='#bib14'>SAQIB RAHIM of ClimateWire. “Finding the 'Weapons' of Persuasion to Save Energy.” The New York Times, The New York Times		 21 June 2010, archive.nytimes.com/www.nytimes.com/cwire/2010/06/21/21climatewire-finding-the-weapons-of-persuasion-to-save-ene-8137.html? pagewanted=1.</li>
     <li id='#bib15'>What is Marketing?: Part Four: Web Design and Development. (2019, November 15). Retrieved from
 https://seafoammedia.com/what-is-marketing-part-four-web-design-development/
 </li>
