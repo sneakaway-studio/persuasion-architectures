@@ -28,6 +28,7 @@
 <blockquote class="blockquote my-4">
     <p>In the late 1980s, my mother’s workplace was equipped with a few Commodore 64 computers. My family members were all early adopters, and we’ve had computers in our house since 1981. But for many of my mom’s coworkers, this was their first exposure to the technology. One woman in the office, a highly educated, well-trained mental health therapist, flatly refused to touch any of the computers. She was afraid of hitting the wrong button and wiping out her bank account. One of the most basic technology fears is rooted in the loss of control. We don’t necessarily understand exactly how a new piece of technology works, so our imaginations fill in the details.</p>
 </blockquote>
+<p>—<em>Technophobia Is a Fear Related to the Loss of Control</em></p>
 
 
 <p>After reading this excerpt, it becomes clear that there are plenty of instances where technology has faced historical opposition with regard to widespread adaptation. Fearfulness of simply clicking the wrong button is not the only adversity technology faces when attempting to gain widespread adoption. </p>
@@ -44,17 +45,6 @@
     </div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
-
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-            <figcaption class="figure-caption">Caption goes here</figcaption>
-
-        </div>
-    </div>
-
 
     <div class="container-fluid px-0 my-2 mb-4">
         <div class="container px-0">
@@ -62,11 +52,22 @@
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoOP_OQQEPLE_DYs6TduHg9Em5hvLxWcP35eW7pi81vRH1k1EhP9kEPIEFDXzy4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
-            <figcaption class="figure-caption">Caption goes here</figcaption>
+            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
 
         </div>
     </div>
 
+
+    <div class="container-fluid px-0 my-2 mb-4">
+        <div class="container px-0">
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+        </div>
+    </div>
 
     <div class="container">
         <div class="row my-2">
@@ -79,12 +80,38 @@
 
 
 
-<!-- https://jsfiddle.net/amsehs/td9wqm1e/ -->
-<script async src="//jsfiddle.net/amsehs/td9wqm1e/embed/result/dark/"></script>
+            </div>
+        </div>
+    </div>
 
-<!-- https://jsfiddle.net/amsehs/dn8y41h9/25/ -->
-<script async src="//jsfiddle.net/amsehs/dn8y41h9/25/embed/result/dark/"></script>
 
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
+        <div class="row my-2">
+
+            <div class="col-xs-12 col-lg-6">
+
+                <!-- https://jsfiddle.net/amsehs/td9wqm1e/ -->
+                <script async src="//jsfiddle.net/amsehs/td9wqm1e/embed/result/dark/"></script>
+                <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+            </div>
+            <div class="col-xs-12 col-lg-6">
+
+                <!-- https://jsfiddle.net/amsehs/dn8y41h9/25/ -->
+                <script async src="//jsfiddle.net/amsehs/dn8y41h9/25/embed/result/dark/"></script>
+                <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
