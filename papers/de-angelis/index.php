@@ -1,165 +1,165 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>If many are doing something, <span class="title-break">it must be worthwhile</span></h2>
-                <h4>Vittoria De Angelis</h4>
-            </div>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>If many are doing something, <span class="title-break">it must be worthwhile</span></h2>
+            <h4>Vittoria De Angelis</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
 
-                <p>There are several ways in which companies and individuals attract customers and persuade them to use their product. Psychologist Robert Cialdini identified six main principles of persuasion, one of which is social proof. This very powerful tactic appeals to humans’ tendency to imitate other people around them in situations of uncertainty. If someone does not know how to act “correctly,” they will observe everyone else’s behavior and accept it as appropriate. It is employed very often, sometimes in more subtle ways, and people do not usually pay attention to it, they do not recognize that they are being manipulated by it. Social proof can have positive, negative, and also neutral effects. Both online and in real life, it increases compliance rate, whether it be in the form of donations to a charity, agreement to reuse hotel towels, or buying a specific product. In today’s consumeristic society, it is important to be aware of methods marketers and business owners employ to convince people of choosing their product over their competitors’, or of even getting it in the first place. It is also relevant to consider how phenomenons that usually happen in real life, such as the bystander effect, could possibly translate to the online world, since in the present age most of our decisions are made through the internet. Social media is often powered by social proof as well, with the use of public reactions to posts, reviews and ratings. It can be valuable to ponder about methods of improving these platforms taking advantage of social proof. Furthermore, it might be revealing to analyze whether social proof gets taken advantage of in different ways depending on the aim of who is using it, or if the general methodology remains the same across objectives, individuals and locations. </p>
+            <p>There are several ways in which companies and individuals attract customers and persuade them to use their product. Psychologist Robert Cialdini identified six main principles of persuasion, one of which is social proof. This very powerful tactic appeals to humans’ tendency to imitate other people around them in situations of uncertainty. If someone does not know how to act “correctly,” they will observe everyone else’s behavior and accept it as appropriate. It is employed very often, sometimes in more subtle ways, and people do not usually pay attention to it, they do not recognize that they are being manipulated by it. Social proof can have positive, negative, and also neutral effects. Both online and in real life, it increases compliance rate, whether it be in the form of donations to a charity, agreement to reuse hotel towels, or buying a specific product. In today’s consumeristic society, it is important to be aware of methods marketers and business owners employ to convince people of choosing their product over their competitors’, or of even getting it in the first place. It is also relevant to consider how phenomenons that usually happen in real life, such as the bystander effect, could possibly translate to the online world, since in the present age most of our decisions are made through the internet. Social media is often powered by social proof as well, with the use of public reactions to posts, reviews and ratings. It can be valuable to ponder about methods of improving these platforms taking advantage of social proof. Furthermore, it might be revealing to analyze whether social proof gets taken advantage of in different ways depending on the aim of who is using it, or if the general methodology remains the same across objectives, individuals and locations. </p>
 
-                <p>Social proof, a term coined by Robert Cialdini, is the tendency of people to perceive actions as correct if they see others performing them. This phenomenon alters individuals’ concept of normative behavior and it encourages them to conform to it. In modern society, social proof is taken advantage of in several instances. Additionally, with the development of social networks and online transactions, it is often present on the internet. A feature that many digital services and sites have implemented are ratings and reviews. People are more likely to buy a product if it has a large number of positive reviews and higher ratings, because if others like it and are satisfied with it, people are convinced it must be good and worth having.</p>
+            <p>Social proof, a term coined by Robert Cialdini, is the tendency of people to perceive actions as correct if they see others performing them. This phenomenon alters individuals’ concept of normative behavior and it encourages them to conform to it. In modern society, social proof is taken advantage of in several instances. Additionally, with the development of social networks and online transactions, it is often present on the internet. A feature that many digital services and sites have implemented are ratings and reviews. People are more likely to buy a product if it has a large number of positive reviews and higher ratings, because if others like it and are satisfied with it, people are convinced it must be good and worth having.</p>
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
 
 
 
-    <div class="de-angelis-slideshow container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="de-angelis-slideshow container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
 
-            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
-                    <li data-target="#carouselExampleIndicators3" data-slide-to="8"></li>
-                </ol>
-                <div class="carousel-inner">
+        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner">
 
 
-                    <div class="carousel-item active">
-                        <div class="row text-center blue-bg py-5">
-                            <div class="col-sm-10 offset-sm-1">
-                                <h3 class="header white py-2">Social Proof</h3>
-                                <p>The tendency of people to consider what others are doing correct, and adapt their behavior according to it. There are countless examples of situations that take advantage of this phenomenon. Here are a few of them:</p>
-                            </div>
+                <div class="carousel-item active">
+                    <div class="row text-center blue-bg py-5">
+                        <div class="col-sm-10 offset-sm-1">
+                            <h3 class="header white py-2">Social Proof</h3>
+                            <p>The tendency of people to consider what others are doing correct, and adapt their behavior according to it. There are countless examples of situations that take advantage of this phenomenon. Here are a few of them:</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-4 offset-sm-1">
-                                <img src="../de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3 class="header blue">We follow our peers</h3>
-                                <p>A 2013 study found that students were more likely to volunteer if they read a blog post of another student asking for help with comments from other students expressing their willingness to volunteer, than when the comments were indicating they could not help.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-6 offset-sm-1">
-                                <h3 class="header blue">Influences what we buy</h3>
-                                <p>Electronic word of mouth plays a significant role in determining the reputation of products. Items with reviews receive higher ratings than those without, thus they sell better.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <img src="../de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-4 offset-sm-1">
-                                <img src="../de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3 class="header blue">Canned laughter</h3>
-                                <p>It was found in a 2005 study that participants rated a comedian and the comic material more favorably, laughed more and for longer, and smiled more when they heard audience members laugh.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-6 offset-sm-1">
-                                <h3 class="header blue">We follow strangers too</h3>
-                                <p>Individuals participate more often in hotel towel reuse programs if the signs in their rooms state that the majority of other guests participated in the program as well.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <img src="../de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-4 offset-sm-1">
-                                <img src="../de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3 class="header blue">Manipulates our opinions and shopping behaviors</h3>
-                                <p>A set of studies revealed that people are willing to pay more for certain products if they read positive comments reinforced by a lot of people.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row white-bg py-5">
-                            <div class="col-sm-6 offset-sm-1">
-                                <h3 class="header blue">Vital to marketers</h3>
-                                <p>It can help brands gain more visibility and traction. It creates a “social ‘chain reaction’ that leads others to similar behaviors.” It also creates a mutual relationship between businesses and customers which can benefit both.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <img src="../de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row text-center white-bg py-5">
-                            <div class="col-sm-10 offset-sm-1">
-                                <h3 class="header2 blue py-2">Social proof is prevalent and impacts many aspects of our lives, from the way we act on social media to the actions we take in unknown situations. It is important to be aware of it, and make sure that our decisions are based on useful information, not just driven by the actions of others.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row text-center blue-bg py-5">
-                            <div class="col-sm-10 offset-sm-1">
-                                <h3 class="header white py-2">Can you think of instances in which you think your choices were influenced by what other people were doing?</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-4 offset-sm-1">
+                            <img src="../de-angelis/slideshow/thumbs/2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="header blue">We follow our peers</h3>
+                            <p>A 2013 study found that students were more likely to volunteer if they read a blog post of another student asking for help with comments from other students expressing their willingness to volunteer, than when the comments were indicating they could not help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-6 offset-sm-1">
+                            <h3 class="header blue">Influences what we buy</h3>
+                            <p>Electronic word of mouth plays a significant role in determining the reputation of products. Items with reviews receive higher ratings than those without, thus they sell better.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="../de-angelis/slideshow/thumbs/3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-4 offset-sm-1">
+                            <img src="../de-angelis/slideshow/thumbs/4.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="header blue">Canned laughter</h3>
+                            <p>It was found in a 2005 study that participants rated a comedian and the comic material more favorably, laughed more and for longer, and smiled more when they heard audience members laugh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-6 offset-sm-1">
+                            <h3 class="header blue">We follow strangers too</h3>
+                            <p>Individuals participate more often in hotel towel reuse programs if the signs in their rooms state that the majority of other guests participated in the program as well.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="../de-angelis/slideshow/thumbs/5.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-4 offset-sm-1">
+                            <img src="../de-angelis/slideshow/thumbs/6.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="header blue">Manipulates our opinions and shopping behaviors</h3>
+                            <p>A set of studies revealed that people are willing to pay more for certain products if they read positive comments reinforced by a lot of people.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row white-bg py-5">
+                        <div class="col-sm-6 offset-sm-1">
+                            <h3 class="header blue">Vital to marketers</h3>
+                            <p>It can help brands gain more visibility and traction. It creates a “social ‘chain reaction’ that leads others to similar behaviors.” It also creates a mutual relationship between businesses and customers which can benefit both.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="../de-angelis/slideshow/thumbs/7.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center white-bg py-5">
+                        <div class="col-sm-10 offset-sm-1">
+                            <h3 class="header2 blue py-2">Social proof is prevalent and impacts many aspects of our lives, from the way we act on social media to the actions we take in unknown situations. It is important to be aware of it, and make sure that our decisions are based on useful information, not just driven by the actions of others.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center blue-bg py-5">
+                        <div class="col-sm-10 offset-sm-1">
+                            <h3 class="header white py-2">Can you think of instances in which you think your choices were influenced by what other people were doing?</h3>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-
-
+            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+
+
     </div>
+</div>
 
 
 
@@ -168,9 +168,9 @@
 
 
 
-                    <div class="container">
-                        <div class="row my-2">
-                            <div class="col-12 col-lg-8 offset-lg-2">
+                <div class="container">
+                    <div class="row my-2">
+                        <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>That social proof increases sales can be considered intuitive, but this principle has the ability to increase compliance, make people act differently or engage in certain actions more frequently, as well. A 2013 study (Guadagno, Muscanell, Rice and Roberts) analyzed the behavior of university students when asked to volunteer to help with a fundraiser related to their university. To do so, they read a blog entry in which another student asked for volunteers; the blog posts were fictious and different conditions were generated, to range from high social validation (comments from other students expressing their willingness to volunteer) to low social validation (comments from student indicating they could not help the blog author). Students in the high social validation condition perceived that others were more willing to help and themselves were willing to volunteer for more hours than students in the low social validation condition. This experiment shows that the opinion and response of peers, people with several shared characteristics, is valued highly and taken as an example for what the most appropriate thing to do is.</p>
 
@@ -203,29 +203,29 @@ In group discussions too, social proof plays a relevant role. When people learn 
 
 
 
-                <figure class="figure">
-                    <a href="https://www.buzzfeed.com/videangelis/how-does-social-proof-affect-your-life-8c30v4saj3" target="_blank">
-                        <img src="img/how-does-image.png" alt="cult map" class="figure-img w-100 img-fluid">
-                    </a>
-                    <figcaption class="figure-caption">Click the image above to see common experiences in which social proof plays an important role and how this phenomenon affects your life.</figcaption>
-                </figure>
+            <figure class="figure">
+                <a href="https://www.buzzfeed.com/videangelis/how-does-social-proof-affect-your-life-8c30v4saj3" target="_blank">
+                    <img src="img/how-does-image.png" alt="cult map" class="figure-img w-100 img-fluid">
+                </a>
+                <figcaption class="figure-caption">Click the image above to see common experiences in which social proof plays an important role and how this phenomenon affects your life.</figcaption>
+            </figure>
 
 
 <p>The phenomenon of social proof is a powerful tactic that can modify people’s opinions and behaviors in many various ways. It is often utilized to convince citizens to perform positive actions or to boost businesses’ revenues. Since it might not always be taken advantage of to benefit individuals and it might lead them to do something they would not have done otherwise, it is important to be aware of this tactic. That way, people can ensure their behavior is not simply manipulated by the actions of others, but it is also informed by useful information.</p>
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-        <div class="container">
-            <div class="row my-2">
-                <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
@@ -265,8 +265,8 @@ In group discussions too, social proof plays a relevant role. When people learn 
 
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

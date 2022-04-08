@@ -1,31 +1,33 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Drinking the Kool-Aid</h2>
-                <h4>Ginny Gerig</h4>
-            </div>
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>Drinking the Kool-Aid</h2>
+            <h4>Ginny Gerig</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
-                <figure class="figure w-100">
-                    <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">Above, a Florida Citrus Commission advertisement was altered to reference “Drinking the Kool-Aid,” a popular expression referring to how persuasion techniques permeate our everyday lives. In 1978, over 900 members of the People's Temple movement died from drinking cyanide-laced Kool-aid in Jonestown, Guyana.</figcaption>
-                </figure>
+            <figure class="figure w-100">
+                <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption">Above, a Florida Citrus Commission advertisement was altered to reference “Drinking the Kool-Aid,” a popular expression referring to how persuasion techniques permeate our everyday lives. In 1978, over 900 members of the People's Temple movement died from drinking cyanide-laced Kool-aid in Jonestown, Guyana.</figcaption>
+            </figure>
 
 
 
@@ -35,49 +37,49 @@
 <p>Every moment our autonomy is under attack. Predatory ads, corrupted media, and our own leaders whisper promises of a better life. We listen to them. When we listen, we hand over our individualism. In this way, cults are just an extreme example of the loss of autonomy we face every day. Cults are divided into several different categories, including destructive cults, polygamist cults, racist cults, and terrorist cults. All of these cults are extremely dangerous and have their own perceived risks and threats. Destructive cults are categorized by their tendency to exploit people physically and psychologically. Polygamist cults are viewed negatively because of the perceived links to domestic violence and child abuse. However, it is argued the racist and terrorist cults are the most dangerous because of their ability and desire to harm the general populations. There are many similarities in these cults, specifically these cults all have charismatic and dangerous leaders. The leaders of cults use coercive persuasion techniques baiting everyday people. They promise them an escape from normalcy, and when that promise falls short they use more extreme techniques. These techniques include indoctrination, persuasive coercion, and brainwashing. These cults do more than just foster a change in ideology, they reprogram their followers’ personalities. Followers of cults, many times, have to go through years of “deprogramming therapy” in order to regain themselves. This paper will investigate cult recruiting tactics, cult brainwashing tactics, and how followers recover from this extreme persuasion.</p>
 
 
-                <figure class="figure">
-                    <img src="img/map.png" alt="cult map" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">This figure illustrates the prevalence of cults in different regions of America.</figcaption>
-                </figure>
+            <figure class="figure">
+                <img src="img/map.png" alt="cult map" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption">This figure illustrates the prevalence of cults in different regions of America.</figcaption>
+            </figure>
 
 
 <p>In this first paragraph, we will examine three cults: Colonia Dignidad, Rajneeshpruam, and Jonestown. Although the shape and size of these cults varies, one thing holds consistent: the charismatic leader. Colonia Dignidad was a commune created in southern Chile. Paul Schäfer, a former Nazi soldier, founded Colonia Dignidad in 1961. Schäfer ran the secretive cult treating members as slaves. Schäfer maintained dominance by separating family units. After isolating children from their families, he would sexually abuse them. It was impossible to escape these atrocities, the compound was surrounded by wire fencing, there were dozens of watch towers, and armed guards with dogs (Hannaford, 2016). Despite these cruelties, many colonists saw Schäfer as God-like. He was described as having a “very serious demeanor, and rarely, smiled, but was considered to be quite captivating nonetheless” (Hannaford, 2016). Schäfer was able to persuade people that his crimes were holy. This total manipulation was in part due to his ability to captivate his people so completely. This phenomenon is repeated when examining the Rajneeshpruam cult. The Rajneeshpruam cult was a religious community in Wasco County, Oregon. Although the cult started as a peaceful organization, members of the community were persuaded to resort to violence to protect their way of life. Their leader, the Bhagwan, was a religious teacher of mediation, mindfulness, and creativity. The Bhagwan had many innate qualities that made him a great leader; he seemed to radiate energy and to awaken hidden possibilities in those who came into contact with him. According to the documentary Wild Wild Country, "many of those who visited him for the first time felt that their most intimate feelings were instantly understood, that they were accepted and unequivocally welcomed rather than judged” (Maclain, 2018, 1.07). Many echoed this belief stating that they had fallen in love with the Bhagwan. Similarly, to Schäefer he was able to convince a large group of people of his paramount importance. Finally, Jim Jones of the Jonestown possessed qualities similar to the Bhagwan and Schäefer. Jones led the 900 people living in his colony, to partake in a mass suicide attempt by “drinking the Kool-Aid” when cornered by troops. This act itself shows the immense amount of power Jones had over his people. According to David Chiu, “Jones was a voracious reader who studied Stalin, Marx, Mao, Gandhi and Hitler, carefully noting the strengths and weaknesses of each” (Chiu, 2018). Jones was able to use his knowledge leaders to captivate hundreds of people. These cults exemplify the importance of a charismatic leader when trying to captivate masses of people. Certain innate qualities combined with fear of retribution can create a powerful dynamic where people lose control. </p>
 
 
-                <figure class="figure">
-                    <a href="https://www.buzzfeed.com/gigerig/how-likely-would-you-be-to-join-a-cult-fdqy20snph" target="_blank">
-                        <img src="img/quiz.png" alt="cult map" class="figure-img w-100 img-fluid">
-                    </a>
-                    <figcaption class="figure-caption">Click the image above to see the traits cult followers have, and how likely you may be to join a cult!</figcaption>
-                </figure>
+            <figure class="figure">
+                <a href="https://www.buzzfeed.com/gigerig/how-likely-would-you-be-to-join-a-cult-fdqy20snph" target="_blank">
+                    <img src="img/quiz.png" alt="cult map" class="figure-img w-100 img-fluid">
+                </a>
+                <figcaption class="figure-caption">Click the image above to see the traits cult followers have, and how likely you may be to join a cult!</figcaption>
+            </figure>
 
 
 <p>While studying cult membership, certain commonalities are found between their followers. In a study interviewing 31 former cult members it found that cult membership mirrored addictive disorders in many different ways (Rousselet, 2017). In addition, many cult members had a high prevalence of psychological comorbidities like anxiety disorders, mood disorders, and insecure attachments (Rousselet, 2017). Although there is no mold for a cult joiner, many of these people have had a history of problems achieving intimacy, had a problematic familial relationship, blamed others for their failures and constantly strived for perfectionist goals (Collins, 1982). These vulnerabilities make certain people targets for recruiters. Furthermore, young people who are unsure of their future are more likely to abandon their current lives. This recruiting pattern can be explained through network theory. Similarly, to a virus, a cult will grow and spread based on successful targeting and recruiting from members.</p>
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/f_oxpXCGv-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-    <figcaption class="figure-caption">This model reflects data from California cult recruitment (Stark et al., 1979, pg. 350). Currently, there around approximately 47.8 million people living in CA which accounts for number of nodes. The average node degree reflects the six-degrees of separation theory. In addition, the initial outbreak size reflects the roughly 3 million or 6% of Californian’s who are in cults today (Stark et al., 1979, pg. 350). The virus-spread-chance was minimized to reflect the relatively stagnant number of cult members in CA. </figcaption>
-
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/f_oxpXCGv-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+<figcaption class="figure-caption">This model reflects data from California cult recruitment (Stark et al., 1979, pg. 350). Currently, there around approximately 47.8 million people living in CA which accounts for number of nodes. The average node degree reflects the six-degrees of separation theory. In addition, the initial outbreak size reflects the roughly 3 million or 6% of Californian’s who are in cults today (Stark et al., 1979, pg. 350). The virus-spread-chance was minimized to reflect the relatively stagnant number of cult members in CA. </figcaption>
+
     </div>
+</div>
 
 
 
 
-        <div class="container">
-            <div class="row my-2">
-                <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>There is power in numbers. Therefore, it is both the leaders and their followers who mold these cults into the powerful forces that they are. It is a combination of both persuasive techniques and personality of the follower which contributes the successful recruitment of a cult member. In the novel, <em>Cults in Our Midst</em>, Singer discusses two widely used persuasion techniques including indoctrination and coercive persuasion. Singer defines indoctrination as a persuasion tool used on children in order to create, “a new generation of potential fighters … are infused with doctrine and ideology that create a personal commitment to a narrow, rigid, and disciplined sense of divine mission and worldview that supports that commitment” (Singer, 2003, pg. 355). This indoctrination can be seen especially in Colonia Dignidad. The children who were separated from their parents, were Schäefer’s most powerful tool. He was able to mold their young minds to reflect his own personal agenda giving him complete control. Furthermore, Singer defines coercive persuasion as a tool used on young adults. He states, “persuasive beliefs with which these young people are imbued is the sense that martyrdom will ensure their rapid and wonderful ascent to heaven and eternal bliss” (Singer, 2003, pg. 355). Young adults can be convinced that their new lives will grant them eternal blessings. This belief can persuade them to do the unimaginable. Despite these techniques, cult membership does not occur over night. The process has been described as “narcissistic seduction.” Narcissistic seduction has many elements including, “the vulnerability of the subject, group effects, the use of emotions, detachment from outside influences, progress in doctrinal teaching, promotions and the assignment of responsibilities” (Collins, 1982). Through these processes’ cult leaders can exert a systematic social influence which produces loyal followers. Overtime, this psychological manipulation removes one’s ability to independently think and have control over their own autonomy.</p>
 
@@ -122,8 +124,8 @@
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

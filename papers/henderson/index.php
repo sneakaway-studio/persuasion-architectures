@@ -1,25 +1,28 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Why We Spend Billions on Cosmetic Items In Video Games</h2>
-                <h4>Patrick Henderson</h4>
-            </div>
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>Why We Spend Billions on Cosmetic Items In Video Games</h2>
+            <h4>Patrick Henderson</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
@@ -35,27 +38,27 @@
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNuqLZsr8f5w06Dw2Zw4fgQ1xpD_foxkjCpwWDr5ZiO7yNzlUnvHi5BmLUYJbYzC2VJOezHL3ZAVDB/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-            <figcaption class="figure-caption">Caption goes here</figcaption>
-
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNuqLZsr8f5w06Dw2Zw4fgQ1xpD_foxkjCpwWDr5ZiO7yNzlUnvHi5BmLUYJbYzC2VJOezHL3ZAVDB/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
+        <figcaption class="figure-caption">Caption goes here</figcaption>
+
     </div>
+</div>
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>The average pay-to-install game released in 2020 costs $60 to purchase and play. So, if you are downloading a game for free then you can easily tell yourself that you are saving $60 right off the bat. The free-to-play game itself is typically pretty bareboned though. The gameplay is there and it typically is very fun, if it isn’t fun then no one will keep playing and all was for nothing. Companies are hoping that you enjoy the game and will keep playing it on a regular basis. This regular playing will cause you develop an emotional attachment to the game. That emotional connection is what these games are banking on, literally. Free-to-play games offer after-install purchases such as skins, and season passes, and while these unnecessary expenses seemed wasteful when you first got the game they become quite tempting once you start playing regularly. Even more so when other players start buying them, because suddenly everyone around you looks cool and you are stuck looking like the new guy.(Relevance, 2018) On top of this peer pressure, skins and season passes are usually pretty cheap, $4.99-$24.99, which is a pretty good deal considering you did get the game for free. So in this scenario, let’s say you pay the $10 for a season pass and you start unlocking all the cool and exciting content and it all seems worth it. You do this again because the new season has even cooler skins and unlockables, then suddenly you’ve been playing and paying for 5 seasons and you’ve spent a total of $50 on the game. Even then you still tell yourself that it’s a good deal because, the average game costs $60 anyway. Let’s say you stop buying season passes after the 5th season though, mathematically the game made less money off you than if they had made you pay an upfront $60 to download. Technically they did make less off you individually, but now multiply your $50 by the 250 million other people that downloaded Fortnite from 2018-2019.(Gilbert, 2018)</p>
@@ -90,28 +93,28 @@
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hybI3fhigc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <figcaption class="figure-caption">Caption goes here</figcaption>
-
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hybI3fhigc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <figcaption class="figure-caption">Caption goes here</figcaption>
+
     </div>
+</div>
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>Free-to-play games dominate the industry right now, and they will continue to do so until a more profitable system comes around. It isn’t a bad thing, free-to-play games are a great system, I play a lot of them myself, I have even spent money on them. They make playing with friends affordable and easy, as everyone who has a working console, computer or device can download and play. If you don’t pay any money then you can play hundreds of hours totally free of charge. It is amazing though how easily influenced we are by those around us, even in game. The longer I play a game the more tempted I am, almost daily, to buy a cosmetic upgrade for my character. The simplicity of the sales technique is what makes it so effective, because we don’t even notice it. The game doesn’t have to oversell their product because the consumer over 70% of the time sells themselves on it. This is the ultimate art of persuasion, the inception technique, all companies have to do is make a game that is addicting and rewarding to play and players do the rest of the work for them. I expect the free-to-play industry will continue to grow as more companies and games join the genre. Eventually a company will figure out a better way to make money out of us, but until then enjoy the free downloads and after-install purchasable content.  </p>
@@ -126,32 +129,32 @@
 
 <ol>
 
-    <li id='#bib01'>Brown, Mike. The Finances of Fortnite: How much are people spending on this game? LendEDU.		 2018. https://lendedu.com/blog/finances-of-fortnite/ </li>
-    <li id='#bib02'>Gilbert, Ben. “How Big is Fortnite? With nearly 250 million players, it’s over two thirds the size 	of the US population.” Business Insider. March, 2019. 	https://www.businessinsider.com/how-many-people-play-fortnite-2018-11</li>
-    <li id='#bib03'>Gilbert, Ben. “One of the best selling games of 2018 is over 5 years old: Grand Theft Auto 5. 	Business Insider. January, 2019. 				https://www.businessinsider.com/grand-theft-auto-5-sales-2018-2019-1</li>
-    <li id='#bib04'>Gilliam, Ryan. “Why I buy skins in League of Legends.” Riftherald, February, 2018.
+<li id='#bib01'>Brown, Mike. The Finances of Fortnite: How much are people spending on this game? LendEDU.		 2018. https://lendedu.com/blog/finances-of-fortnite/ </li>
+<li id='#bib02'>Gilbert, Ben. “How Big is Fortnite? With nearly 250 million players, it’s over two thirds the size 	of the US population.” Business Insider. March, 2019. 	https://www.businessinsider.com/how-many-people-play-fortnite-2018-11</li>
+<li id='#bib03'>Gilbert, Ben. “One of the best selling games of 2018 is over 5 years old: Grand Theft Auto 5. 	Business Insider. January, 2019. 				https://www.businessinsider.com/grand-theft-auto-5-sales-2018-2019-1</li>
+<li id='#bib04'>Gilliam, Ryan. “Why I buy skins in League of Legends.” Riftherald, February, 2018.
 https://www.riftherald.com/2018/2/2/16962396/league-of-legends-skins-why
 </li>
-    <li id='#bib05'>Glum, Julia. “How Does Fortnite Make Money? All the Ways the Free Video Game Cashes in on 	Its 200 Million Players.” Money, January, 2019.							 https://money.com/how-fortnite-makes-money/</li>
-    <li id='#bib06'>Gulati, Shruti. “Impact of peer Pressure on Buying Behavior.” International Journal of Research. 	June, 2017. http://granthaalayah.com/Articles/Vol5Iss6/35_IJRG17_A06_379.pdf</li>
-    <li id='#bib07'>“How on Earth is Trading Virtual Items in Video Games a $50 Billion Industry?” Wax.io, publish 		via, Medium.com. December, 2017. https://medium.com/wax-io/how-on-earth-is-trading-virtual-items-in-video-games-a-50-billion-industry-5972c211d62</li>
-    <li id='#bib08'>Luton, Will. Free 2 Play: Making Money From Games You Give Away. New Riders, 2013. </li>
-    <li id='#bib09'>McAloon, Alissa. “Analyst: PUBG out-earned every other premium PC and console game in 	2018.” Gamasutra, January, 2019. 			http://gamasutra.com/view/news/334636/Analyst_PUBG_outearned_every_other_premium_PC_and_console_game_in_2018.php</li>
-    <li id='#bib10'>Molloy, Mark, Dias, Duarte, & Lyons, Izzy. “Meet the Gamers Willing to Spend Hundreds of 	Thousands Living Their Video Game Fantasy.” Telegraph. July, 2018. 	https://www.telegraph.co.uk/news/2018/07/16/meet-gamers-willing-spend-hundreds-thousands-living-video-game/</li>
-    <li id='#bib11'>Noordzij, Adriaan. “The Rise of Video Game Vanity: Or, Why Skins Sell.” Riot Games, published 	via, Linkedin.com. September, 2015. 				https://www.linkedin.com/pulse/rise-video-game-vanity-why-skins-sell-adriaan-	noordzij/</li>
-    <li id='#bib12'>“Peer Pressure: The Most Powerful Consumer Influence?” Relevance, July, 2013. 	https://www.relevance.com/blog/peer-pressure-most-powerful-consumer-influence/</li>
-    <li id='#bib13'>Takahashi, Dean. “SuperData: Games hit $120.1 billion in 2019, with Fortnite topping $1.8 	billion.” Venturebeat. January, 2020.
+<li id='#bib05'>Glum, Julia. “How Does Fortnite Make Money? All the Ways the Free Video Game Cashes in on 	Its 200 Million Players.” Money, January, 2019.							 https://money.com/how-fortnite-makes-money/</li>
+<li id='#bib06'>Gulati, Shruti. “Impact of peer Pressure on Buying Behavior.” International Journal of Research. 	June, 2017. http://granthaalayah.com/Articles/Vol5Iss6/35_IJRG17_A06_379.pdf</li>
+<li id='#bib07'>“How on Earth is Trading Virtual Items in Video Games a $50 Billion Industry?” Wax.io, publish 		via, Medium.com. December, 2017. https://medium.com/wax-io/how-on-earth-is-trading-virtual-items-in-video-games-a-50-billion-industry-5972c211d62</li>
+<li id='#bib08'>Luton, Will. Free 2 Play: Making Money From Games You Give Away. New Riders, 2013. </li>
+<li id='#bib09'>McAloon, Alissa. “Analyst: PUBG out-earned every other premium PC and console game in 	2018.” Gamasutra, January, 2019. 			http://gamasutra.com/view/news/334636/Analyst_PUBG_outearned_every_other_premium_PC_and_console_game_in_2018.php</li>
+<li id='#bib10'>Molloy, Mark, Dias, Duarte, & Lyons, Izzy. “Meet the Gamers Willing to Spend Hundreds of 	Thousands Living Their Video Game Fantasy.” Telegraph. July, 2018. 	https://www.telegraph.co.uk/news/2018/07/16/meet-gamers-willing-spend-hundreds-thousands-living-video-game/</li>
+<li id='#bib11'>Noordzij, Adriaan. “The Rise of Video Game Vanity: Or, Why Skins Sell.” Riot Games, published 	via, Linkedin.com. September, 2015. 				https://www.linkedin.com/pulse/rise-video-game-vanity-why-skins-sell-adriaan-	noordzij/</li>
+<li id='#bib12'>“Peer Pressure: The Most Powerful Consumer Influence?” Relevance, July, 2013. 	https://www.relevance.com/blog/peer-pressure-most-powerful-consumer-influence/</li>
+<li id='#bib13'>Takahashi, Dean. “SuperData: Games hit $120.1 billion in 2019, with Fortnite topping $1.8 	billion.” Venturebeat. January, 2020.
 https://venturebeat.com/2020/01/02/superdata-games-hit-120-1-billion-in-2019-with-fortnite-topping-1-8-billion/
 </li>
-    <li id='#bib14'>Yarrow, Kit. “Speaking of Psychology: What Guides Our Buying Behaviors.” American 	Psychological Association</li>
+<li id='#bib14'>Yarrow, Kit. “Speaking of Psychology: What Guides Our Buying Behaviors.” American 	Psychological Association</li>
 
 
 
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

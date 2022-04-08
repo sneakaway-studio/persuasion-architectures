@@ -451,7 +451,7 @@
         </div>
         <!--/row-->
 
-    
+
     </div>
 
     <div class="row my-2">
@@ -596,28 +596,28 @@
 <div class="row my-2">
     <div class="col-12 col-lg-8 offset-lg-2">
 
-<h4>Bibliography</h4>
+		<h4>Bibliography</h4>
 
 
-<ol>
+		<ol>
 
-<li id='#bib01'>Ciotti, Gregory. “The Psychology of Color in Marketing and Branding.” Help Scout, 21 Nov. 2019, www.helpscout.com/blog/psychology-of-color/.</li>
-<li id='#bib02'>Elder, Ryan S., and Aradhna Krishna. “The Effects of Advertising Copy on Sensory Thoughts and Perceived Taste.” Journal of Consumer Research, vol. 36, no. 5, 2010, pp. 748–756., doi:10.1086/605327.</li>
-<li id='#bib03'>Friestad, Marian, and Peter Wright. “Persuasion Knowledge: Lay People's and Researchers' Beliefs about the Psychology of Advertising.” Journal of Consumer Research, vol. 22, no. 1, 1995, p. 62., doi:10.1086/209435.</li>
-<li id='#bib04'>Haase, Janina, et al. “Sensory Imagery in Advertising: How the Senses Affect Perceived Product Design and Consumer Attitude.” Journal of Marketing Communications, 2018, pp. 1–13., doi:10.1080/13527266.2018.1518257.</li>
-<li id='#bib05'>Henthorne, Tony L., et al. “Fear Appeals in Print Advertising: An Analysis of Arousal and Ad Response.” Journal of Advertising, vol. 22, no. 2, 1993, pp. 59–69., doi:10.1080/00913367.1993.10673404.</li>
-<li id='#bib06'>Manyiwa, Simon, and Ross Brennan. “Fear Appeals in Anti-Smoking Advertising: How Important Is Self-Efficacy?” Journal of Marketing Management, vol. 28, no. 11-12, 2012, pp. 1419–1437., doi:10.1080/0267257x.2012.715092.</li>
-<li id='#bib07'>Nelson, Michelle R., and Jacqueline C. Hitchon. “Loud Tastes, Colored Fragrances, and Scented Sounds: How and When to Mix the Senses in Persuasive Communications.” Journalism & Mass Communication Quarterly, vol. 76, no. 2, 1999, pp. 354–372., doi:10.1177/107769909907600212.</li>
-<li id='#bib08'>Rosewarne, Lauren. “Outdoor Advertising and Public Space: Gender, Fear, and Feminism.” Women's Studies International Forum, 19 Apr. 2005, pp. 67–78.</li>
-<li id='#bib09'>Shamdasani, Prem N., et al. “Location, Location, Location: Insights for Advertising Placement on the Web.” Journal of Advertising Research, vol. 41, no. 4, 2001, pp. 7–21., doi:10.2501/jar-41-4-7-21.</li>
-<li id='#bib10'>Strong, Edward K. The Psychology of Selling and Advertising. McGraw-Hill, 1925.</li>
-<li id='#bib11'>Sudman, S., & Schwarz, N. (1989). Contributions of cognitive psychology to advertising 	research. Journal of Advertising Research, 29(3), 43–53.</li>
-<li id='#bib12'>“Thinking vs Feeling: Psychology of Advertising: USC Online.” USC MAPP Online, 2 Apr. 2020, appliedpsychologydegree.usc.edu/blog/thinking-vs-feeling-the-psychology-of advertising/.</li>
-<li id='#bib13'>“Tobacco Free Florida.” Tobacco Free Florida, tobaccofreeflorida.com/.</li>
-<li id='#bib14'>Yilmaz, Recep. Narrative Advertising Models and Conceptualization in the Digital Age. IGI Global., 2017.</li>
-<li id='#bib15'>Yonchev, Oliver. “The Most Powerful Emotion in Marketing May Surprise You - and More Brands Need to Tap into It, According to an Expert in Social Influencer Marketing.” Business Insider, Business Insider, 22 May 2019, www.businessinsider.in/The-most-powerful-emotion-in-marketing-may-surprise-you-and-more-brands-need-to-tap-into-it-according-to-an-expert-in-social-influencer-marketing/articleshow/69448613.cms.</li>
+		<li id='#bib01'>Ciotti, Gregory. “The Psychology of Color in Marketing and Branding.” Help Scout, 21 Nov. 2019, www.helpscout.com/blog/psychology-of-color/.</li>
+		<li id='#bib02'>Elder, Ryan S., and Aradhna Krishna. “The Effects of Advertising Copy on Sensory Thoughts and Perceived Taste.” Journal of Consumer Research, vol. 36, no. 5, 2010, pp. 748–756., doi:10.1086/605327.</li>
+		<li id='#bib03'>Friestad, Marian, and Peter Wright. “Persuasion Knowledge: Lay People's and Researchers' Beliefs about the Psychology of Advertising.” Journal of Consumer Research, vol. 22, no. 1, 1995, p. 62., doi:10.1086/209435.</li>
+		<li id='#bib04'>Haase, Janina, et al. “Sensory Imagery in Advertising: How the Senses Affect Perceived Product Design and Consumer Attitude.” Journal of Marketing Communications, 2018, pp. 1–13., doi:10.1080/13527266.2018.1518257.</li>
+		<li id='#bib05'>Henthorne, Tony L., et al. “Fear Appeals in Print Advertising: An Analysis of Arousal and Ad Response.” Journal of Advertising, vol. 22, no. 2, 1993, pp. 59–69., doi:10.1080/00913367.1993.10673404.</li>
+		<li id='#bib06'>Manyiwa, Simon, and Ross Brennan. “Fear Appeals in Anti-Smoking Advertising: How Important Is Self-Efficacy?” Journal of Marketing Management, vol. 28, no. 11-12, 2012, pp. 1419–1437., doi:10.1080/0267257x.2012.715092.</li>
+		<li id='#bib07'>Nelson, Michelle R., and Jacqueline C. Hitchon. “Loud Tastes, Colored Fragrances, and Scented Sounds: How and When to Mix the Senses in Persuasive Communications.” Journalism & Mass Communication Quarterly, vol. 76, no. 2, 1999, pp. 354–372., doi:10.1177/107769909907600212.</li>
+		<li id='#bib08'>Rosewarne, Lauren. “Outdoor Advertising and Public Space: Gender, Fear, and Feminism.” Women's Studies International Forum, 19 Apr. 2005, pp. 67–78.</li>
+		<li id='#bib09'>Shamdasani, Prem N., et al. “Location, Location, Location: Insights for Advertising Placement on the Web.” Journal of Advertising Research, vol. 41, no. 4, 2001, pp. 7–21., doi:10.2501/jar-41-4-7-21.</li>
+		<li id='#bib10'>Strong, Edward K. The Psychology of Selling and Advertising. McGraw-Hill, 1925.</li>
+		<li id='#bib11'>Sudman, S., & Schwarz, N. (1989). Contributions of cognitive psychology to advertising 	research. Journal of Advertising Research, 29(3), 43–53.</li>
+		<li id='#bib12'>“Thinking vs Feeling: Psychology of Advertising: USC Online.” USC MAPP Online, 2 Apr. 2020, appliedpsychologydegree.usc.edu/blog/thinking-vs-feeling-the-psychology-of advertising/.</li>
+		<li id='#bib13'>“Tobacco Free Florida.” Tobacco Free Florida, tobaccofreeflorida.com/.</li>
+		<li id='#bib14'>Yilmaz, Recep. Narrative Advertising Models and Conceptualization in the Digital Age. IGI Global., 2017.</li>
+		<li id='#bib15'>Yonchev, Oliver. “The Most Powerful Emotion in Marketing May Surprise You - and More Brands Need to Tap into It, According to an Expert in Social Influencer Marketing.” Business Insider, Business Insider, 22 May 2019, www.businessinsider.in/The-most-powerful-emotion-in-marketing-may-surprise-you-and-more-brands-need-to-tap-into-it-according-to-an-expert-in-social-influencer-marketing/articleshow/69448613.cms.</li>
 
-</ol>
+		</ol>
 
 
     </div>

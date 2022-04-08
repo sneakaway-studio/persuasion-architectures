@@ -1,25 +1,30 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Sufferring from Social Media Addiction</h2>
-                <h4>Emily Weld</h4>
-            </div>
+
+
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>Sufferring from Social Media Addiction</h2>
+            <h4>Emily Weld</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>Addiction is defined to be, “the fact or condition of being addicted to a particular substance, thing, or activity.”  Most people often think of drug or alcohol addictions at first glance, but an even more grueling addiction is that of social media.  In 2019, 1 in 5 teens have been reported abusing prescription medications (Juergens) whereas 1 in 4 teens have been reported to be addicted to social media (McClellan).  </p>
 
@@ -30,8 +35,8 @@
 <h5 class="subheading">The brain's reward center</h5>
 
 <figure class="figure w-100">
-    <img src="img/brain.png" alt="thumb" class="figure-img w-100 img-fluid">
-    <figcaption class="figure-caption">The brain operates on a pleasure principle; the different parts of the brain correspond to a different action that translates to properties of addiction.</figcaption>
+<img src="img/brain.png" alt="thumb" class="figure-img w-100 img-fluid">
+<figcaption class="figure-caption">The brain operates on a pleasure principle; the different parts of the brain correspond to a different action that translates to properties of addiction.</figcaption>
 </figure>
 
 <p>This dopamine property of the brain works the same way with all of the “like systems” utilized by most social media platforms.  When an individual receives a “like” on a post, dopamine is released from the brain, and it leaves the individual wanting more.  The brain encourages the individual to post more and thus return to the social media platform as they seek the feeling the dopamine release left them with.  This develops a vicious cycle that can create stress for a user in terms of curating the most interesting content possible to maximize the dopamine “high” per post.  The dopamine effect and “like system” work together and promote users to think about what their followers would like to see most often in their feed.</p>
@@ -39,26 +44,26 @@
 
 
 
-        </div>
     </div>
+</div>
 </div>
 
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
+<div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="//content.jwplatform.com/players/7qUV8UXA-puACk8ZV.html" width="320" height="260" frameborder="0" scrolling="auto"></iframe>
-
-        </div>
-        <figcaption class="figure-caption"></figcaption>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//content.jwplatform.com/players/7qUV8UXA-puACk8ZV.html" width="320" height="260" frameborder="0" scrolling="auto"></iframe>
 
     </div>
+    <figcaption class="figure-caption"></figcaption>
+
+</div>
 </div>
 
 <div class="container">
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
@@ -72,24 +77,24 @@
 <p>After the participants concluded the survey, they had to complete a psychological task called the Iowa Gambling Task.  This task helped the researchers better understand the participants’ value-based decision-making skills.  Participants, during the task, are encouraged to collect as much money as possible.  The researchers were able to conclude those who spent more time on social media were more likely to collect the least amount of money at the end of the task.  It was conversely proven that those who spent smaller amounts of time on social media were able to collect larger sums of money upon concluding the task.  This research project is important proof that social media addiction and excessive social media use can lead to poor decision-making.</p>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
-        <div class="row">
-            <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="500px" frameBorder="0" src="quiz.html" scrolling="no"> </iframe>
-                <figcaption class="figure-caption">Take this quiz to see if you are addicted to social media.</figcaption>
-            </div>
+<div class="container px-0">
+    <div class="row">
+        <div class="col-12">
+            <iframe id="my_iframe" width="100%" height="500px" frameBorder="0" src="quiz.html" scrolling="no"> </iframe>
+            <figcaption class="figure-caption">Take this quiz to see if you are addicted to social media.</figcaption>
         </div>
     </div>
 </div>
+</div>
 
 <div class="container">
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>Being hooked on social media can also be seen to negatively impact communication skills.  For example, people addicted to social media are more likely to interrupt a conversation to check their accounts (Sherri).  This can cause problems in many aspects of an individual’s life; it can translate into their personal life as well as professional career. Some of the negative impacts of social media addiction include: increased anxiety, irritation, or anger when the individual cannot check social media, lying to others about how much time is spent on social media, withdrawing from family and friends, losing interest in other activities, neglecting school or work in favor of social media, and feeling stressed and that an individual’s life is lacking.  It is clear that there are many negative impacts when abusing time spent on social media.</p>
 
@@ -99,7 +104,7 @@
 
 
 <p>
-    Curious? <a href="https://support.apple.com/en-us/HT210387" target="_blank">See how much time you spend using social media apps</a>.
+Curious? <a href="https://support.apple.com/en-us/HT210387" target="_blank">See how much time you spend using social media apps</a>.
 </p>
 
 
@@ -114,20 +119,20 @@
 
 
 <ol>
-    <li id='#bib01'>Gordon, Sherri. “Hooked on Social Media.” Verywell Mind. Verywell Mind, July 17, 2019. https://www.verywellmind.com/excessive-social-media-use-4690882.</li>
-    <li id='#bib02'>Harvard Health Publishing. “How Addiction Hijacks the Brain.” Harvard Health. Accessed May 9, 2020. https://www.health.harvard.edu/newsletter_article/how-addiction-hijacks-the-brain.</li>
-    <li id='#bib03'>“Internet Addiction: Too Much Time on the Internet for Kids.” The Center for Parenting Education. Accessed May 9, 2020. https://centerforparentingeducation.org/library-of-articles/kids-and-technology/how-much-time-internet-kids/.</li>
-    <li id='#bib04'>Locke, Tim. “Do You Have 'Phantom Vibration Syndrome'?” WebMD. WebMD, January 11, 2016. https://www.webmd.com/a-to-z-guides/news/20160111/phones-phantom-vibration.</li>
-    <li id='#bib05'>McClellan, Jennifer. “Teen Study: 89 Percent Have Smartphones; Hate Content Exposure Has Gone Up.” USA Today. Gannett Satellite Information Network, September 10, 2018. https://www.usatoday.com/story/life/allthemoms/2018/09/10/teens-say-social-media-has-positive-effect-how-they-feel-common-sense-media/1204457002/.</li>
-    <li id='#bib06'>“Teen Drug Abuse - Signs of Teenage Drug Use.” Addiction Center, December 6, 2019. https://www.addictioncenter.com/teenage-drug-abuse/.</li>
-    <li id='#bib07'>“Use Screen Time on Your IPhone, IPad, or IPod Touch.” Apple Support, March 24, 2020. https://support.apple.com/en-us/HT208982.</li>
-    <li id='#bib08'>Yates, Eames. “What Happens to Your Brain When You Get a like on Instagram.” Business Insider. Business Insider, March 25, 2017. https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3.</li>
+<li id='#bib01'>Gordon, Sherri. “Hooked on Social Media.” Verywell Mind. Verywell Mind, July 17, 2019. https://www.verywellmind.com/excessive-social-media-use-4690882.</li>
+<li id='#bib02'>Harvard Health Publishing. “How Addiction Hijacks the Brain.” Harvard Health. Accessed May 9, 2020. https://www.health.harvard.edu/newsletter_article/how-addiction-hijacks-the-brain.</li>
+<li id='#bib03'>“Internet Addiction: Too Much Time on the Internet for Kids.” The Center for Parenting Education. Accessed May 9, 2020. https://centerforparentingeducation.org/library-of-articles/kids-and-technology/how-much-time-internet-kids/.</li>
+<li id='#bib04'>Locke, Tim. “Do You Have 'Phantom Vibration Syndrome'?” WebMD. WebMD, January 11, 2016. https://www.webmd.com/a-to-z-guides/news/20160111/phones-phantom-vibration.</li>
+<li id='#bib05'>McClellan, Jennifer. “Teen Study: 89 Percent Have Smartphones; Hate Content Exposure Has Gone Up.” USA Today. Gannett Satellite Information Network, September 10, 2018. https://www.usatoday.com/story/life/allthemoms/2018/09/10/teens-say-social-media-has-positive-effect-how-they-feel-common-sense-media/1204457002/.</li>
+<li id='#bib06'>“Teen Drug Abuse - Signs of Teenage Drug Use.” Addiction Center, December 6, 2019. https://www.addictioncenter.com/teenage-drug-abuse/.</li>
+<li id='#bib07'>“Use Screen Time on Your IPhone, IPad, or IPod Touch.” Apple Support, March 24, 2020. https://support.apple.com/en-us/HT208982.</li>
+<li id='#bib08'>Yates, Eames. “What Happens to Your Brain When You Get a like on Instagram.” Business Insider. Business Insider, March 25, 2017. https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3.</li>
 
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

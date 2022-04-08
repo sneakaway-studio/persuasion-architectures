@@ -1,64 +1,67 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>'Donald Trump' Liked Your Post</h2>
-                <h4>Sydney McKenna</h4>
-            </div>
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>'Donald Trump' Liked Your Post</h2>
+            <h4>Sydney McKenna</h4>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+
+
+
+    <div class="row my-2">
+        <div class="col-12">
+            <figure class="figure w-100">
+                <img src="img/broken-facebook.jpg" alt="thumb" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption">Caption goes here</figcaption>
+            </figure>
         </div>
     </div>
 
 
 
 
-    <div class="container">
-
-
-
-        <div class="row my-2">
-            <div class="col-12">
-                <figure class="figure w-100">
-                    <img src="img/broken-facebook.jpg" alt="thumb" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">Caption goes here</figcaption>
-                </figure>
-            </div>
-        </div>
-
-
-
-
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>In 2020, it is projected that political advertisements alone are to reach roughly $3 billion in spending, nearly double the amount of advertisement spending in the last election year of 2016 ($1.4 billion). This number will only continue to rise, as this year the election is aiming to take advantage of the tools that social media has to offer- specifically Facebook. Through the generally recent trend of social media usage, politicians have been slowly catching on to the importance social media, like Facebook, has to offer. With the power of Facebook emerging and technology advancing, companies took action in displaying ads within the Facebook realm, flaunting their originality to each unique user.  Overtime, thousands of companies morphed Facebook into platform completely in control of their users, simply with the use of users’ personal information. To break this number down further, below I have included the total spending from the Top 4 Presidential Candidates as of January of 2020 through the platform of Facebook alone:</p>
 
-            </div>
         </div>
+    </div>
 
 
 
 
-        <div class="row my-2">
-            <div class="col-12">
+    <div class="row my-2">
+        <div class="col-12">
 
-                <figure class="figure">
-                    <img src="img/facebook-spending-2020.png" alt="cult map" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">This is the total spending from the Top 4 Presidential Candidates as of January of 2020 through the platform of Facebook (Guttmann).</figcaption>
-                </figure>
+            <figure class="figure">
+                <img src="img/facebook-spending-2020.png" alt="cult map" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption">This is the total spending from the Top 4 Presidential Candidates as of January of 2020 through the platform of Facebook (Guttmann).</figcaption>
+            </figure>
 
-            </div>
         </div>
+    </div>
 
 
 
 
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>When looking at the top 4 candidates in this year’s running election, Facebook has identified the total spending rates for each candidate, taken from March of 2019 to today (via Facebook’s Ad Library). These numbers break down the idea that Trump has spent $26.9 million alone on Facebook, followed by Bernie at $13.3 million, then by Biden at $8.33 million (Guttmann).  These numbers reveal the spending by each candidate on Facebook alone, showing clearly that there is an incredible amount of political advertising that goes into marketing on Facebook.  Meaning, there has to be a reason why these candidates are consistently putting so much money into marketing to the public, right? Through the usage of Facebook advertising techniques, as well as their own personal techniques taken place through attacking posts, politicians are able to use the personal information given on a user and strategically place their advertisements to increase voting.  Whether this happens ethically or unethically, politicians everywhere finally understand the power of social media, and are doing anything they can to use it.</p>
@@ -74,38 +77,38 @@
 
 <p>One of the more fascinating things behind the concept of political ads is the idea that all personal information on the internet is never private, and how any personal information is essentially “up for grabs” in regard to politicians in this 2020 Presidential election.  With this in mind, one of the perspectives I wanted audiences to understand was the appreciation of how political advertisements are just “pop-up” advertisements waiting to be clicked on.  Through even having a Facebook account, whether one notices it or not, political advertisements are present, and the information taken from each click, hover, and action on one’s keyboard are immediately taken as crucial data for a candidate’s next target.  For part of my interactive project, I formed a video from the perspective of a Facebook user constantly getting targeted political advertisements.  I wanted to create a feeling of competition behind politicians to lure you into their advertisement (or in this case voting) and your data making them fight over who can persuade you the best.  Every 2-3 seconds, a new ad is added with a different politician.  Each ad consists of either hate or supportiveness shown towards a candidate, and roughly a minute long of invading advertisements on the feed of my personal Facebook page.  Below, you can click on the picture and it will directly bring you to the video.  As you watch, reflect and try to comprehend how this represents political invasion of social media, and the constant tracking of Facebook users.</p>
 
-            </div>
         </div>
+    </div>
 
 
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFoJpjEpKxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" combined with Facebook's political ads.  Every couple of seconds, a new advertisement will "pop up" on a personal Facebook page (made in iMovie).</figcaption>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFoJpjEpKxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+        <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" combined with Facebook's political ads.  Every couple of seconds, a new advertisement will "pop up" on a personal Facebook page (made in iMovie).</figcaption>
 
 
-        <div class="row my-4">
-            <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="row my-4">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>Similarly, I wanted to create another video focusing on the politician’s perspective rather than the users.  With this in mind, I flipped the concept of the first video and moved it to the second.  I decided to use this thinking in alignment and high like/shares/comments with bias towards politicians, but in the eye of the politician.  The video initially shows the candidate who is viewing their own political campaigns’ website, and continuously gets “Facebook pop-up” posts all across their pages.  With adding this feature, it makes the politician feel as though they have “pop-up ads” that are targeted by the users, and the users are essentially “getting back” at the politician.  In this second video, I included both hate and fan based Facebook messages and used the presidential candidates Donald Trump and Joe Biden.</p>
 
 
 
 
-            </div>
         </div>
+    </div>
 
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvH3UWSfLoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" targeted back towards politicians by using Facebook posts from users.  Every few seconds, a new hate or supportive Facebook post pops up on the politician's presidential campaign website (made in iMovie).</figcaption>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvH3UWSfLoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+        <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" targeted back towards politicians by using Facebook posts from users.  Every few seconds, a new hate or supportive Facebook post pops up on the politician's presidential campaign website (made in iMovie).</figcaption>
 
 
 
-        <div class="row my-4">
-            <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="row my-4">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>Through this unique perspective of targeting, the user regains awareness of how frequent these political ads are on Facebook.  For the past 10 years, it has been so invading to users’ privacy that Facebook felt obligated to form an “Ad Library,” a library that reveals a specific amount of demographic information regarding targeted audiences, in order to shape a sense of transparency with the users that feel targeted.  But what tactics are making this approach so successful, regardless of private information being constantly exposed?</p>
 
@@ -121,19 +124,19 @@
 
 <ol>
 
-    <li id='#bib01'>Auter, ZJ. “Negative Campaigning in the Social Media Age: Attack Advertising on Facebook.” Springer, JA Fine, 2016, link.springer.com/article/10.1007/s11109-016-9346-8.</li>
-    <li id='#bib02'>Baumgartner, Jody C., and Terri L. Towner. The Internet and the 2016 Presidential Campaign. Lexington Books, 2018.</li>
-    <li id='#bib03'>Brader, Ted. “Striking a Responsive Chord: How Political Ads Motivate and Persuade Voters by Appealing to Emotions.” Wiley Online Library, John Wiley & Sons, Ltd, 1 Mar. 2005, onlinelibrary.wiley.com/doi/full/10.1111/j.0092-5853.2005.00130.x. </li>
-    <li id='#bib04'>“Facebook's Ad Library.” Ad Library Report, 2019, www.facebook.com/ads/library/report/.</li>
-    <li id='#bib05'>Guttmann, A. “Digital Political Ad Spend in the U.S. 2020.” Statista, 18 Sept. 2018, www.statista.com/statistics/309592/online-political-ad-spend-usa/.</li>
-    <li id='#bib06'>Holman, Mirya R., et al. “Gender Targeting in Political Advertisements - Mirya R. Holman, Monica C. Schneider, Kristin Pondel, 2015.” SAGE	 Journals, 25 Sept. 2015, journals.sagepub.com/doi/full/10.1177/1065912915605182.</li>
-    <li id='#bib07'>Hwang, Annie S. Social Media and the Future of US Presidential Campaigning. Claremont McKenna College, 2016.</li>
+<li id='#bib01'>Auter, ZJ. “Negative Campaigning in the Social Media Age: Attack Advertising on Facebook.” Springer, JA Fine, 2016, link.springer.com/article/10.1007/s11109-016-9346-8.</li>
+<li id='#bib02'>Baumgartner, Jody C., and Terri L. Towner. The Internet and the 2016 Presidential Campaign. Lexington Books, 2018.</li>
+<li id='#bib03'>Brader, Ted. “Striking a Responsive Chord: How Political Ads Motivate and Persuade Voters by Appealing to Emotions.” Wiley Online Library, John Wiley & Sons, Ltd, 1 Mar. 2005, onlinelibrary.wiley.com/doi/full/10.1111/j.0092-5853.2005.00130.x. </li>
+<li id='#bib04'>“Facebook's Ad Library.” Ad Library Report, 2019, www.facebook.com/ads/library/report/.</li>
+<li id='#bib05'>Guttmann, A. “Digital Political Ad Spend in the U.S. 2020.” Statista, 18 Sept. 2018, www.statista.com/statistics/309592/online-political-ad-spend-usa/.</li>
+<li id='#bib06'>Holman, Mirya R., et al. “Gender Targeting in Political Advertisements - Mirya R. Holman, Monica C. Schneider, Kristin Pondel, 2015.” SAGE	 Journals, 25 Sept. 2015, journals.sagepub.com/doi/full/10.1177/1065912915605182.</li>
+<li id='#bib07'>Hwang, Annie S. Social Media and the Future of US Presidential Campaigning. Claremont McKenna College, 2016.</li>
 
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

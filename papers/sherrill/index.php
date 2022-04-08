@@ -1,32 +1,38 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>The User Experience</h2>
-                <h4>Andrew Sherrill</h4>
-            </div>
+
+
+
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>The User Experience</h2>
+            <h4>Andrew Sherrill</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 <p>New technologies and innovations will always be the driving force behind human advancement. From the wheel to the supercomputer, these inventions continue to influence the development of humans as a species. With that being said, how does an individual pitch a new technology when it is the first of its kind? Historically, humans have an intense aversion to change. Imagine persuading the world that a simple Markov chain would be the driving force behind one of the most powerful tools ever created – Google. Consider Amazon’s Alexa device and the potential issues that come along with marketing a product that consistently listens and learns from its user in order to provide its service. All of these innovations were created with one concept in mind: The User Experience. As a buzzword originating from technology companies in the 1970s during the beginning stages Silicon Valley, “The User Experience” is a unique persuasion architecture that combines ethos, pathos, and logos persuasion techniques in order to not only allow the user to understand the product, but to be truly be immersed in the entire idea of it before “buying in” to the idea. Fear, cost, and laziness all can be attributed with the lack of widespread adaptation of many disruptive technologies. It is for this reason that when pitching these new innovations to potential investors or consumers, it is imperative to employ ethos, pathos, and logos in order to demonstrate the value in a given product.</p>
 
 <p>In order to combat the inherent fear associated with new and misunderstood technologies, it is imperative to utilize a pathos archetype of persuasion. Fear, as it relates to technology, is defined as technophobia. Technophobia is defined as “the fear or dislike of advanced technology or complex devices, especially computers.”  Dating back to as long as technology has been present in humanity, the complexity of any new and groundbreaking innovation has been a catalyst for widespread criticism.</p>
 
 <blockquote class="blockquote my-4">
-    <p>In the late 1980s, my mother’s workplace was equipped with a few Commodore 64 computers. My family members were all early adopters, and we’ve had computers in our house since 1981. But for many of my mom’s coworkers, this was their first exposure to the technology. One woman in the office, a highly educated, well-trained mental health therapist, flatly refused to touch any of the computers. She was afraid of hitting the wrong button and wiping out her bank account. One of the most basic technology fears is rooted in the loss of control. We don’t necessarily understand exactly how a new piece of technology works, so our imaginations fill in the details.</p>
+<p>In the late 1980s, my mother’s workplace was equipped with a few Commodore 64 computers. My family members were all early adopters, and we’ve had computers in our house since 1981. But for many of my mom’s coworkers, this was their first exposure to the technology. One woman in the office, a highly educated, well-trained mental health therapist, flatly refused to touch any of the computers. She was afraid of hitting the wrong button and wiping out her bank account. One of the most basic technology fears is rooted in the loss of control. We don’t necessarily understand exactly how a new piece of technology works, so our imaginations fill in the details.</p>
 </blockquote>
 <p>—<em>Technophobia Is a Fear Related to the Loss of Control</em></p>
 
@@ -40,72 +46,32 @@
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
-
-
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
-
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoOP_OQQEPLE_DYs6TduHg9Em5hvLxWcP35eW7pi81vRH1k1EhP9kEPIEFDXzy4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
-
-        </div>
-    </div>
-
-
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
-
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
-
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
-
-
-<p>We see that the two presentations differ in color, but we will address that later. While examining the clearly different ways of informing the audience of the benefits and backbones of quantum computing, it is evident that the easily comprehendible presentation will suffice for the majority of the audience, as granular technical concepts are likely less interesting than the benefits to the end-user. </p>
-
-<p>At all levels, it is important to understand your audience before you can truly communicate the benefits of a misunderstood technology. These principles can be applied outside of a simple presentation as well. Whether these principles are applied to marketing, finance, purchasing, or any other industry, it is imperative that you are able to communicate your ideas at an understandable level. It is for these reasons that using understandable rhetoric is incredibly important when demonstrating the value in a new and innovative product.</p>
-
-
-
-            </div>
-        </div>
-    </div>
 
 
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
-        <div class="row my-2">
 
-            <div class="col-xs-12 col-lg-6">
-
-                <!-- https://jsfiddle.net/amsehs/td9wqm1e/ -->
-                <script async src="//jsfiddle.net/amsehs/td9wqm1e/embed/result/dark/"></script>
-                <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
-
-            </div>
-            <div class="col-xs-12 col-lg-6">
-
-                <!-- https://jsfiddle.net/amsehs/dn8y41h9/25/ -->
-                <script async src="//jsfiddle.net/amsehs/dn8y41h9/25/embed/result/dark/"></script>
-                <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
-
-            </div>
-
-
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoOP_OQQEPLE_DYs6TduHg9Em5hvLxWcP35eW7pi81vRH1k1EhP9kEPIEFDXzy4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
+        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+    </div>
+</div>
+
+
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
     </div>
 </div>
 
@@ -114,31 +80,71 @@
         <div class="col-12 col-lg-8 offset-lg-2">
 
 
+<p>We see that the two presentations differ in color, but we will address that later. While examining the clearly different ways of informing the audience of the benefits and backbones of quantum computing, it is evident that the easily comprehendible presentation will suffice for the majority of the audience, as granular technical concepts are likely less interesting than the benefits to the end-user. </p>
+
+<p>At all levels, it is important to understand your audience before you can truly communicate the benefits of a misunderstood technology. These principles can be applied outside of a simple presentation as well. Whether these principles are applied to marketing, finance, purchasing, or any other industry, it is imperative that you are able to communicate your ideas at an understandable level. It is for these reasons that using understandable rhetoric is incredibly important when demonstrating the value in a new and innovative product.</p>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid px-0 my-2 mb-4">
+<div class="container px-0">
+    <div class="row my-2">
+
+        <div class="col-xs-12 col-lg-6">
+
+            <!-- https://jsfiddle.net/amsehs/td9wqm1e/ -->
+            <script async src="//jsfiddle.net/amsehs/td9wqm1e/embed/result/dark/"></script>
+            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+        </div>
+        <div class="col-xs-12 col-lg-6">
+
+            <!-- https://jsfiddle.net/amsehs/dn8y41h9/25/ -->
+            <script async src="//jsfiddle.net/amsehs/dn8y41h9/25/embed/result/dark/"></script>
+            <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+<div class="container">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
+
+
 
 <h4>Bibliography</h4>
 
 
 <ol>
-    <li id='#bib01'>text</li>
-    <li id='#bib02'>text</li>
-    <li id='#bib03'>text</li>
-    <li id='#bib04'>text</li>
-    <li id='#bib05'>text</li>
-    <li id='#bib06'>text</li>
-    <li id='#bib07'>text</li>
-    <li id='#bib08'>text</li>
-    <li id='#bib09'>text</li>
-    <li id='#bib10'>text</li>
-    <li id='#bib11'>text</li>
-    <li id='#bib12'>text</li>
-    <li id='#bib13'>text</li>
-    <li id='#bib14'>text</li>
+<li id='#bib01'>text</li>
+<li id='#bib02'>text</li>
+<li id='#bib03'>text</li>
+<li id='#bib04'>text</li>
+<li id='#bib05'>text</li>
+<li id='#bib06'>text</li>
+<li id='#bib07'>text</li>
+<li id='#bib08'>text</li>
+<li id='#bib09'>text</li>
+<li id='#bib10'>text</li>
+<li id='#bib11'>text</li>
+<li id='#bib12'>text</li>
+<li id='#bib13'>text</li>
+<li id='#bib14'>text</li>
 
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

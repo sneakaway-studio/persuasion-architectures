@@ -1,31 +1,37 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Redefining Beauty: An investigation into the Irresistible lure of beauty in media</h2>
-                <h4>Clare Mackie</h4>
-            </div>
+
+
+
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>Redefining Beauty: An investigation into the Irresistible lure of beauty in media</h2>
+            <h4>Clare Mackie</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
-                <figure class="figure w-100">
-                    <img src="img/women-high.jpg" alt="thumb" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption"></figcaption>
-                </figure>
+            <figure class="figure w-100">
+                <img src="img/women-high.jpg" alt="thumb" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption"></figcaption>
+            </figure>
 
 
 <p>In her book, Deadly Persuasion, Jean Kilbourne writes, “Advertising works best precisely because we don’t think it works on us” (12). In a time when human interactions have transitioned entirely online, this quote rings true now more than ever. Businesses are making significant changes that rely on the media to transmit new information and facilitate engagement through online purchases. Although we, as consumers, believe pressing delete or continuing to scroll keeps us immune to the overflow of advertisements through our screens and inboxes, our engagement with new content has an opposite effect. In fact, with every click or scroll, we make ourselves more susceptible to the irresistible lure of advertisements. Why should we believe we can tune out information that is designed to specifically combat the “tuning out” process? Our stubbornness and ignorance to admit the media’s influence on our lives leads us to subconsciously fall victim to the never-ending lure of persuasion in advertisements. This unfortunate reality manifests itself most notably in the advertisement of beauty products.</p>
@@ -37,28 +43,28 @@
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VXBFthXE0yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-    <figcaption class="figure-caption">Download Flash Face and create a “forensic sketch” of yourself without using a mirror or photo for reference. Take note of which characteristics you like about your physical appearance and which you are tempted to change or alter while completing this activity. Save your sketch to reference later.</figcaption>
-
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VXBFthXE0yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+<figcaption class="figure-caption">Download Flash Face and create a “forensic sketch” of yourself without using a mirror or photo for reference. Take note of which characteristics you like about your physical appearance and which you are tempted to change or alter while completing this activity. Save your sketch to reference later.</figcaption>
+
     </div>
+</div>
 
 
 
 
-        <div class="container">
-            <div class="row my-2">
-                <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>Beauty advertisements are designed to specifically target the human desire for intimate human connection by offering us products as solace and substitutes. Ads fragment the body to showcase certain parts that meet social expectations and then utilize language that places responsibility on the user to buy new products to reshape or transform their body in order to fit the ideal (Ghannam). In reality, the media has carefully crafted a definition of beauty that is based solely on physical appearance, emphasizing a slim-yet-curvy figure, silky-yet-voluminous hair, and tan-yet-clear skin. Individual differences make it impossible to achieve this definition of beautiful, however, women across the world continue to strive for this definition of outward perfection by investing in new products and services. We pay for gym memberships and buy organic products to fight for that perfect figure. We invest in expensive shampoos our hair dressers recommend and pay for treatments that make our hair perfectly straight when it is naturally curly. We go to tanning beds to make our skin the perfect golden brown, but leave the salon with wrinkles and skin damage. Striving for the media’s definition of perfection is a never-ending cycle that revolves around a virtually-constructed perpetuation of the ideal body. Ultimately, advertisements turn wants into needs by “creating an emotional appeal that subtly convinces the audience that the item being promoted will make a difference in their lives by either making them happy, giving them status, satisfying a desire, or providing security” (Weiss).</p>
@@ -67,10 +73,10 @@
 
 
 <figure class="figure">
-    <a href="https://www.freememorygame.com/?dn=Celebrity+Matching" target="_blank">
-        <img src="img/matching-game.png" alt="" class="figure-img w-100 img-fluid">
-    </a>
-    <figcaption class="figure-caption">Match the celebrity on the streets to the celebrity on the magazine cover. What differences do you notice? How have the photos on the magazine covers been edited to fit the ideal?</figcaption>
+<a href="https://www.freememorygame.com/?dn=Celebrity+Matching" target="_blank">
+    <img src="img/matching-game.png" alt="" class="figure-img w-100 img-fluid">
+</a>
+<figcaption class="figure-caption">Match the celebrity on the streets to the celebrity on the magazine cover. What differences do you notice? How have the photos on the magazine covers been edited to fit the ideal?</figcaption>
 </figure>
 
 <p>Unfortunately, a desire for unachievable qualities or goals, in this case beauty as the media defines it, can have detrimental effects on an individual and on society as a whole. According to the Social Comparison Theory, individuals determine their worth based on how they compare to others. Facilitated through the media, comparing oneself to others can boost one’s self confidence positively or negatively, depending on the degree to which one experiences the need to compare. When the effects are negative, escaping the cycle is close to impossible. Beginning with social comparison, insecurities and negated self-worth quickly arise. A lack of respect for oneself or others leads to bullying or putting others down in order to better oneself. Bullying leads to feelings of betrayal, worthlessness, and sadness. This spiraling effect not only brings the comparing person down, but several others that fell in the path of destruction. In the current age, increased media exposure fosters an unhealthy environment for comparison, affecting nearly every woman that has access to the Internet.</p>
@@ -85,56 +91,56 @@
 
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4m13PmL_r_o8srj-2KffmiXxBSn7WWfFYSnyRNIUB3XoPOvkMIYuiVsJ7cafI4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
-
-
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4m13PmL_r_o8srj-2KffmiXxBSn7WWfFYSnyRNIUB3XoPOvkMIYuiVsJ7cafI4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
+
+
     </div>
+</div>
 
 
 
 
-        <div class="container">
-            <div class="row my-2">
-                <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
 <p>In addition to redefining beauty in campaigns, social media influencers are speaking about their experiences within the public sector. In her Ted Talk, “Look aren’t everything. Believe me, I’m a model,” Cameron Russell discusses her experiences within the modeling agency, boldly stating that she, too, is insecure.  She even says models, with the thinnest thighs and the shiniest hair, “are the most physically insecure women probably on the planet.” She ends by stating, “I hope we all become more comfortable in acknowledging the power of image in our perceived successes and our perceived failures.”</p>
 
 
-            </div>
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid px-0 my-2 mb-4">
-        <div class="container px-0">
+<div class="container-fluid px-0 my-2 mb-4">
+    <div class="container px-0">
 
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM4Xe6Dlp0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-    <figcaption class="figure-caption">Cameron Russell’s TedTalk</figcaption>
-
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM4Xe6Dlp0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+<figcaption class="figure-caption">Cameron Russell’s TedTalk</figcaption>
+
     </div>
+</div>
 
 
 
 
-        <div class="container">
-            <div class="row my-2">
-                <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>It is clear we, as a world of insecure people desiring connection, are beginning to take small steps towards shifting our gaze from a definition of beauty based on an ideal to one that encompasses and celebrates difference. And although this is a monumental, altogether beautiful, and wonderful change for society, we cannot stop here. According to Jo Swinson, “A diversity of body shapes and sizes needs to be included in our magazines, advertising and broadcasts, and on the catwalks.” We need to continue moving away from appearance-based advertisements and encourage beauty from within. We need to diversify the runway, and the bodies we consider fit for a modeling career. We need to steer away from Photoshop and showcase natural beauty on the covers of our magazines. Most of all, however, we need to teach self-confidence and body image literacy so young women across the world feel comfortable in their own skin, and free to talk about it when insecurities arise. </p>
@@ -163,8 +169,8 @@
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 

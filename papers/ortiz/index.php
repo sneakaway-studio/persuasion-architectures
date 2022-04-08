@@ -1,32 +1,36 @@
 
-    <?php $subdirectory = true; ?>
-    <?php include_once('../../inc/header.php'); ?>
+<?php $subdirectory = true; ?>
+<?php include_once('../../inc/header.php'); ?>
 
 
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-                <h2>Forecasting Human Action</h2>
-                <h4>Bryan Ortiz</h4>
-            </div>
+
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
+            <h2>Forecasting Human Action</h2>
+            <h4>Bryan Ortiz</h4>
         </div>
     </div>
+</div>
 
 
 
 
 
 
-    <div class="container">
-        <div class="row my-2">
-            <div class="col-12 col-lg-8 offset-lg-2">
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 
-                <figure class="figure w-100">
-                    <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
-                    <figcaption class="figure-caption">Above, imagery representing marketing analysis encapsulated within a crystal ball, implies the growing methodologies of predicting human behavior in order to persuade. Economic modeling has begun to be used in predicting our actions and our susceptibility to persuasion, moving consumers one step closure to being controlled by big corporations.</figcaption>
-                </figure>
+            <figure class="figure w-100">
+                <img src="img/thumb.png" alt="thumb" class="figure-img w-100 img-fluid">
+                <figcaption class="figure-caption">Above, imagery representing marketing analysis encapsulated within a crystal ball, implies the growing methodologies of predicting human behavior in order to persuade. Economic modeling has begun to be used in predicting our actions and our susceptibility to persuasion, moving consumers one step closure to being controlled by big corporations.</figcaption>
+            </figure>
 
 
 <p>While researching persuasion and its connection to economics I discovered a field that is more prominent in using persuasive tactics while remaining true to the underlying economic laws, marketing. My goal in this paper is to use previous research on persuasion methods and their usage as well as economic models developed to predict human behavior to make a profit to analyze its effectiveness throughout history.
@@ -41,67 +45,67 @@
 <p>The following HTML file redirects you to an immersive story where the focal point is to understand the persuasion tactics that salespeople would use in face-to-face interactions. The same tactics that have been forgone in the digital age. </p>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
-        <div class="row">
-            <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="twines/marketing4.html" scrolling="no"> </iframe>
-            </div>
+<div class="container px-0">
+    <div class="row">
+        <div class="col-12">
+            <iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="twines/marketing4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>
+</div>
 
 <div class="container">
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>As we have seen, marketing has evolved and continues to change as time progresses. Similarly, the fields of the academic world have also evolved prompting educators and researchers to invent new methodologies and technologies. For example, Economic modeling has become widely used that even companies can benefit from them. According to the International Monetary Fund website, an economic model is a simplified interpretation of the world that is created in order to hypothesize behavior. The beauty of an economic model is that they are subjective in nature as their design is completely in the hands of the creator. It is important to note there are two forms of economic models, theoretical and empirical. Theoretical models are used to verify the implications of behavior under the assumption that the given agents maximize their objectives with respect to the constraints found in the model. Meanwhile, empirical models verify qualitative predictions of theoretical models which oftentimes give a precise numerical outcome. A notable model is the Susceptibility to Persuasion-II scale (StP-II) scale that utilizes previously developed scales that stem from social psychology and behavioral economics. A recent study found that StP-II plays a vital part in understanding behavior modification techniques (Modic D, Anderson R, Palomäki J, 2018). With technology like the StP-II scale companies can receive a more precise prediction of whether customers will be easily persuaded or not and can adjust their marketing strategy accordingly. New and creative economic models are constantly being created by manufactories in order to optimize their sales and maximize profit.  For simplicity’s sake, economic modeling is a way to use mathematical theory and logic to theorize solutions for a specific problem. Companies can use economic modeling to their advantage by predicting human behavior. A previous study developed a model to understand persuasion in collective decision-making (Yokoyama, A. 1991). In other words, with the continuing improvements and accuracy of economic models, companies will soon be able to predict your actions and therefore take control of your free will. To explain the potential of economic modeling as a way of predicting human behavior with respect to persuasion, I have created a short story based in a dystopian world where companies have realized the power of the economic theory of persuasion. </p>
 
 
 
-        </div>
     </div>
+</div>
 </div>
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
-        <div class="row">
-            <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="700px" frameBorder="0" src="twines/persuason-models4.html" scrolling="no"> </iframe>
-            </div>
+<div class="container px-0">
+    <div class="row">
+        <div class="col-12">
+            <iframe id="my_iframe" width="100%" height="700px" frameBorder="0" src="twines/persuason-models4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>
+</div>
 
 <div class="container">
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>Marketing’s main goal is to persuade the individual regardless of the means. Therefore, some companies partake in psychological manipulation in order to effectively persuade you. One way to market your item is to pay the platform you are being hosted on. For example, Facebook and Amazon can both recommend users’ items and they can assure their audience will be perfect for your product by profiling them based on their likes and interests. There are many forms to manipulation an individual but some of the most prominent methods relied on the economic pillar of scarcity. Some examples of this are limited bonuses, special prices, countdown timers, and special day only events (Oldford, S. 2018, May 24). Marketers use psychological tactics to manipulate our senses. Since our unconscious mind processes information without our awareness, marketers can manipulate our senses by creating a real experience based on false illusions (Praet, D. V. 2013, June 3).In other words, they create an unconscious branding of their products that creates an idea of what to expect from them. In an effort to unpack the intricacies of persuasion and the many ways it can be performed; I have included one final interactive story that assigns you with the task of using persuasion to help a friend. </p>
 
-        </div>
     </div>
+</div>
 </div>
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
-        <div class="row">
-            <div class="col-12">
-                <iframe id="my_iframe" width="100%" height="800px" frameBorder="0" src="twines/persuade-friend4.html" scrolling="no"> </iframe>
-            </div>
+<div class="container px-0">
+    <div class="row">
+        <div class="col-12">
+            <iframe id="my_iframe" width="100%" height="800px" frameBorder="0" src="twines/persuade-friend4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>
+</div>
 
 <div class="container">
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
+<div class="row my-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>Marketing has expanded immensely since its creation. It now spans the internet as well as the fields of economic theory. The competition within marketing has caused companies to commit unethical actions such as manipulating consumers and creating economic models to predict and control your decision making. The best way to avoid being persuaded by any of the methods described in this paper is to become informed and aware. Some key aspects to focus on are to interrupt the recurring patterns of persuasion, change associations you make with brands, and understand the triggers that cause your decision making.  Once you are more conscientious of your decision making will you be able to understand how companies have already manipulated and persuaded your behavior to act in a specific from in regard to their brands. </p>
@@ -118,33 +122,33 @@
 
 
 <ol>
-    <li id='#bib01'>American Psychological Association, American Psychological Association, www.apa.org/news/press/releases/2017/08/persuasion-	consumers.</li>
-    <li id='#bib02'>Bacic, H. (2013, November 21). How To Let Web Design Drive Your Marketing Strategy.Retrieved from 	https://www.forbes.com/sites/allbusiness/2013/11/20/how-to-let-web-design-drive-your-marketing-strategy/#208deb982448</li>
-    <li id='#bib03'>Davis, Patricia A. The Art of Economic Persuasion: Positive Incetives and German Economic Diplomacy. The University of Michigan		 Press, 2002.https://www.press.umich.edu/23125/art_of_economic_persuasion</li>
-    <li id='#bib04'>Deirdre N. Knowledge and Persuasion in Economics. Cambridge University Press, 1993.  	https://www.cambridge.org/us/academic/subjects/economics/history-economic-thought-and-methodology/knowledge-and-	persuasion-economics?format=PB</li>
-    <li id='#bib05'>Dworczak, Piotr. The Simple Economics of Optimal Persuasion. (2019). http://www.giorgiomartini.com/papers/simple_persuasion.pdf</li>
-    <li id='#bib06'>Ouliaris, Sam. (2020). Finance & Development. (n.d.). Retrieved from https://www.imf.org/external/pubs/ft/fandd/basics/models.htm</li>
-    <li id='#bib07'>Hardy, J., Onukogu, G., Stoller, L., Ward, G., & Holmes, S. (2020, February 12). The History Of Marketing: From Trade to Tech. m   	Retrieved from https://historycooperative.org/the-evolution-of-marketing-from-trade-to-tech/</li>
-    <li id='#bib08'>Kamenica, Emir, and Matthew Gentzkow. 2011. "Bayesian Persuasion." American Economic Review, 101 (6): 2590-2615.
+<li id='#bib01'>American Psychological Association, American Psychological Association, www.apa.org/news/press/releases/2017/08/persuasion-	consumers.</li>
+<li id='#bib02'>Bacic, H. (2013, November 21). How To Let Web Design Drive Your Marketing Strategy.Retrieved from 	https://www.forbes.com/sites/allbusiness/2013/11/20/how-to-let-web-design-drive-your-marketing-strategy/#208deb982448</li>
+<li id='#bib03'>Davis, Patricia A. The Art of Economic Persuasion: Positive Incetives and German Economic Diplomacy. The University of Michigan		 Press, 2002.https://www.press.umich.edu/23125/art_of_economic_persuasion</li>
+<li id='#bib04'>Deirdre N. Knowledge and Persuasion in Economics. Cambridge University Press, 1993.  	https://www.cambridge.org/us/academic/subjects/economics/history-economic-thought-and-methodology/knowledge-and-	persuasion-economics?format=PB</li>
+<li id='#bib05'>Dworczak, Piotr. The Simple Economics of Optimal Persuasion. (2019). http://www.giorgiomartini.com/papers/simple_persuasion.pdf</li>
+<li id='#bib06'>Ouliaris, Sam. (2020). Finance & Development. (n.d.). Retrieved from https://www.imf.org/external/pubs/ft/fandd/basics/models.htm</li>
+<li id='#bib07'>Hardy, J., Onukogu, G., Stoller, L., Ward, G., & Holmes, S. (2020, February 12). The History Of Marketing: From Trade to Tech. m   	Retrieved from https://historycooperative.org/the-evolution-of-marketing-from-trade-to-tech/</li>
+<li id='#bib08'>Kamenica, Emir, and Matthew Gentzkow. 2011. "Bayesian Persuasion." American Economic Review, 101 (6): 2590-2615.
 https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590</li>
-    <li id='#bib09'>Mccloskey, Donald N. “How Economists Persuade.” Journal of Economic Methodology, vol. 1,no. 1, 1994, pp. 15–32., 	doi:10.1080/13501789400000002.http://doi.org/xx.xxx.xxxxhttps://www.deirdremccloskey.com/docs/pdf/Article_144.pdfMcC</li>
-    <li id='#bib10'>Modic D, Anderson R, Palomäki J (2018) We will make you like our research: The development of a susceptibility-to-persuasion	scale. PLoS ONE 13(3): e0194119. https://doi.org/10.1371/journal.pone.0194119</li>
-    <li id='#bib11'>Oldford, S. (2018, May 24). Stop Manipulating Your Customers With Live Product Launches. Retrieved from 	https://www.entrepreneur.com/article/313281</li>
-    <li id='#bib12'>Praet, D. V. (2013, June 3). How Marketers Manipulate You Without Your Knowing. Retrieved from 	https://www.psychologytoday.com/us/blog/unconscious-branding/201306/how-marketers-manipulate-you-without-your-	knowing</li>
-    <li id='#bib13'>Peter M. DeMarzo, Dimitri Vayanos, Jeffrey Zwiebel, Persuasion Bias, Social Influence, and Unidimensional Opinions, The
+<li id='#bib09'>Mccloskey, Donald N. “How Economists Persuade.” Journal of Economic Methodology, vol. 1,no. 1, 1994, pp. 15–32., 	doi:10.1080/13501789400000002.http://doi.org/xx.xxx.xxxxhttps://www.deirdremccloskey.com/docs/pdf/Article_144.pdfMcC</li>
+<li id='#bib10'>Modic D, Anderson R, Palomäki J (2018) We will make you like our research: The development of a susceptibility-to-persuasion	scale. PLoS ONE 13(3): e0194119. https://doi.org/10.1371/journal.pone.0194119</li>
+<li id='#bib11'>Oldford, S. (2018, May 24). Stop Manipulating Your Customers With Live Product Launches. Retrieved from 	https://www.entrepreneur.com/article/313281</li>
+<li id='#bib12'>Praet, D. V. (2013, June 3). How Marketers Manipulate You Without Your Knowing. Retrieved from 	https://www.psychologytoday.com/us/blog/unconscious-branding/201306/how-marketers-manipulate-you-without-your-	knowing</li>
+<li id='#bib13'>Peter M. DeMarzo, Dimitri Vayanos, Jeffrey Zwiebel, Persuasion Bias, Social Influence, and Unidimensional Opinions, The
 Quarterly Journal of Economics, Volume 118, Issue 3, August 2003, Pages	https://academic.oup.com/qje/article/118/3/909/1943014
 </li>
-    <li id='#bib14'>SAQIB RAHIM of ClimateWire. “Finding the 'Weapons' of Persuasion to Save Energy.” The New York Times, The New York Times		 21 June 2010, archive.nytimes.com/www.nytimes.com/cwire/2010/06/21/21climatewire-finding-the-weapons-of-persuasion-to-save-ene-8137.html? pagewanted=1.</li>
-    <li id='#bib15'>What is Marketing?: Part Four: Web Design and Development. (2019, November 15). Retrieved from
+<li id='#bib14'>SAQIB RAHIM of ClimateWire. “Finding the 'Weapons' of Persuasion to Save Energy.” The New York Times, The New York Times		 21 June 2010, archive.nytimes.com/www.nytimes.com/cwire/2010/06/21/21climatewire-finding-the-weapons-of-persuasion-to-save-ene-8137.html? pagewanted=1.</li>
+<li id='#bib15'>What is Marketing?: Part Four: Web Design and Development. (2019, November 15). Retrieved from
 https://seafoammedia.com/what-is-marketing-part-four-web-design-development/
 </li>
-    <li id='#bib16'>Yokoyama, A. An economic theory of persuasion. Public Choice 71, 101–115 (1991).https://doi.org/10.1007/BF00138454. </li>
+<li id='#bib16'>Yokoyama, A. An economic theory of persuasion. Public Choice 71, 101–115 (1991).https://doi.org/10.1007/BF00138454. </li>
 
 </ol>
 
 
-        </div>
     </div>
+</div>
 </div>
 
 
