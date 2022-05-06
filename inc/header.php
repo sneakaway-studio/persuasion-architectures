@@ -1,18 +1,6 @@
 <?php
 
-function isLocalhost($whitelist = ['127.0.0.1', '::1'])
-{
-    return in_array($_SERVER['REMOTE_ADDR'], $whitelist);
-}
-$site_root = "https://sneakaway.studio/persuasion-architectures/";
-$file_root = "";
-$page_title = "";
-if (isLocalhost()) {
-    $site_root = "http://localhost/SneakawayStudio/Pursuasion%20Architectures/persuasion-architectures/";
-}
-if ($subdirectory) {
-    $file_root = "../../";
-}
+include_once('functions.php');
 
 ?>
 
@@ -29,8 +17,8 @@ if ($subdirectory) {
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="<?php print($file_root); ?>assets/libs/bootstrap-darkly.min.css">
-    <link rel="stylesheet" href="<?php print($file_root); ?>assets/css/styles.css">
+    <link rel="stylesheet" href="<?php printFileRoot(); ?>assets/libs/bootstrap-darkly.min.css">
+    <link rel="stylesheet" href="<?php printFileRoot(); ?>assets/css/styles.css">
 </head>
 
 <body>

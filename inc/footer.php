@@ -3,7 +3,7 @@
 <div class="container-fluid footer-wrapper">
     <div class="row mt-5 py-5 footer-inner">
         <div class="col-12 col-lg-8 offset-lg-2 text-center">
-            Learn more about <a href="<?php print($file_root); ?>papers/about">Persuasion Architectures</a>
+            Learn more about <a href="<?php printFileRoot(); ?>papers/about">Persuasion Architectures</a>
         </div>
     </div>
 </div>
