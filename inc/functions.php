@@ -2,7 +2,7 @@
 
 
 $site_root = "https://sneakaway.studio/persuasion-architectures/";
-$file_root = "";
+$file_root = $site_root;
 $page_title = "";
 
 // tests
@@ -25,7 +25,7 @@ configInit();
  */
 function returnJsonData($key = "")
 {
-    $papers = json_decode(file_get_contents($file_root."data.json"), true);
+    $papers = json_decode(file_get_contents($file_root."data-papers.json"), true);
 
     if ($key != "" && is_array($papers[$key])) {
         return $papers[$key];
@@ -65,7 +65,8 @@ function configInit()
     global $subdirectory;
 
     if (isLocalhost()) {
-        $site_root = "http://localhost/_teaching/_code_web/persuasion-architectures";
+        $site_root = "http://localhost/_teaching/_code_web/persuasion-architectures/";
+	    $file_root = $site_root;
     }
     if ($subdirectory) {
         $file_root = "../../";
@@ -90,11 +91,15 @@ function printConfig()
 
 
 /**
- *	Return true if running on localhost
+ *	Printing functions
  */
 function printFileRoot()
 {
     global $file_root;
-
     print($file_root);
+}
+function printSiteRoot()
+{
+   global $site_root;
+   print($site_root);
 }

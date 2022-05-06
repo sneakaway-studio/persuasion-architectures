@@ -23,7 +23,7 @@ include_once('functions.php');
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?php print($site_root); ?>">Persuasion<br>Architectures</a>
+    <a class="navbar-brand" href="<?php printSiteRoot(); ?>">Persuasion<br>Architectures</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@ include_once('functions.php');
         <ul class="navbar-nav mr-auto"></ul>
         <ul class="navbar-nav my-2 my-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="<?php print($site_root); ?>papers/about/">About</a>
+                <a class="nav-link" href="<?php printSiteRoot(); ?>papers/about/">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/sneakaway-studio/persuasion-architectures">Github</a>
