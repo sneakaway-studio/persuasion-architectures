@@ -18,13 +18,14 @@ $papers = returnJsonData();
 			<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3">
                 <div class="card home-card bg-dark text-white h-100">
                     <img class="card-img-top w-100 img-fluid" alt="thumbnail"
-						src="papers/<?php print $key; ?>/img/<?php print $paper["thumbnail"]; ?>">
+						src="<?php printThumbnailPath($key,$paper); ?>">
                     <div class="card-body">
                         <a href="papers/<?php print $key; ?>" title="" class="stretched-link">
                             <h4 class="card-title"><?php print $paper["title"]; ?></h4>
                             <h6><?php print $paper["author"]; ?></h6>
                             <p class="card-text text-muted"><?php print $paper["subtitle"]; ?></p>
                         </a>
+						<p class="mt-1 card-text card-tags"><?php printTags($paper["tags"]); ?></p>
                     </div>
                 </div>
             </div>

@@ -1,65 +1,74 @@
 {
 	"de-angelis": {
 		"author": "Vittoria De Angelis",
-		"title": "If many are doing something, it must be worthwhile",
+		"title": "If many are doing something, <span class='title-break'>it must be worthwhile</span>",
 		"subtitle": "Social proof as a persuasion technique",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["social proof", "crowds"]
+		"tags": ["social proof", "crowds"],
+		"date": 2020
 	},
 	"gerig": {
 		"author": "Ginny Gerig",
 		"title": "Drinking the Kool-Aid",
 		"subtitle": "Cult recruiting, brainwashing, and how followers recover from this extreme persuasion",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["persuasion", "cults"]
+		"tags": ["cults"],
+		"date": 2020
 	},
 	"henderson": {
 		"author": "Patrick Henderson",
-		"title": "Why We Spend Billions on Cosmetic Items In Games",
-		"subtitle": "How videogame companies turn the free-to-play genre into an $80 billion industry",
+		"title": "Why We Spend Billions on <span class='title-break'>Cosmetic Items In Games</span>",
+		"subtitle": "How videogame companies turn the free-to-play genre into <span class='title-break'>an $80 billion<span class='widont'> </span>industry</span>",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["persuasion", "games"]
+		"tags": ["games"],
+		"date": 2020
 	},
 	"mackie": {
 		"author": "Clare Mackie",
 		"title": "Redefining Beauty",
 		"subtitle": "An investigation into the Irresistible lure of beauty in media",
 		"thumbnail": "women-600x400.png",
-		"tags": ["persuasion"]
+		"tags": ["beauty", "advertising"],
+		"date": 2020
 	},
 	"mckenna": {
 		"author": "Sydney McKenna",
 		"title": "'Donald Trump' Liked Your Post",
 		"subtitle": "An in-depth look at political advertising on Facebook",
 		"thumbnail": "broken-facebook-600x400.png",
-		"tags": ["persuasion"]
+		"tags": ["politics", "social media", "advertising"],
+		"date": 2020
 	},
 	"ortiz": {
 		"author": "Bryan Ortiz",
 		"title": "Forecasting Human Action",
 		"subtitle": "Can economic models predict human behavior?",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["persuasion"]
+		"tags": ["economics", "behavior"],
+		"date": 2020
 	},
 	"sherrill": {
 		"author": "Andrew Sherrill",
 		"title": "The User Experience",
 		"subtitle": "",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["persuasion"]
+		"tags": ["design", "UX"],
+		"date": 2020
 	},
 	"weld": {
 		"author": "Emily Weld",
 		"title": "Sufferring from Social Media Addiction",
 		"subtitle": "How apps stimulate chemicals in your brain to keep you hooked",
 		"thumbnail": "brain-600x400.png",
-		"tags": ["persuasion", "social media", "addiction"]
+		"tags": ["social media", "addiction"],
+		"date": 2020
 	},
 	"williams": {
 		"author": "George Williams",
 		"title": "Fear Not",
 		"subtitle": "A History of Anxiety in Advertising",
 		"thumbnail": "dentifrice-600x400.png",
-		"tags": ["persuasion"]
+		"tags": ["advertising", "fear"],
+		"date": 2020
 	}
 }

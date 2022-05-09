@@ -1,6 +1,11 @@
+<?php
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+$subdirectory = true;
+include_once('../../inc/header.php');
+$paper = returnJsonData("henderson");
+// print_r($paper);
+
+?>
 
 
 
@@ -9,8 +14,9 @@
 <div class="container">
     <div class="row my-5">
         <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>Why We Spend Billions on Cosmetic Items In Video Games</h2>
-            <h4>Patrick Henderson</h4>
+            <h2><?php print $paper['title']; ?></h2>
+	        <h3><?php print $paper['subtitle']; ?></h3>
+            <h4><?php print $paper['author']; ?></h4>
         </div>
     </div>
 </div>
@@ -49,7 +55,7 @@
         <div class="embed-responsive embed-responsive-16by9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNuqLZsr8f5w06Dw2Zw4fgQ1xpD_foxkjCpwWDr5ZiO7yNzlUnvHi5BmLUYJbYzC2VJOezHL3ZAVDB/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
-        <figcaption class="figure-caption">Caption goes here</figcaption>
+        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
 
     </div>
 </div>
@@ -104,7 +110,7 @@
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hybI3fhigc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <figcaption class="figure-caption">Caption goes here</figcaption>
+        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
 
     </div>
 </div>

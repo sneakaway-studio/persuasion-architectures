@@ -1,13 +1,19 @@
+<?php
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+$subdirectory = true;
+include_once('../../inc/header.php');
+$paper = returnJsonData("de-angelis");
+// print_r($paper);
+
+?>
 
 
 <div class="container">
     <div class="row my-5">
         <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>If many are doing something, <span class="title-break">it must be worthwhile</span></h2>
-            <h4>Vittoria De Angelis</h4>
+            <h2><?php print $paper['title']; ?></h2>
+	        <h3><?php print $paper['subtitle']; ?></h3>
+            <h4><?php print $paper['author']; ?></h4>
         </div>
     </div>
 </div>

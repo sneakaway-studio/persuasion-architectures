@@ -20,6 +20,10 @@ body {
 .home-card h6 {
     color: #ccc;
 }
+.card-tags {
+    color: #666;
+    text-decoration: none;
+}
 
 
 /*  FOOTER
@@ -38,6 +42,15 @@ body {
 .paper-title h2 {
     font-family: 'PT Serif', serif;
 }
+.paper-title h3 {
+    font-family: 'PT Serif', serif;
+	font-weight: normal;
+	font-size: 140%;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .paper-title h4 {
     margin-top: 30px;
     color: #aaa;
@@ -48,11 +61,22 @@ body {
         display: inline-block;
     }
 }
+/**
+ * Control wrapping with CSS! :)
+ * https://workingconcept.com/blog/preventing-widows-responsive-layouts
+ */
+.widont {
+    white-space: nowrap;
+    @media screen and (max-width: 576px) {
+        white-space: normal;
+    }
+}
+
 
 .subheading {
     text-align: center;
-    margin-bottom: 20px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 

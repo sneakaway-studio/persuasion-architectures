@@ -1,5 +1,11 @@
 <?php
 
+// TURN ON ERRORS -> DEBUGGING
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+
 
 $site_root = "https://sneakaway.studio/persuasion-architectures/";
 $file_root = $site_root;
@@ -25,6 +31,8 @@ configInit();
  */
 function returnJsonData($key = "")
 {
+	global $file_root;
+
     $papers = json_decode(file_get_contents($file_root."data-papers.json"), true);
 
     if ($key != "" && is_array($papers[$key])) {
@@ -37,10 +45,10 @@ function returnJsonData($key = "")
 
 // $papers = returnJsonData();
 // // print_r($papers);
-//
+
 // $paper = returnJsonData("gerig");
 // print_r($paper);
-//
+
 // foreach($papers as $key => $value){
 // 	print($key."<br>");
 // }
@@ -66,7 +74,7 @@ function configInit()
 
     if (isLocalhost()) {
         $site_root = "http://localhost/_teaching/_code_web/persuasion-architectures/";
-	    $file_root = $site_root;
+        $file_root = $site_root;
     }
     if ($subdirectory) {
         $file_root = "../../";
@@ -90,6 +98,9 @@ function printConfig()
 }
 
 
+
+
+
 /**
  *	Printing functions
  */
@@ -100,6 +111,23 @@ function printFileRoot()
 }
 function printSiteRoot()
 {
-   global $site_root;
-   print($site_root);
+    global $site_root;
+    print($site_root);
+}
+function printTags($arr)
+{
+	$str = "";
+	foreach ($arr as $key => $value) {
+		if ($value == "") continue;
+		$str .= "#$value ";
+	}
+    print($str);
+}
+function printThumbnailPath($key, $paper)
+{
+    if ($paper["thumbnail"] == "") {
+		print("papers/about/img/thumb-default-600x400.png");
+	} else {
+    	print("papers/$key/img/".$paper["thumbnail"]);
+	}
 }

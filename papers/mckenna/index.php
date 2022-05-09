@@ -26,7 +26,7 @@
         <div class="col-12">
             <figure class="figure w-100">
                 <img src="img/broken-facebook.jpg" alt="thumb" class="figure-img w-100 img-fluid">
-                <figcaption class="figure-caption">Caption goes here</figcaption>
+                <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
             </figure>
         </div>
     </div>
