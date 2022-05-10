@@ -110,6 +110,17 @@ iframe {
 }
 
 
+/* hide twine side bar */
+#ui-bar {
+	display: none;
+}
+#story {
+	margin-left: 3.5em;
+}
+
+
+
+
 
 /*  de-angelis-slideshow
  ******************************************************************************/

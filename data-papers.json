@@ -1,4 +1,98 @@
 {
+
+	"botelho": {
+		"author": "Blake Botelho",
+		"title": "The Art of Persuasion",
+		"subtitle": "An Analysis of the YouTube Recommendation Algorithm",
+		"thumbnail": "thumb-600x400.png",
+		"tags": ["youtube", "filters", "toxic"],
+		"date": 2022
+	},
+	"bunch": {
+		"author": "Mary Grace Bunch",
+		"title": "The Power of Marketing Tactics in Influencing Consumer Behavior",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["branding", "advertising", "psychology"],
+		"date": 2022
+	},
+	"carpenter": {
+		"author": "Hope Carpenter",
+		"title": "Consumer Rewards",
+		"subtitle": "Not as Rewarding as One Might think",
+		"thumbnail": "",
+		"tags": ["gamification", "rewards"],
+		"date": 2022
+	},
+	"corkery": {
+		"author": "Owen Corkery",
+		"title": "xxxxx",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["youtube", "filters"],
+		"date": 2022
+	},
+	"danish": {
+		"author": "Sophie Danish",
+		"title": "The Persuasion of Lateral Surveillance",
+		"subtitle": "",
+		"thumbnail": "thumb-600x400.png",
+		"tags": ["technology", "crime", "security"],
+		"date": 2022
+	},
+	"gilliland": {
+		"author": "Virginia Gilliland",
+		"title": "Reward Learning, Dopamine, and the Like Button",
+		"subtitle": "Strategies Employed By Big Tech to Capture Consumer Attention",
+		"thumbnail": "thumb-600x400.png",
+		"tags": ["attention", "notifications"],
+		"date": 2022
+	},
+	"holleman": {
+		"author": "Maddie Holleman",
+		"title": "xxxxx",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["disney", ""],
+		"date": 2022
+	},
+	"howell": {
+		"author": "Henry Howell",
+		"title": "We Are What We’re Forced To Eat",
+		"subtitle": "How the Food Industry Uses Persuasive Techniques to Encourage Unhealthy Eating Practices",
+		"thumbnail": "thumb-600x400.png",
+		"tags": ["food", "industry", "advertising"],
+		"date": 2022
+	},
+	"rothman": {
+		"author": "Evan Rothman",
+		"title": "xxxxx",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["gamification", "coercion", "rewards"],
+		"date": 2022
+	},
+	"scofield": {
+		"author": "Lake Scofield",
+		"title": "Architectures of Control",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["youtube", "filters"],
+		"date": 2022
+	},
+	"sigl": {
+		"author": "Caroline Sigl",
+		"title": "xxxxx",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": ["youtube", "filters"],
+		"date": 2022
+	},
+
+
+
+
+
 	"de-angelis": {
 		"author": "Vittoria De Angelis",
 		"title": "If many are doing something, <span class='title-break'>it must be worthwhile</span>",

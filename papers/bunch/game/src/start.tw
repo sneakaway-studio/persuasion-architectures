@@ -1,0 +1,404 @@
+:: StoryTitle
+Buy or Save? 
+
+:: StoryData
+{
+        "ifid": "EC397877-1E92-4613-908D-C884A4215407",
+        "start": "Start",
+        "format": "SugarCube",
+        "format-version": "2.30.0"
+}
+
+:: StoryInit
+/*
+This is a comment. Tweego won't do anything with it.
+The StoryInit passage is where you set up all the variables
+you're going to use, and anything else you want to happen
+as the game loads.
+*/
+
+/* Dialog boxes - dialog wiki */
+
+/* use the below variables to keep track of number of times they are swayed by the given tactics*/
+<<set $higher_value to 0>>
+<<set $bargain to 0>>
+<<set $influencer to 0>>
+<<set $word_of_mouth to 0>>
+<<set $fomo to 0>>
+<<set $purchase to 0>>
+<<set $curiosity to 0>>
+<<set $email_list to false>>
+<<set $tricky to 0>>
+<<set $still_save to false>>
+
+:: Start
+!!Welcome to ''<span style="color: green;">Buy or Save?</span>'' 
+!!!!A game about consumer behavior. 
+!!!!Click [[here -> scenario-1]] to begin.
+
+:: scenario-1
+You ''love'' clothes. You face temptations every day to shop and buy. 
+
+In this game, consider yourself to be financially stable such that you have the means to buy if you so choose. 
+
+[[continue]]
+
+:: continue
+The brand you will be exposured to is <span style="color: green;">Aerie</span>.
+
+<<linkreplace "Find out a bit more about them">><span style="color: green;">Aerie</span> is all about being REAL! Aerie is women's clothing, like high-waisted leggings activewear, swimsuits, bras, bralettes, women's underwear and more! From the softest fabrics to the cutest prints, they've got you covered. [[Sounds good?]]<</linkreplace>>
+
+:: Sounds good?
+You will go through a series of scenarios in your day to day life and be forced to make decisions. 
+
+The creator asks that you answer each prompt as authentically as possible, such that it reflects your choices in real life. 
+
+[[Let's get started->instagram-1]] 
+
+
+/* instagram targetted ads */
+:: instagram-1
+You are at work and you are on your lunch break. You start checking social media. As you scroll through Instagram, an Aerie ad pops up. 
+
+It is a really cute <<linkappend "spring dress" >>
+<img src="src/sun_dress_instagram.jpg" alt="Yellow Sundress" width="400px">
+<</linkappend>>
+
+You don't need it, but you [[click on it -> engage][$curiosity to $curiosity + 1]] anyways or [[keep scrolling -> back to insta]]. 
+
+
+:: engage
+You think, wow! That is a cute dress. Let's see how much it costs. You [[click]] on the advertisement. 
+
+:: click
+You land on the Aerie webpage and there is a <<linkappend "POP UP">> 
+
+<img src="src/email-signup.png" alt="Email Sign Up" width = "500px">
+You [[subscribe->deal][$email_list to true]] to get the special deal and promotional emails, or choose to [[close out the pop up->deal]].
+<</linkappend>>
+/* know if you can do the email prompt later on */
+
+:: deal 
+The dress is <span style="color: green;">30% off</span> and you really love it. 
+<img src="src/sun_dress.png" alt="Yellow Sundress" width="400px">
+Do you [[add it to your cart->cart][$bargain to $bargain + 1]] or [[go back to instagram and keep scrolling->back to insta]]? 
+
+:: cart 
+<span style="color: green;">You add the dress to your cart.</span>
+
+But then you start thinking about it. 
+
+You haven't bought anything from Aerie before. 
+
+You don't know how it will fit. Will it run big? small? fit true to size? 
+
+So, you decided to [[check the reviews->reviews][$word_of_mouth to $word_of_mouth + 1]] or [[go back to instagram and keep scrolling->back to insta]]
+
+:: reviews
+You start reading the dress reviews. There are a handful on there. The item is rated <span style="color: green;">4.8 stars</span>. 
+
+It must be <span style="color: green;">high quality</span>, you think. 
+
+You continue scrolling because you want to find out the sizing. 
+
+<<linkreplace "You scroll">>Most of the reviews are saying true to size. So, you think your size will just be based on the size chart. 
+
+Given this information [[you decide to go back to the cart to buy-> sizing][$word_of_mouth to $word_of_mouth + 1]] or after thinking about it [[you still aren't sure if you should trust the sizing->no trust sizing]]<</linkreplace>>
+
+:: sizing 
+You <span style="color: green;">value</span> the sizing information and <span style="color: green;">trust</span> the reviews. You <span class='gold'>[[buy -> buy dress][$purchase to $purchase + 1]]</span> the dress, or [[save->back to insta]]? 
+
+:: buy dress
+You put in the shipping address and <span style="color: green;">make the purchase</span>! 
+
+You are super excited to be saving the 30% and to have this new dress for the springtime. 
+
+Once you bought it, it is still lunch break so you [[go back to instagram and finish eating -> back to insta]].
+
+:: no trust sizing 
+You don't know if you really want to spend the money without knowing if it fits for sure or not, so you [[head back to instagram -> back to insta]]
+
+:: back to insta
+You scroll a little longer then enjoy the rest of your break before getting back to work. 
+
+[[That weekend-> in-person-2]]...
+/* end of scenario with instagram targetted ad */
+
+:: not interested
+You don't have time for the email ads. So you [[get on with your day->instagram-1]]. 
+
+:: in-person-2
+You are hanging out with your friends at the pool. You really like your friends swim suit, so [[you compliment her]].
+
+:: you compliment her
+"I love your swim suit!" you say. It is just <<linkappend "so cute.">> 
+<img src="src/cute_suit.png" alt="Cute Swim Suit" width="350px"><</linkappend>>
+<<linkappend "She responds">>, Thank you! It is from Aerie! It is super comfortable and makes me feel confident. So you ask, [[how much was it?->suit cost]]<</linkappend>>
+
+:: suit cost
+Your friend tells you she just got it on sale the other day. Each piece is just $20 (tops regular price are $39.95, and bottoms $29.95). 
+
+Which sounds more like you: 
+
+1. You think woah, <span style="color: green;">that is a good deal</span> to get $19.95 off tops and $9.95 off bottoms. After the pool you [[go on your phone-> 20 suits][$bargain to $bargain + 1]] to see if Aerie is still having the sale. 
+
+2. You aren't really phased by the deal because you are [[not planning on buying -> carry on]] any new swimsuits. <span style="color: purple;">It doesn't matter there is a sale.</span>
+
+:: 20 suits
+You look online and the swimsuits are now 30% off. Does that still sound like a good deal to you? 
+
+[[yes->30 percent][$bargain to $bargain + 1]] or [[no -> save-swimsuit ]]
+
+:: carry on
+What if I told you that the swimsuits are now buy one get one free? Do you wish you had checked? 
+
+[[yes->checked][$trick to $tricky + 1]] or [[no ->influencer-1]]
+
+:: 30 percent
+The original cost of the top and bottom together was $69.90. 
+If we took 30% off that is $41.94. 
+Which is really just $1.94 more than the $20 a piece deal. 
+
+That is pretty darn good! Since this is still a good deal, do you want to [[buy -> bought]] or [[save -> save-swimsuit]]? 
+
+:: save-swimsuit
+You are choosing to save on the swimsuit, even if that means it might sell out? and even if that means it might not go on sale again anytime soon? 
+
+[[yes -> influencer-1]] or [[actually I do want it if it means I can't get it later -> bought][$fomo to $fomo + 1]]
+
+:: bought
+<<set $purchase to $purchase + 1>>
+You go ahead and splurge on the suit. You don't need it but it is a deal you can't pass up. 
+
+Are you happy with this decison? [[yes -> happy ]] or [[no -> not happy]]
+
+:: happy 
+Your suit will be here in just 5 days! Woo hoo. 
+
+[[Time to get on with your day -> influencer-1]]
+
+:: not happy
+You really feel like you have been persuaded into buying the suit. Its okay, because you can return it if you change your mind later. 
+
+[[Let's keep going -> influencer-1]]
+
+:: checked 
+The regular price of a suit set is $69.90. 
+
+When you decided you weren't interested in the $20 a piece deal, you were going to get a suit for $40 and saving $29.90. 
+
+With the buy one get one free deal, you will still be spending $39.95 for the suit and saving $29.95 since the bottoms would be free. 
+
+The idea of BOGO free sounds enticing, but it was really just a 5 cent difference compared to the $20 a piece deal. 
+
+[[Advertisements can be tricky.->influencer-1]]
+
+/* See an influence wearing something you like, see it is endorsed with a deal */
+:: influencer-1
+On Instagram, you follow several celebrities. You look up to them for different reasons, for example their talent, how they treat others, their lifestyle, and even just for their style. Since you admire them, you value their opinions and trust what they endorse. 
+
+You tend to like what they post...otherwise you would have unfollowed them by now. So as you scroll, you [[notice a brand deal]]. 
+
+:: notice a brand deal
+
+It's Aly Raisman. World famous gymnast.
+
+<<linkappend "Let's see what she posted." >>
+<img src="src/raisman-promo.jpg" alt="Aly Raisman Instagram Post" width="400px">
+
+Do you want to know [[what it means to be an #AerieREAL ambassador? -> partner][$influencer to $influencer + 1]]
+
+<</linkappend>>
+
+:: partner
+As an ambassador, you let your real self shine and inspire others to do the same. You embody <span style="color: green;">body positivity</span>. 
+
+[[That's awesome -> impresses you]]
+
+/* The following section asks questions about brands that support higher purposes: */
+:: impresses you
+Today, <span style="color: green;">body positivity</span> movements have been extremely popular in empowering women to feel more confident in who they are. 
+
+It is redefining the standard of beauty, and that is something <span style="color: green;">important to you</span>.
+
+With that being said, are you more likely to shop at <span style="color: green;">Aerie</span> after finding this out? 
+[[yes -> better world][$higher_value to $higher_value + 1]] or [[no -> better world]]
+
+:: better world
+Aerie also has a mission called <<linkappend "Better World">>, where they give back to non-profits like Feeding America, NEDA, and Special Olympics<</linkappend>>.
+
+Does this initiative make you feel better about shopping their clothes? 
+[[yes -> sustainability][$higher_value to $higher_value + 1]] or [[no -> sustainability]]
+
+:: sustainability
+How about <span style="color: green;">sustainability</span>? 
+
+Aerie is comitted to a better future and is continuing to make changes to support positive <<linkappend "environmental efforts">>
+
+For example, the majority of their green house gas emissions are from 
+manufacturing (95%). With that being said, they are comitted to <span style="color: green;">decreasing their manufacturing by 40%</span>. They are also committed to the <span style="color: green;">RE 100, or 100% renewable energy</span>. 
+Their goals are in line with the Paris Agreement. These are just a few, among many things they do to <span style="color: green;">promote sustainability</span>.
+
+It is pretty impressive. 
+
+Does sustainability matter to you? [[yes->sustainability cost][$higher_value to $higher_value + 1]] or [[no->next scenario]]
+
+<</linkappend>>.
+
+:: sustainability cost 
+So, be honest. Are you are willing to [[spend $35 -> next scenario][$higher_value to $higher_value + 1]] on a dress of higher quality and made sustainability, that you can wear more than once. Or, would rather by a similar dress that is cheaper in quality and the material won't hold us as long for [[$15 -> next scenario]].  
+
+:: next scenario
+We may have just gone on a tangent to reflect on your moral ties to the companies you shop from. It's always good to think about ''who'' you are buying from. 
+
+[[The next day -> in-person-1]]...
+
+:: in-person-1
+You are at a coffee shop. 
+
+The person in front of you in line are is in yoga pants that look super comfortable. You reflect on how these "flare leggings" have been super trendy lately. 
+
+They seem to be <span style="color: purple;">cute, flattering, and comfy </span>. The woman wearing them looks about your age and seems approachable. 
+
+You [[compliment her leggings -> compliment][$curiosity to $curiosity + 1]] or decide you [[don't care to engage -> keep on going]]. 
+
+:: compliment
+You say <span style="color: purple;">"I love your leggings, they are so cute." </span>
+
+<<linkappend "She responds">> "Thank you! They are from my favorite store, <span style="color: green;">Aerie!</span>" 
+
+You are not even surprised at this point. But, you haven't shopped their leggings before. Want to check them out? 
+
+[[yes -> leggings]] or [[no -> email-1]]
+
+<</linkappend>>
+
+:: leggings
+You head to the Aerie website and start <<linkappend "scrolling through their leggings." >>
+<img src="src/legging.png" alt="Aerie leggings" width="600px">
+
+You notice they on sale for <span style="color: green;"> 50% off! </span>
+
+Do you [[buy -> buy result][$purchase to $purchase + 1]] or [[save -> save result]]?
+
+<</linkappend>>
+
+:: buy result
+<<set $bargain to $bargain + 1>>
+
+/* if subscribed to email go to one thing, if not go to another */
+Overall, you are [[happy -> keep on going]] or [[disappointed -> keep on going]] with your purchase. 
+
+:: save result 
+Are you sure? <span style="color: green;"> 50% off!? </span> That is the best sale they will EVER go on. 
+
+[[Buy -> keep on going][$purchase to $purchase + 1]] or [[still save -> keep on going][$still_save to true]]? 
+
+:: keep on going 
+<<if $still_save is true>> You have strong will power. 
+<<else>>
+<<if hasVisited("leggings")>>
+<<set $bargain to $bargain +1>>
+You may not have needed these leggings, but if you were ever going to buy them now was the time. 50% off is the best discount Aerie will ever have for them! <</if>> <</if>>
+
+<<if $email_list is true>>
+[[Let's see what happens the next day -> email-1]]
+
+<<else>>
+[[Let's see what happens the next day -> offer-2]]
+<</if>>
+
+/* email - go to this path if they had subscribed. */
+:: email-1 
+Remembering putting in your email for promotions? 
+
+Well, it is 7:30 am. Your alarm goes off. You pick up your phone. The first thing you do is check your email. 
+
+You start reading your latest email updates. In your inbox is an email from Aerie with the headline:
+<span style="color: purple;">[["An email for you - this offer is AMAZING"->click offer][$bargain to $bargain + 1]]</span>
+Though it sounds interesting, you choose to [[ignore it -> offer-2]].
+
+:: click offer
+Take 25% off when you shop in the app! 
+
+Do you go [[buy -> offer-2 ][$bargain to $bargain + 1]] something on the app, or [[save -> offer-2]]? 
+
+:: offer-2
+Once again, you find yourself scrolling on Instagram. Unashamingly, you check it often.
+
+You see a post from <<linkappend "Madelyn Cline">> 
+
+<img src="src/cline-promo.jpg" alt="Madelyn Cline promo" width = "400px">
+
+Does seeing this make you want to go exploring the Aerie (or American Eagle) website? 
+[[yes ->explore][$influencer to $influencer + 1]] or [[no -> no explore]]
+<</linkappend>>
+
+:: explore
+<<linkappend "Lucky for you">> 
+<img src="src/new_arrivals.png" alt="new arrivals on website" width = "400px"> 
+You might be exploring for hours! Clearly, there are endless possibilities and ways Aerie can [[draw you to their content -> last]]. 
+<</linkappend>>
+
+:: no explore
+Clearly, there are endless possibilities and ways Aerie can draw you to their content. 
+You were resilient to this one, but [[were you resilient to everything? -> last ]]
+
+:: last 
+Through this game, you have been placed in various situations where you had to make decisions. 
+
+These decisions helped the creators get an idea of your consumer behaviors.
+
+[[Let's see you results -> results]]
+
+:: results 
+
+<span style="color: violet;">''Here is what we have found:''</span>
+
+In this game, there was a spring dress, leggings, and a swimsuit. You ended up purchasing <<print $purchase >> out of the 3 items. 
+
+<<if $higher_value gte 2>> What retailers are doing beyond just selling clothes is <span style="color: green;">important</span> to you. <<else>> What retailers are doing beyond just selling clothes is <span style="color: purple;">not very important</span> to you. <</if>>
+
+<<if $bargain gte 2>> You were exposured to several bargains during this game. We've learned that you are <span style="color: green;">very susceptible to bargains</span>. Even if the item is something you don't need, you are likely to look into it or buy it because it is on sale. <<else>> You may value a good bargain, but just because something is on sale, you will <span style="color: purple;">not</span> always be drawn to it. <</if>>
+
+<<if $influencer gte 1>> You value what <span style="color: green;">influencers</span> online are promoting. We have found that what your online "role models" are doing influences your consumer behavior.  <<else>> You may be exposured to content by influencer online, but you don't let their posts lead you down a rabbit hole to purchase unnecessary things. <</if>>
+
+<<if $word_of_mouth gte 1>> You value what <span style="color: green;">other people</span> are saying. This could be reviews or your friends. Validating your purchases by how others feel about them is important to you. <<else>> You <span style="color: purple;">don't</span> seem to care what other people are saying. You don't let what your friends or peers are saying sway you to engage with content you don't want to. <</if>>
+
+<<if $curiosity gte 1>> You are <span style="color: green;">curious.</span> This may lead you to engaging with persuasive content or be put in situations where you are likely to be persuaded. <<else>>You aren't the curious type. You <span style="color: purple;">don't</span> feel the need to click on ads online or ask someone where they got their clothes. <</if>>
+
+<<if hasVisited("carry on") and $tricky is 1>> Persuasion and advertisements online can be <span style="color: red;">tricky</span>. Sometimes certain wording can sound better than others, but still mean the same thing. Be careful with this. <</if>>
+<<if hasVisited("save-swimsuit") and $fomo is 1>> You have fallen victim to <span style="color: red;">FOMO</span>, fear of missing out. This is common. You may find yourself feeling the urge to buy something just because you fear <span style="color: purple;">not</span> being able to get it later. <</if>>
+
+[[let's reflect]]
+
+:: let's reflect
+
+The retail industry as a whole utilizes a handful of key tactics to persuade consumers to make unnecessary purchases. In today’s technology driven world, each of the tactics discussed can be implemented through the internet, a company’s website, social media, or email. 
+
+In an article from USA Today, they describe a 2019 study that found the average American adult spends an average of $84.11 per month online shopping, adding up to over $1,000 a year. <span style="color: green;">Unnecessary purchases add up and can be detrimental to financial goals.</span> Making the three purchases in this game would already put you at that $85. 
+
+Through this game, we hope you have a better understanding of your buying behaviors and areas where you need to be careful browsing online so that you can avoid temptations and ultimately save more money. 
+
+As a consumer, <span style="color: green;">it will not always be easy.</span> That is what the businesses want. If you are particularly vulnerable to marketing tactics, be kind to yourself, you are only human. Sometimes an unnecessary purchase is needed to make you feel good. That is part of the process and your growth as you become a wise and self-determining consumer. 
+
+''Happy buying (or saving)!''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
