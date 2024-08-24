@@ -29,7 +29,7 @@
 		"title": "xxxxx",
 		"subtitle": "",
 		"thumbnail": "",
-		"tags": ["youtube", "filters"],
+		"tags": ["youtube", "machine learning", "ai", "filters"],
 		"date": 2022
 	},
 	"danish": {
@@ -45,15 +45,15 @@
 		"title": "Reward Learning, Dopamine, and the Like Button",
 		"subtitle": "Strategies Employed By Big Tech to Capture Consumer Attention",
 		"thumbnail": "thumb-600x400.png",
-		"tags": ["attention", "notifications"],
+		"tags": ["attention", "notifications", "dopamine"],
 		"date": 2022
 	},
 	"holleman": {
 		"author": "Maddie Holleman",
-		"title": "xxxxx",
-		"subtitle": "",
+		"title": "Magical Manipulation",
+		"subtitle": "Consumer Persuasion at Disney Parks and Resorts",
 		"thumbnail": "",
-		"tags": ["disney", ""],
+		"tags": ["disney", "sensory", "experience", "smell"],
 		"date": 2022
 	},
 	"howell": {
@@ -77,15 +77,15 @@
 		"title": "Architectures of Control",
 		"subtitle": "",
 		"thumbnail": "",
-		"tags": ["youtube", "filters"],
+		"tags": ["architecture", "discipline"],
 		"date": 2022
 	},
 	"sigl": {
 		"author": "Caroline Sigl",
-		"title": "xxxxx",
+		"title": "The Social Feed Feature",
 		"subtitle": "",
 		"thumbnail": "",
-		"tags": ["youtube", "filters"],
+		"tags": ["venmo", "feeds", "social media"],
 		"date": 2022
 	},
 

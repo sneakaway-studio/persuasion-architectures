@@ -11,16 +11,17 @@ $site_root = "https://sneakaway.studio/persuasion-architectures/";
 $file_root = $site_root;
 $page_title = "";
 
-// tests
 
+configInit();
+
+// tests
 // print "<pre>";
 // print_r($_SERVER);
 // print "</pre>";
 // printConfig();
 
-configInit();
 
-// printConfig();
+
 
 
 
@@ -32,19 +33,26 @@ configInit();
 function returnJsonData($key = "")
 {
 	global $file_root;
+	$path = $file_root . "data-papers.json";
+	$contents = file_get_contents($path);
+	// print "<br>path = $path";
+	// print "<br>contents = $contents";
+	$papers = json_decode($contents, true);
+	// print "<br>papers = ";
+	// print_r( $papers);
 
-    $papers = json_decode(file_get_contents($file_root."data-papers.json"), true);
-
-    if ($key != "" && is_array($papers[$key])) {
-        return $papers[$key];
-    } else {
-        return $papers;
-    }
+	if ($key != "" && isset($papers[$key]) && is_array($papers[$key])) {
+		return $papers[$key];
+	} else {
+		return $papers;
+	}
 }
 // tests
 
+// MAKE SURE THE JSON IS VALID!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // $papers = returnJsonData();
-// // print_r($papers);
+// print_r($papers);
 
 // $paper = returnJsonData("gerig");
 // print_r($paper);
@@ -60,7 +68,7 @@ function returnJsonData($key = "")
  */
 function isLocalhost($address = ['127.0.0.1', '::1'])
 {
-    return in_array($_SERVER['REMOTE_ADDR'], $address) || $_SERVER['HTTP_HOST'] == 'localhost';
+	return in_array($_SERVER['REMOTE_ADDR'], $address) || $_SERVER['HTTP_HOST'] == 'localhost';
 }
 
 /**
@@ -68,17 +76,20 @@ function isLocalhost($address = ['127.0.0.1', '::1'])
  */
 function configInit()
 {
-    global $site_root;
-    global $file_root;
-    global $subdirectory;
+	global $site_root;
+	global $file_root;
+	global $subdirectory;
+	// print( "isLocalhost = " . isLocalhost());
 
-    if (isLocalhost()) {
-        $site_root = "http://localhost/_teaching/_code_web/persuasion-architectures/";
-        $file_root = $site_root;
-    }
-    if ($subdirectory) {
-        $file_root = "../../";
-    }
+	if (isLocalhost()) {
+		$site_root = "http://localhost/_teaching/_code_web/persuasion-architectures/";
+		$file_root = $site_root;
+	}
+	if ($subdirectory) {
+		$file_root = "../../";
+	} else {
+		$file_root = "./";
+	}
 }
 
 /**
@@ -86,15 +97,15 @@ function configInit()
  */
 function printConfig()
 {
-    global $site_root;
-    global $file_root;
-    global $page_title;
+	global $site_root;
+	global $file_root;
+	global $page_title;
 
-    print "<pre>";
-    print('$site_root = '. $site_root . "<br>");
-    print('$file_root = '. $file_root . "<br>");
-    print('$page_title = '. $page_title . "<br>");
-    print "</pre>";
+	print "<pre>";
+	print('$site_root = ' . $site_root . "<br>");
+	print('$file_root = ' . $file_root . "<br>");
+	print('$page_title = ' . $page_title . "<br>");
+	print "</pre>";
 }
 
 
@@ -106,13 +117,13 @@ function printConfig()
  */
 function printFileRoot()
 {
-    global $file_root;
-    print($file_root);
+	global $file_root;
+	print($file_root);
 }
 function printSiteRoot()
 {
-    global $site_root;
-    print($site_root);
+	global $site_root;
+	print($site_root);
 }
 function printTags($arr)
 {
@@ -121,13 +132,13 @@ function printTags($arr)
 		if ($value == "") continue;
 		$str .= "#$value ";
 	}
-    print($str);
+	print($str);
 }
 function printThumbnailPath($key, $paper)
 {
-    if ($paper["thumbnail"] == "") {
+	if ($paper["thumbnail"] == "") {
 		print("papers/about/img/thumb-default-600x400.png");
 	} else {
-    	print("papers/$key/img/".$paper["thumbnail"]);
+		print("papers/$key/img/" . $paper["thumbnail"]);
 	}
 }
