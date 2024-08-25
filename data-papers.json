@@ -28,7 +28,7 @@
 		"author": "Owen Corkery",
 		"title": "xxxxx",
 		"subtitle": "",
-		"thumbnail": "",
+		"thumbnail": "corkery.jpeg",
 		"tags": ["youtube", "machine learning", "ai", "filters"],
 		"date": 2022
 	},
@@ -76,7 +76,7 @@
 		"author": "Lake Scofield",
 		"title": "Architectures of Control",
 		"subtitle": "",
-		"thumbnail": "",
+		"thumbnail": "wall.png",
 		"tags": ["architecture", "discipline"],
 		"date": 2022
 	},
@@ -120,7 +120,7 @@
 	"mackie": {
 		"author": "Clare Mackie",
 		"title": "Redefining Beauty",
-		"subtitle": "An investigation into the Irresistible lure of beauty in media",
+		"subtitle": "An investigation into the irresistible lure of beauty in media",
 		"thumbnail": "women-600x400.png",
 		"tags": ["beauty", "advertising"],
 		"date": 2020
@@ -163,6 +163,19 @@
 		"subtitle": "A History of Anxiety in Advertising",
 		"thumbnail": "dentifrice-600x400.png",
 		"tags": ["advertising", "fear"],
+		"date": 2020
+	},
+
+
+
+
+
+	"about": {
+		"author": "Owen Mundy",
+		"title": "Persuasion Architectures",
+		"subtitle": "",
+		"thumbnail": "",
+		"tags": [],
 		"date": 2020
 	}
 }

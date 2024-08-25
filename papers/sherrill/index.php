@@ -1,22 +1,16 @@
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+<?php
+
+$author = "sherrill";
+include_once('../../inc/paper-heading.php');
+// print_r($paper);
+
+// NOTES
+// ...
+
+?>
 
 
-
-
-
-
-
-
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>The User Experience</h2>
-            <h4>Andrew Sherrill</h4>
-        </div>
-    </div>
-</div>
 
 
 

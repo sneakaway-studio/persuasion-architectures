@@ -1,22 +1,13 @@
+<?php
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+$author = "mackie";
+include_once('../../inc/paper-heading.php');
+// print_r($paper);
 
+// NOTES
+// ...
 
-
-
-
-
-
-
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>Redefining Beauty: An investigation into the Irresistible lure of beauty in media</h2>
-            <h4>Clare Mackie</h4>
-        </div>
-    </div>
-</div>
+?>
 
 
 

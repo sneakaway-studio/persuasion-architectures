@@ -1,17 +1,18 @@
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+<?php
+
+$author = "scofield";
+include_once('../../inc/paper-heading.php');
+// print_r($paper);
+
+// NOTES
+// ...
+
+?>
+
 
 
 <div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>Fear Not: A History of Anxiety in Advertising</h2>
-            <h4>George Williams</h4>
-        </div>
-    </div>
-
-
 
     <div class="row my-2">
         <div class="col-12 col-lg-8 offset-lg-2">

@@ -1,20 +1,13 @@
+<?php
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+$author = "mckenna";
+include_once('../../inc/paper-heading.php');
+// print_r($paper);
 
+// NOTES
+// ...
 
-
-
-
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>'Donald Trump' Liked Your Post</h2>
-            <h4>Sydney McKenna</h4>
-        </div>
-    </div>
-</div>
-
+?>
 
 
 

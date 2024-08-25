@@ -1,16 +1,13 @@
+<?php
 
-<?php $subdirectory = true; ?>
-<?php include_once('../../inc/header.php'); ?>
+$author = "about";
+include_once('../../inc/paper-heading.php');
+// print_r($paper);
 
+// NOTES
+// ...
 
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2>Persuasion Architectures</h2>
-            <h4>Owen Mundy</h4>
-        </div>
-    </div>
-</div>
+?>
 
 
 

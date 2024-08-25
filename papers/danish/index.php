@@ -1,12 +1,10 @@
 <?php
 
-$subdirectory = true;
-include_once('../../inc/header.php');
-$paper = returnJsonData("danish");
+$author = "danish";
+include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
-
-// CODE NOTES
+// NOTES
 // Approx. 50% of citations are added, though they don't match the original format of the author.
 
 ?>
@@ -15,22 +13,9 @@ $paper = returnJsonData("danish");
 
 
 
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2><?php print $paper['title']; ?></h2>
-	        <h3><?php print $paper['subtitle']; ?></h3>
-            <h4><?php print $paper['author']; ?></h4>
-        </div>
-    </div>
-</div>
-
-
 
 
 <div class="container">
-
-
 
 
 
@@ -270,6 +255,36 @@ Citizen, compared with the other apps discussed in this paper, also seems to enc
     </div>
 </div>
 </div>
+
+
+
+<!-- 
+Finished game (the HTML file)
+
+(See link at the bottom)
+
+
+Medium resolution image to give a sense of the content of your research and game. This can be a public domain image or one you create. 
+
+IoBE4G3oRIsaS7ANmwMDjN2y3PLWD21-GW6dVKFRBpy1lOQypF_7VzKZYaW_xF-lHjWbE_3nQJ2egwrngtGlcqQdS30KYDB6rKWcrUYal5ahZe3_KDeNFGIHb-CXDoMRZ_bftXYJI1NSZ2poMw
+
+300–600 word written statement about the game. 
+
+“Just Next Door” is an interactive fiction Twine game that explores neighborhood exclusion, surveillance, and persuasion. The main character is an unnamed person who has recently moved to the town of Davidson. Numerous forces persuade the neighbor to believe that they should participate in surveillance in their neighborhood, despite not having enough information to make conclusions about the “suspicious” activity occurring. 
+
+They are persuaded by a wide range of sources: the media creates a perception that crime rates are high and can only be solved with policing and punishment; the state encourages citizen participation in surveillance; private companies persuade citizens that they need surveillance technologies; and communities encourage participation in exclusive networks of surveillance to feel like connected members of a social group. 
+
+Throughout the game, the players’ choice to participate in surveillance alters the main characters’ emotions, which are measured quantitatively. Different choices in the game can heighten the characters’ feeling of community connectedness, paranoia, or curiosity towards crime. Ultimately, however, the main character’s paranoia becomes the reigning decision-making force, and their life in Davidson spirals towards chaos as a result. The game emphasizes the harm not only on surveilled people, but also on the people practicing surveilling-- which can heighten paranoia, anxiety, and disconnectedness.
+
+The game is titled “Just Next Door” as a spin-off of the neighborhood social networking app, Nextdoor. While the app Nextdoor’s name suggests that neighbors can feel connected to people across the neighborhood (as if they are just next door), the app often actually exposes deep racial, political, economic, and social divisions within a neighborhood. The title “Just Next Door” parodies the notion that Nextdoor or similar technologies accomplish community connectedness, and also previews the game’s eerie vibe.
+
+Other documentation from your game. This could include game art, diagrams, flow charts, sketches, iterations, GIFs, and other any related visual material that tells the story of your game.
+
+ZaErsSwlGPiSNG6tdBeszU4mza6VJa9PeEUcPCq25hv6sgInTjbQpQbssrTxG_rGOBtwJbJqsBVg7b_PAhqyfgtZYu7YEhEDxYd4G0CoYt79j8nXOYy9oW427vZkuzOykhkNg4oTciNb29XzAgSjCYAh9Bz7H9TvGHtNUlaiOvAP3Rs8IEjJibEFRRyo-mDVvYBAJJZGn0uTrioo0SJHZ9TmzrLxJiPxmJ1Yysda9FF7FtKyxPWBT0-snhESjnua6tBXxLzn4tEE0k76OYOWcb4pU4ePrK7uyrPw
+
+
+ -->
+
 
 
 

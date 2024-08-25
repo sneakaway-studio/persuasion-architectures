@@ -1,29 +1,14 @@
 <?php
 
-$subdirectory = true;
-include_once('../../inc/header.php');
-$paper = returnJsonData("sigl");
+$author = "sigl";
+include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
-
-// CODE NOTES
+// NOTES
 // ...
 
 ?>
 
-
-
-
-
-<div class="container">
-    <div class="row my-5">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-            <h2><?php print $paper['title']; ?></h2>
-	        <h3><?php print $paper['subtitle']; ?></h3>
-            <h4><?php print $paper['author']; ?></h4>
-        </div>
-    </div>
-</div>
 
 
 
@@ -43,7 +28,7 @@ $paper = returnJsonData("sigl");
 
 
 
-
+<!-- https://drive.google.com/drive/folders/1MsgNa5UyDAb4fUkSXgDIe2mA0Cw2Sm3E -->
 
 
 
