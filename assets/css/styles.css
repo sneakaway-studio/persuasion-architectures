@@ -1,112 +1,148 @@
+:root {
+	--bg-color: #212121;
+}
+
+html,
 body {
-    background-color: #282828 !important;
+	background-color: var(--bg-color) !important;
+	font: 1.05rem/1.7rem "PT Sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
+
 .navbar-brand {
-    font: 1.5rem/1.9rem 'PT Serif', serif;
-    font-weight: 400;
+	font: 1.5rem/1.9rem 'PT Serif', serif;
+	font-weight: 400;
 }
+
 .navbar-dark {
-    background-color: #282828 !important;
+	background-color: var(--bg-color) !important;
 }
 
 
 
 /*  FRONT PAGE
  ******************************************************************************/
-.card a, .card a:hover, .card a:visited, .card a:active, .card a:focus {
-    color: #fff;
-    text-decoration: none;
+.card a,
+.card a:hover,
+.card a:visited,
+.card a:active,
+.card a:focus {
+	color: #fff;
+	text-decoration: none;
 }
+
 .home-card h6 {
-    color: #ccc;
+	color: #ccc;
 }
+
 .card-tags {
-    color: #666;
-    text-decoration: none;
+	color: #666;
+	text-decoration: none;
 }
+
+.card-img-bg {
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	/* background-color: red; */
+	background-position: center;
+	background-size: cover;
+}
+
 
 
 /*  FOOTER
  ******************************************************************************/
 
 .footer-wrapper {
-    background: #222;
+	background: #222;
 }
+
 .footer-inner {
-    height: 100%;
+	height: 100%;
 }
 
 
 /*  PAPERS
  ******************************************************************************/
 .paper-title h2 {
-    font-family: 'PT Serif', serif;
+	font-family: 'PT Serif', serif;
 }
+
 .paper-title h3 {
-    font-family: 'PT Serif', serif;
+	font-family: 'PT Serif', serif;
 	font-weight: normal;
 	font-size: 140%;
-    color: #777;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	color: #777;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
+
 .paper-title h4 {
-    margin-top: 30px;
-    color: #aaa;
+	margin-top: 30px;
+	color: #aaa;
 }
+
 /* break the title on mobile */
 @media (min-width: 700px) {
-    .title-break {
-        display: inline-block;
-    }
+	.title-break {
+		display: inline-block;
+	}
 }
+
 /**
  * Control wrapping with CSS! :)
  * https://workingconcept.com/blog/preventing-widows-responsive-layouts
  */
 .widont {
-    white-space: nowrap;
-    @media screen and (max-width: 576px) {
-        white-space: normal;
-    }
+	white-space: nowrap;
+
+	@media screen and (max-width: 576px) {
+		white-space: normal;
+	}
 }
 
 
 .subheading {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 
 iframe {
-    border: none;
+	border: none;
 }
+
 .floating-card-left {
-    float: left;
-    margin: 5px;
-    max-width: 300px;
-    left: -100px;
-    margin-right: -80px;
+	float: left;
+	margin: 5px;
+	max-width: 300px;
+	left: -100px;
+	margin-right: -80px;
 }
+
 .floating-card-right {
-    float: right;
-    margin: 5px;
-    max-width: 300px;
-    left: 100px;
+	float: right;
+	margin: 5px;
+	max-width: 300px;
+	left: 100px;
 }
+
 @media (max-width: 700px) {
-    .floating-card-left, .floating-card-right {
-        float: none;
-        left: 0;
-        margin-right: 0;
-    }
+
+	.floating-card-left,
+	.floating-card-right {
+		float: none;
+		left: 0;
+		margin-right: 0;
+	}
 }
 
 .blockquote p {
-    border-left: 3px solid #aaa;
-    padding-left: 20px;
+	border-left: 3px solid #aaa;
+	padding-left: 20px;
 }
 
 
@@ -114,6 +150,7 @@ iframe {
 #ui-bar {
 	display: none;
 }
+
 #story {
 	margin-left: 3.5em;
 }
@@ -125,55 +162,70 @@ iframe {
 /*  de-angelis-slideshow
  ******************************************************************************/
 .de-angelis-slideshow {
-    font-family: 'Open Sans Light', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 }
+
 .de-angelis-slideshow .carousel-item {
-    height: 400px;
+	height: 400px;
 }
+
 .de-angelis-slideshow .row {
-    height: 100%;
+	height: 100%;
 }
+
 .de-angelis-slideshow .col-sm-10 {
-    font-size: 1.8rem;
+	font-size: 1.8rem;
 }
+
 .de-angelis-slideshow .col-sm-6 {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
 }
+
 .de-angelis-slideshow .header {
-    color: #fff;
-    font-family: Georgia;
-    font-size: 3rem;
+	color: #fff;
+	font-family: Georgia;
+	font-size: 3rem;
 }
+
 .de-angelis-slideshow .header2 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
+
 .de-angelis-slideshow .col-sm-6 .header {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
+
 .de-angelis-slideshow .blue {
-    color: #00b8e2;
+	color: #00b8e2;
 }
+
 .de-angelis-slideshow .white {
-    color: #fff;
+	color: #fff;
 }
+
 .de-angelis-slideshow .blue-bg {
-    color: #000;
-    background: #00b8e2;
+	color: #000;
+	background: #00b8e2;
 }
+
 .de-angelis-slideshow .white-bg {
-    color: #000;
-    background: #fff;
+	color: #000;
+	background: #fff;
 }
+
 .de-angelis-slideshow .img-fluid {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
+
 .de-angelis-slideshow .carousel-indicators li {
-    background-color: #000 !important;
+	background-color: #000 !important;
 }
+
 .de-angelis-slideshow .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
 .de-angelis-slideshow .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }

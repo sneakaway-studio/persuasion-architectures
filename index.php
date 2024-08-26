@@ -16,8 +16,9 @@ $papers = returnJsonData();
 		<?php foreach ($papers as $key => $paper) { ?>
 			<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-xxl-2 my-3">
 				<div class="card home-card bg-dark text-white h-100">
-					<img class="card-img-top w-100 img-fluid" alt="thumbnail"
-						src="<?php printThumbnailPath($key, $paper); ?>">
+					<!-- <img class="card-img-top w-100 img-fluid" alt="thumbnail"
+						src="<?php printThumbnailPath($key, $paper); ?>"> -->
+					<div class="card-img-bg" style="background-image: url(<?php printThumbnailPath($key, $paper); ?>);"></div>
 					<div class="card-body">
 						<a href="papers/<?php print $key; ?>" title="" class="stretched-link">
 							<h4 class="card-title"><?php print $paper["title"]; ?></h4>

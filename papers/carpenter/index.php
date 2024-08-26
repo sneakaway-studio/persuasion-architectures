@@ -12,7 +12,6 @@ include_once('../../inc/paper-heading.php');
 
 
 <div class="container">
-
     <div class="row my-2">
         <div class="col-12 col-lg-8 offset-lg-2">
 
@@ -43,6 +42,33 @@ Within the gamified experience, researchers from the Labovitz School of Business
 <p>
 Today, it is easy to label the practice of gamification as “bullshit,” but gamification science still remains “a distinct subdiscipline of game science consisting of researchers adopting a social scientific epistemological footing” (Landers et al.). Game developers have learned to better integrate game elements to real-world processes, and in order to do so have also gained a better understanding of how consumers’ brains work. Many modern programs that gamify the shopping experience emphasize tangible rewards such as points, badges, and leaderboards. By emphasizing tangible rewards, these programs encourage extrinsic motivation, which refers to “doing something because it leads to a separable outcome,” for example being motivated to buy something because of the points or other rewards that come with buying it (Dahlstrøm). By encouraging a player’s extrisitc motivation, these games harm a player’s intrinsic motivation, or desire to pursue an activity simply because it is “inherently interesting or enjoyable.” Why go shopping because one enjoys it when one needs to go shopping in order to derive joy from the points they will acquire from buying something?
 </p>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid px-0 my-2 mb-4">
+	<div class="container px-0">
+		<div class="row">
+			<div class="col-12">
+				
+				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/index.html" scrolling="no"> </iframe>
+
+				<figcaption class="figure-caption">Money Morality is a game about how corporate desire for profit affects the consumer experience.</figcaption>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
 
 
 <p>
@@ -86,60 +112,6 @@ As technology has grown and expanded, so have the systems designed to reward con
 </ol>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</div>
-	</div>
-</div>
-
-
-<div class="container-fluid px-0 my-2 mb-4">
-	<div class="container px-0">
-		<div class="row">
-			<div class="col-12">
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/JustNextDoor.html" scrolling="no"> </iframe>
-
-				<figcaption class="figure-caption">xxxxx</figcaption>
-
-
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-<div class="container">
-	<div class="row my-2">
-		<div class="col-12 col-lg-8 offset-lg-2">
-
-		<h4>Bibliography</h4>
-
-
-		<ol>
-
-		<li>xxxx</li>
-
-		</ol>
 
 
 	    </div>
