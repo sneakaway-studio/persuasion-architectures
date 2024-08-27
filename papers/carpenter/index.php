@@ -5,7 +5,12 @@ include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
 // NOTES
-// ...
+
+// Money Morality is a game about how corporate desire for profit affects the consumer experience. In the game, the CEO of a tech company makes business decisions in order to grow their business’ profit. After the CEO has reached their profit goal, the player moves to the role of consumer and finds themselves tempted by the programs that the CEO implemented in their quest for success.
+// I intentionally gave the player no choice when choosing how the CEO was going to attempt to grow BrightTech’s profit because there really wouldn’t be a game to play if the player chose not to try and coerce customers into spending more money. I wanted players to get to the point of being influenced to buy things in order for them to get a better understanding of how companies intentionally attempt to influence shoppers on a daily basis. By showing the CEO’s side of the story first, I give away the element of surprise because players know what kinds of persuasion architectures they will encounter, but it was important for me to show that what consumers might think is an innocent way for them to save money is actually a premeditated, well-thought-out plan to persuade them to spend more money.
+// After playing You Are Jeff Bezos, I was struck by how insignificant the amount of money the player has left at any given moment feels because of how large the sum is. In order to combat this, I give the customer an intentionally small amount of money in order to give players a more easily conceptualized number as well as show how fast money can disappear. The CEO has a larger sum of money, and I did this intentionally as well in order to trivialize corporate gains in comparison to shopper budgets. By doing so, I hope to highlight the disparity between the stakes corporations and everyday shoppers have when buying into these programs. For the corporation, the stakes are lower because increasing profit is a want and not a need; the shopper, on the other hand, cannot afford to go over budget despite the many attempts the corporation makes to persuade them.
+
+
 
 ?>
 

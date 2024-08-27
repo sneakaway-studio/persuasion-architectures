@@ -13,7 +13,6 @@ include_once('../../inc/paper-heading.php');
 
 
 
-
 <div class="container">
 
     <div class="row my-2">

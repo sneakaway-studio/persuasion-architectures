@@ -36,17 +36,18 @@ include_once('../../inc/paper-heading.php');
     <div class="container px-0">
 
 
-        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-interval="false">
+
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
-                <li data-target="#carouselExampleIndicators3" data-slide-to="8"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="4"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="5"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="6"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="7"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="8"></li>
             </ol>
             <div class="carousel-inner">
 
@@ -142,11 +143,11 @@ include_once('../../inc/paper-heading.php');
 
 
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>

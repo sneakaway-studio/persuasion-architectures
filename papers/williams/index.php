@@ -1,7 +1,7 @@
 
 <?php
 
-$author = "scofield";
+$author = "williams";
 include_once('../../inc/paper-heading.php');
 // print_r($paper);
 

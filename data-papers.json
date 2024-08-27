@@ -52,7 +52,7 @@
 		"author": "Maddie Holleman",
 		"title": "Magical Manipulation",
 		"subtitle": "Consumer Persuasion at Disney Parks and Resorts",
-		"thumbnail": "",
+		"thumbnail": "disney.jpg",
 		"tags": ["disney", "sensory", "experience", "smell"],
 		"date": 2022
 	},
@@ -66,7 +66,7 @@
 	},
 	"rothman": {
 		"author": "Evan Rothman",
-		"title": "xxxxx",
+		"title": "Survival Games in the Workplace",
 		"subtitle": "",
 		"thumbnail": "",
 		"tags": ["gamification", "coercion", "rewards"],
@@ -84,7 +84,7 @@
 		"author": "Caroline Sigl",
 		"title": "The Social Feed Feature",
 		"subtitle": "",
-		"thumbnail": "",
+		"thumbnail": "igardener.png",
 		"tags": ["venmo", "feeds", "social media"],
 		"date": 2022
 	},
@@ -174,7 +174,7 @@
 		"author": "Owen Mundy",
 		"title": "Persuasion Architectures",
 		"subtitle": "",
-		"thumbnail": "",
+		"thumbnail": "thumb-default-600x400.png",
 		"tags": [],
 		"date": 2020
 	}
