@@ -5,12 +5,12 @@
 <div class="container">
 	<div class="row my-5">
 		<div class="col-12 col-lg-8 offset-lg-2 text-center paper-title">
-			<h2>This is a page</h2>
+			<h2>This is a title</h2>
+			<h4>This is a subtitle</h4>
 			<h4>This is the author</h4>
 		</div>
 	</div>
 </div>
-
 
 
 <div class="container">
@@ -45,7 +45,7 @@
 <div class="container">
 	<div class="row my-2">
 		<div class="col-12 col-lg-12">
-			<img src="img/sample-minard.jpg" class="img-fluid">
+			<img src="img/minard.jpg" class="img-fluid">
 		</div>
 	</div>
 </div>
@@ -117,7 +117,7 @@
 <div class="container">
 	<div class="row my-2">
 		<div class="col-12 col-lg-6">
-			<img src="img/sample-chart.png" alt="">
+			<img src="img/chart.png" alt="" class="img-fluid">
 		</div>
 		<div class="col-12 col-lg-6">
 
@@ -162,7 +162,7 @@
 	<div class="row my-2">
 
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<img src="img/sample-cat.jpg" class="img-fluid">
+			<img src="img/cat.jpg" class="img-fluid">
 		</div>
 
 	</div>
@@ -317,17 +317,17 @@
 	<div class="container px-0">
 
 
-		
+
 		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-bs-interval="10000">
-				<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide1.svg" alt="First slide">
+					<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide1.svg" alt="First slide">
 				</div>
 				<div class="carousel-item" data-bs-interval="2000">
-				<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide2.svg" alt="Second slide">
+					<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide2.svg" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-				<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide3.svg" alt="Third slide">
+					<img class="d-block w-100" src="<?php printFileRoot(); ?>assets/libs/bootstrap-carousel/slide3.svg" alt="Third slide">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -399,11 +399,6 @@
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 <!-- Load d3.js -->
@@ -529,6 +524,4 @@
 </script>
 
 
-</body>
-
-</html>
+<?php include_once('../../inc/footer.php'); ?>
