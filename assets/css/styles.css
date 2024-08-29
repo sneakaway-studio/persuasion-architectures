@@ -91,6 +91,15 @@ body {
 	}
 }
 
+
+details {
+	color: #aaa;
+}
+
+
+
+
+
 /**
  * Control wrapping with CSS! :)
  * https://workingconcept.com/blog/preventing-widows-responsive-layouts
@@ -154,6 +163,14 @@ iframe {
 #story {
 	margin-left: 3.5em;
 }
+
+
+
+
+
+
+
+
 
 
 
