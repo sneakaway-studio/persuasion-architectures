@@ -59,7 +59,7 @@
 	"howell": {
 		"author": "Henry Howell",
 		"title": "We Are What We’re Forced To Eat",
-		"subtitle": "How the Food Industry Uses Persuasive Techniques to Encourage Unhealthy Eating Practices",
+		"subtitle": "How the Food Industry Encourages Unhealthy Eating Practices",
 		"thumbnail": "thumb-600x400.png",
 		"tags": ["food", "industry", "advertising"],
 		"date": 2022
@@ -96,7 +96,7 @@
 	"de-angelis": {
 		"author": "Vittoria De Angelis",
 		"title": "If many are doing something, <span class='title-break'>it must be worthwhile</span>",
-		"subtitle": "Social proof as a persuasion technique",
+		"subtitle": "The Influence of Social proof",
 		"thumbnail": "thumb-600x400.png",
 		"tags": ["social proof", "crowds"],
 		"date": 2020
@@ -173,9 +173,9 @@
 	"about": {
 		"author": "Owen Mundy",
 		"title": "Persuasion Architectures",
-		"subtitle": "",
+		"subtitle": "An overview of the series",
 		"thumbnail": "thumb-default-600x400.png",
-		"tags": [],
+		"tags": ["introduction"],
 		"date": 2020
 	}
 }

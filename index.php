@@ -21,9 +21,9 @@ $papers = returnJsonData();
 					<div class="card-img-bg" style="background-image: url(<?php printThumbnailPath($key, $paper); ?>);"></div>
 					<div class="card-body">
 						<a href="papers/<?php print $key; ?>" title="" class="stretched-link">
-							<h4 class="card-title"><?php print $paper["title"]; ?></h4>
+							<h5 class="card-title"><?php print $paper["title"]; ?></h5>
+							<h6 class="card-text text-muted"><?php print $paper["subtitle"]; ?></h6>
 							<h6><?php print $paper["author"]; ?></h6>
-							<p class="card-text text-muted"><?php print $paper["subtitle"]; ?></p>
 						</a>
 						<p class="mt-1 card-text card-tags"><?php printTags($paper["tags"]); ?></p>
 					</div>

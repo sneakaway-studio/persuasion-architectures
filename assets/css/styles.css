@@ -23,7 +23,8 @@ body {
 
 /*  FRONT PAGE
  ******************************************************************************/
-.card a,
+
+ .card a,
 .card a:hover,
 .card a:visited,
 .card a:active,
@@ -32,6 +33,8 @@ body {
 	text-decoration: none;
 }
 
+.card-body { padding-bottom: .5rem;}
+
 .home-card h6 {
 	color: #ccc;
 }
@@ -39,6 +42,8 @@ body {
 .card-tags {
 	color: #666;
 	text-decoration: none;
+	font-size: .9rem;
+	margin-bottom: 0;
 }
 
 .card-img-bg {
