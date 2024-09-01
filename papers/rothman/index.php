@@ -12,6 +12,7 @@ include_once('../../inc/paper-heading.php');
 
 
 
+  
 
 
 
@@ -22,9 +23,16 @@ include_once('../../inc/paper-heading.php');
 
 
 
+		<figure class="figure w-100">
+			<img src="img/joshua-golde-qIu77BsFdds-unsplash.jpg" alt="thumb" class="figure-img w-100 img-fluid">
+			<figcaption class="figure-caption">
+				Photo by <a href="https://unsplash.com/@joshgmit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joshua Golde</a>
+			</figcaption>
+		</figure>
+
+
+
 <h5 class="subheading">Introduction</h5>
-
-
 
 <p>
 Within the modern economy, employers have a singular goal: make employees as productive as possible. Traditionally, employers have used monetary methods to try and increase worker motivation and productivity, incentives like performance bonuses, stock options, and yearly raises. Over time employers have increasingly used more psychological methods in order to increase the productivity of their workers. Some of these are relatively basic, such as the promise of a promotion or the claim of a higher purpose of one’s work. Many of these incentives have been incorporated and implemented within the process of gamification. Gamification is the practice of incorporating game elements into non-game contexts to influence people’s behavior (Beza 2011). Some of these gamified elements are relatively benign, and even helpful: uber doling out badges for the number of miles driven, encouraging people to run because fake zombies are chasing them, or Duolingo using games to teach people new languages (Pastuh 2020, Gabrielle 2018). 
@@ -91,6 +99,8 @@ Outside of these survival games, there are still numerous opportunities for gami
 				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/TheOfficeGame.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">The Office Game by Evan Rothman</figcaption>
+
+<!-- no statement found -->
 
 			</div>
 		</div>
