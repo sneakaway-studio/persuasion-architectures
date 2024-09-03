@@ -40,7 +40,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
+		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNuqLZsr8f5w06Dw2Zw4fgQ1xpD_foxkjCpwWDr5ZiO7yNzlUnvHi5BmLUYJbYzC2VJOezHL3ZAVDB/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
         <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
@@ -95,8 +95,8 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hybI3fhigc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="ratio ratio-16x9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3hybI3fhigc" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
         </div>
         <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
 

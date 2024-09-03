@@ -49,7 +49,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
+		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoOP_OQQEPLE_DYs6TduHg9Em5hvLxWcP35eW7pi81vRH1k1EhP9kEPIEFDXzy4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
         <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
@@ -61,7 +61,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
+		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
         <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->

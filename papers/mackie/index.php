@@ -42,8 +42,9 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VXBFthXE0yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="ratio ratio-16x9">
+
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VXBFthXE0yw" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
         </div>
 <figcaption class="figure-caption">Download Flash Face and create a “forensic sketch” of yourself without using a mirror or photo for reference. Take note of which characteristics you like about your physical appearance and which you are tempted to change or alter while completing this activity. Save your sketch to reference later.</figcaption>
 
@@ -90,7 +91,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
 
-        <div class="embed-responsive embed-responsive-16by9">
+		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4m13PmL_r_o8srj-2KffmiXxBSn7WWfFYSnyRNIUB3XoPOvkMIYuiVsJ7cafI4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
 
@@ -116,10 +117,10 @@ include_once('../../inc/paper-heading.php');
 
 
 <div class="container-fluid px-0 my-2 mb-4">
-    <div class="container px-0">
-
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM4Xe6Dlp0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container px-0">		
+		
+		<div class="ratio ratio-16x9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM4Xe6Dlp0Y" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
         </div>
 <figcaption class="figure-caption">Cameron Russell’s TedTalk</figcaption>
 

@@ -60,8 +60,8 @@ include_once('../../inc/paper-heading.php');
 
 <div class="container-fluid px-0 my-2 mb-4">
     <div class="container px-0">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/f_oxpXCGv-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="ratio ratio-16x9">
+          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/f_oxpXCGv-E" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
         </div>
 
 <figcaption class="figure-caption">This model reflects data from California cult recruitment (Stark et al., 1979, pg. 350). Currently, there around approximately 47.8 million people living in CA which accounts for number of nodes. The average node degree reflects the six-degrees of separation theory. In addition, the initial outbreak size reflects the roughly 3 million or 6% of Californian’s who are in cults today (Stark et al., 1979, pg. 350). The virus-spread-chance was minimized to reflect the relatively stagnant number of cult members in CA. </figcaption>

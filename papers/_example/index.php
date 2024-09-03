@@ -240,14 +240,11 @@
 
 <div class="container-fluid px-0 my-2 mb-4">
 	<div class="container px-0">
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3klMM9BkW5o" allowfullscreen></iframe>
+		<div class="ratio ratio-16x9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3klMM9BkW5o" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>
-
-
-
 
 
 <div class="container">
@@ -285,7 +282,6 @@
 
 <div class="container">
 	<div class="row my-2">
-
 		<div class="col-12 col-lg-8 offset-lg-2">
 
 			<p>Proin interdum nisi urna, ac interdum justo mattis sit amet. Praesent quis elementum sapien. Suspendisse convallis nisl eget dapibus faucibus. Mauris et mauris varius, egestas quam in, tincidunt sapien. Vestibulum
@@ -293,6 +289,39 @@
 
 			<p>Nam ultrices dapibus euismod. Curabitur ac metus tempor, imperdiet nunc eget, aliquet est. Suspendisse vel velit est. Curabitur eu varius metus. In luctus eros mi, sed imperdiet odio pretium eget. Cras vitae auctor
 				tellus. Integer nec massa ut lacus laoreet venenatis a sit amet turpis. Phasellus id convallis augue, nec euismod ante.</p>
+
+
+			</div>
+	</div>
+</div>
+
+<div class="container-fluid px-0 my-2 mb-4">
+	<div class="container px-0">
+		<div class="row">
+			<div class="col-12">
+				
+				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/TwineExamples.html" scrolling="no"> </iframe>
+
+				<figcaption class="figure-caption">
+
+
+<details>
+<summary>Twine Example by Author Name</summary>
+
+<p>
+Text
+</p>
+
+</details></figcaption>
+				
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row my-2">
+		<div class="col-12 col-lg-8 offset-lg-2">
+
 
 			<p>Nunc tempus risus eget facilisis pulvinar. Nunc et dolor scelerisque, placerat nisi eu, euismod lectus. Vivamus ut risus pulvinar, posuere erat congue, sollicitudin tortor. Donec varius ultrices orci facilisis sollicitudin.
 				Curabitur vel maximus libero. Aliquam urna lectus, pulvinar eget ultrices sed, cursus scelerisque dolor. Donec at mi auctor, ultrices est sed, accumsan sem. Phasellus volutpat a est sed rutrum. Proin tincidunt tortor eu turpis

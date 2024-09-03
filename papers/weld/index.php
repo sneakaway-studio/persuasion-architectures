@@ -45,7 +45,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container-fluid px-0 my-2 mb-4">
 <div class="container px-0">
 
-    <div class="embed-responsive embed-responsive-16by9">
+	<div class="ratio ratio-16x9">
         <iframe class="embed-responsive-item" src="//content.jwplatform.com/players/7qUV8UXA-puACk8ZV.html" width="320" height="260" frameborder="0" scrolling="auto"></iframe>
 
     </div>

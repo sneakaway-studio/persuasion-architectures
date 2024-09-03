@@ -75,8 +75,9 @@ include_once('../../inc/paper-heading.php');
 
 
 
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFoJpjEpKxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFoJpjEpKxc" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
     </div>
         <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" combined with Facebook's political ads.  Every couple of seconds, a new advertisement will "pop up" on a personal Facebook page (made in iMovie).</figcaption>
 
@@ -93,8 +94,8 @@ include_once('../../inc/paper-heading.php');
     </div>
 
 
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvH3UWSfLoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qvH3UWSfLoE" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
     </div>
         <figcaption class="figure-caption">This is my video that mimics the idea of "pop-up advertisements" targeted back towards politicians by using Facebook posts from users.  Every few seconds, a new hate or supportive Facebook post pops up on the politician's presidential campaign website (made in iMovie).</figcaption>
 
