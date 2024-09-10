@@ -80,7 +80,7 @@ Designs including power dynamics, like the panopticon, exist almost everywhere. 
 
 
 
-</div>
+		</div>
 	</div>
 </div>
 
