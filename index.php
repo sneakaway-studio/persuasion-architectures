@@ -14,6 +14,7 @@ $papers = returnJsonData();
 	<div class="row">
 
 		<?php foreach ($papers as $key => $paper) { ?>
+			<?php if (isset($paper["skip"]) && $paper["skip"] == true ) continue; ?>
 			<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-xxl-2 my-3">
 				<div class="card home-card bg-dark text-white h-100">
 					<!-- <img class="card-img-top w-100 img-fluid" alt="thumbnail"

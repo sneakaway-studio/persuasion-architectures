@@ -26,16 +26,16 @@ include_once('../../inc/paper-heading.php');
 <p>In order to combat the inherent fear associated with new and misunderstood technologies, it is imperative to utilize a pathos archetype of persuasion. Fear, as it relates to technology, is defined as technophobia. Technophobia is defined as “the fear or dislike of advanced technology or complex devices, especially computers.”  Dating back to as long as technology has been present in humanity, the complexity of any new and groundbreaking innovation has been a catalyst for widespread criticism.</p>
 
 <blockquote class="blockquote my-4">
-<p>In the late 1980s, my mother’s workplace was equipped with a few Commodore 64 computers. My family members were all early adopters, and we’ve had computers in our house since 1981. But for many of my mom’s coworkers, this was their first exposure to the technology. One woman in the office, a highly educated, well-trained mental health therapist, flatly refused to touch any of the computers. She was afraid of hitting the wrong button and wiping out her bank account. One of the most basic technology fears is rooted in the loss of control. We don’t necessarily understand exactly how a new piece of technology works, so our imaginations fill in the details.</p>
+<p>In the late 1980s, my mother’s workplace was equipped with a few Commodore 64 computers. My family members were all early adopters, and we’ve had computers in our house since 1981. But for many of my mom’s coworkers, this was their first exposure to the technology. One woman in the office, a highly educated, well-trained mental health therapist, flatly refused to touch any of the computers. She was afraid of hitting the wrong button and wiping out her bank account. One of the most basic technology fears is rooted in the loss of control. We don’t necessarily understand exactly how a new piece of technology works, so our imaginations fill in the details.<br>
+—<em>Technophobia Is a Fear Related to the Loss of Control</em></p>
 </blockquote>
-<p>—<em>Technophobia Is a Fear Related to the Loss of Control</em></p>
 
 
 <p>After reading this excerpt, it becomes clear that there are plenty of instances where technology has faced historical opposition with regard to widespread adaptation. Fearfulness of simply clicking the wrong button is not the only adversity technology faces when attempting to gain widespread adoption. </p>
 
 <p>Many individuals are fearful of new technologies rendering their hard-earned skills useless. As we see “Industry 4.0” taking place currently, where internet of things devices and robots are being implemented more frequently as a mode of improving and expediting manufacturing, the fear amongst workers of “deskilling” is not a new idea. In an article from 1985, the author states, “As talk about the deskilling potential of new computerized technologies has grown unions are seeking retraining for their members whom automation would otherwise displace. Many companies are upgrading the status of their workers who are forced to trade hard-earned manual skills for the often-dreary routine of button pushing.”  The question that remains is how can we combat all of these issues? </p>
 
-<p>If the presenter is able to show enough logical benefit to the audience, all of the issues stated above dissipate. The biggest issue in communicating potential benefits to an audience is the potential for non-technical individuals to be a part of the decision process. How is one able to show the credibility and usability without utilizing overly technical jargon in the presentation? There are various approaches to combatting this gap in understanding of technology. Throughout all approaches, there is one theme that is consistent in presenting to non-technical audiences: Do not patronize, help understand. A key excerpt from one of the articles states, “Everybody’s ignorant – just on different subjects.”  “’It’s not about dumbing down your message,’ Eng said. ‘Being an effective communicator is about using vocabulary and terms that the audience can relate to and understand.’”  Another article states “‘People tend to get intimidated if you use a lot of tech jargon. And it’s not even just tech jargon. If you go into minute detail, people will lose track and will be less involved. You want people to feel free to ask questions, to pitch, and feel useful.’”3 In order to understand the difference between a technically-heavy pitch and an understandable pitch, we will examine two presentations of Quantum Computing. Assume that the two presentations below are attempting to communicate the same ideas, but at different levels of technical rhetoric.</p>
+<p>If the presenter is able to show enough logical benefit to the audience, all of the issues stated above dissipate. The biggest issue in communicating potential benefits to an audience is the potential for non-technical individuals to be a part of the decision process. How is one able to show the credibility and usability without utilizing overly technical jargon in the presentation? There are various approaches to combatting this gap in understanding of technology. Throughout all approaches, there is one theme that is consistent in presenting to non-technical audiences: Do not patronize, help understand. A key excerpt from one of the articles states, “Everybody’s ignorant—just on different subjects.”  “’It’s not about dumbing down your message,’ Eng said. ‘Being an effective communicator is about using vocabulary and terms that the audience can relate to and understand.’”  Another article states “‘People tend to get intimidated if you use a lot of tech jargon. And it’s not even just tech jargon. If you go into minute detail, people will lose track and will be less involved. You want people to feel free to ask questions, to pitch, and feel useful.’”3 In order to understand the difference between a technically-heavy pitch and an understandable pitch, we will examine two presentations of Quantum Computing. Assume that the two presentations below are attempting to communicate the same ideas, but at different levels of technical rhetoric.</p>
 
 
 
@@ -52,7 +52,7 @@ include_once('../../inc/paper-heading.php');
 		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoOP_OQQEPLE_DYs6TduHg9Em5hvLxWcP35eW7pi81vRH1k1EhP9kEPIEFDXzy4w/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
-        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+        <figcaption class="figure-caption">A pitch containing technical jargon</figcaption>
 
     </div>
 </div>
@@ -64,7 +64,7 @@ include_once('../../inc/paper-heading.php');
 		<div class="ratio ratio-16x9">
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtr4sBGlbxTtHa-4Ak8B5KRZOQZu54vlfIXJx77bv3mU3ZI0Z_V-Icl_0Ozcj5tA/embed?start=false&loop=false&delayms=3000" frameborder="0"  class="embed-responsive-item" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
-        <!-- <figcaption class="figure-caption">Caption goes here</figcaption> -->
+        <figcaption class="figure-caption">Another pitch that attempts to reach general audiences</figcaption>
 
     </div>
 </div>
@@ -83,6 +83,12 @@ include_once('../../inc/paper-heading.php');
         </div>
     </div>
 </div>
+
+
+
+<?php /*
+
+// not sure how these relate
 
 
 <div class="container-fluid px-0 my-2 mb-4">
@@ -108,6 +114,9 @@ include_once('../../inc/paper-heading.php');
     </div>
 </div>
 </div>
+
+
+// no bibiliography in paper
 
 <div class="container">
 <div class="row my-2">
@@ -141,6 +150,6 @@ include_once('../../inc/paper-heading.php');
 </div>
 </div>
 
-
+*/ ?>
 
 <?php include_once('../../inc/footer.php'); ?>
