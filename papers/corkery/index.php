@@ -66,7 +66,7 @@ include_once('../../inc/paper-heading.php');
 	<div class="container px-0">
 		<div class="row">
 			<div class="col-12">
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/mlPersuade/" scrolling="no"> </iframe>
+				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="https://sneakaway-studio.github.io/mlPersuade/" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">
 
