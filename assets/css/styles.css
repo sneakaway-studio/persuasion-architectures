@@ -24,7 +24,7 @@ body {
 /*  FRONT PAGE
  ******************************************************************************/
 
- .card a,
+.card a,
 .card a:hover,
 .card a:visited,
 .card a:active,
@@ -33,7 +33,9 @@ body {
 	text-decoration: none;
 }
 
-.card-body { padding-bottom: .5rem;}
+.card-body {
+	padding-bottom: .5rem;
+}
 
 .home-card h6 {
 	color: #ccc;
@@ -97,7 +99,7 @@ body {
 }
 
 
-details {
+details, .figure-caption {
 	color: #aaa;
 	font-size: .85rem;
 	line-height: 1.3rem;
@@ -180,11 +182,10 @@ iframe {
 
 
 
+/****************************************************/
+/************* de-angelis-slideshow *****************/
+/****************************************************/
 
-
-
-/*  de-angelis-slideshow
- ******************************************************************************/
 .de-angelis-slideshow {
 	font-family: 'Open Sans Light', sans-serif;
 }
@@ -242,7 +243,9 @@ iframe {
 	height: auto;
 }
 
-.de-angelis-slideshow .carousel-indicators li {
+
+/* makes arrows visible on white background */
+.de-angelis-slideshow .carousel-indicators button {
 	background-color: #000 !important;
 }
 

@@ -345,7 +345,7 @@ Text
 <div class="container-fluid px-0 my-2 mb-4">
 	<div class="container px-0">
 
-
+<!-- See De-Angelis carousel, which has been updated -->
 
 		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
