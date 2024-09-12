@@ -14,7 +14,9 @@ include_once('../../inc/paper-heading.php');
 
 			<figure class="figure w-100">
 				<img src="img/<?php print $paper['thumbnail']; ?>" alt="thumb" class="figure-img w-100 img-fluid">
-				<figcaption class="figure-caption"></figcaption>
+				<figcaption class="figure-caption">
+					Photo by <a href="https://unsplash.com/@skies457?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Di Weng</a>
+  				</figcaption>
 			</figure>
 
 

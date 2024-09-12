@@ -1,12 +1,8 @@
-
 <?php
 
 $author = "williams";
 include_once('../../inc/paper-heading.php');
 // print_r($paper);
-
-// NOTES
-// ...
 
 ?>
 
@@ -30,6 +26,10 @@ include_once('../../inc/paper-heading.php');
 
 
     <div class="container py-2">
+
+
+	<!-- no statement found -->
+
 
         <!-- timeline item -->
         <div class="row no-gutters">
