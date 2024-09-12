@@ -52,7 +52,7 @@ Attached is my video intro, the html link to my game, and the cover photo which 
 	<div class="container px-0">
 		<div class="row">
 			<div class="col-12">
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/JustNextDoor.html" scrolling="no"> </iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/JustNextDoor.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">xxxxx</figcaption>
 

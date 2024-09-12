@@ -90,7 +90,7 @@ Designs including power dynamics, like the panopticon, exist almost everywhere. 
 		<div class="row">
 			<div class="col-12">
 
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/Build/index.html" scrolling="no"> </iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/Build/index.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">Protest Sim is a game meant to illustrate different types of anti-organization architecture.</figcaption>
 

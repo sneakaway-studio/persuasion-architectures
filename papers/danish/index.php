@@ -205,7 +205,7 @@ Citizen, compared with the other apps discussed in this paper, also seems to enc
 	<div class="container px-0">
 		<div class="row">
 			<div class="col-12">
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/JustNextDoor.html" scrolling="no"> </iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/JustNextDoor.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">This project explores some of the complex systems that persuade individuals to participate in neighborhood surveillance: from the state promoting lateral citizen surveillance; to private actors selling technologies; to the (often wealthy and white) communities that create buy-in by promoting exclusivity.</figcaption>
 

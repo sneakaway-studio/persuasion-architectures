@@ -45,7 +45,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container px-0">
     <div class="row">
         <div class="col-12">
-            <iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="twines/marketing4.html" scrolling="no"> </iframe>
+            <iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="twines/marketing4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>
@@ -68,7 +68,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container px-0">
     <div class="row">
         <div class="col-12">
-            <iframe id="my_iframe" width="100%" height="700px" frameBorder="0" src="twines/persuason-models4.html" scrolling="no"> </iframe>
+            <iframe id="iframe2" width="100%" height="700px" frameBorder="0" src="twines/persuason-models4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>
@@ -89,7 +89,7 @@ include_once('../../inc/paper-heading.php');
 <div class="container px-0">
     <div class="row">
         <div class="col-12">
-            <iframe id="my_iframe" width="100%" height="800px" frameBorder="0" src="twines/persuade-friend4.html" scrolling="no"> </iframe>
+            <iframe id="iframe3" width="100%" height="800px" frameBorder="0" src="twines/persuade-friend4.html" scrolling="no"> </iframe>
         </div>
     </div>
 </div>

@@ -96,7 +96,7 @@ Outside of these survival games, there are still numerous opportunities for gami
 		<div class="row">
 			<div class="col-12">
 
-				<iframe id="my_iframe" width="100%" height="860px" frameBorder="0" src="game/TheOfficeGame.html" scrolling="no"> </iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/TheOfficeGame.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">The Office Game by Evan Rothman</figcaption>
 
