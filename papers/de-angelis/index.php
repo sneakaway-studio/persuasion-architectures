@@ -227,7 +227,7 @@ include_once('../../inc/paper-heading.php');
 
 
 					<details>
-						<summary>How Does Social Proof Affect Your Life? by Vittoria De Angelis</summary>
+						<summary>How Does Social Proof Affect Your Life? by <?php print $paper['author']; ?></summary>
 
 						<p>
 							Take this quiz to learn about common experiences in which social proof plays an important role and how this phenomenon affects your life.
