@@ -4,9 +4,6 @@ $author = "botelho";
 include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
-// NOTES
-// ...
-
 ?>
 
 

@@ -202,90 +202,129 @@ include_once('../../inc/paper-heading.php');
 
 
 
-
-
-			<figure class="figure">
-				<a href="https://www.buzzfeed.com/videangelis/how-does-social-proof-affect-your-life-8c30v4saj3" target="_blank">
-					<img src="img/how-does-image.png" alt="cult map" class="figure-img w-100 img-fluid">
-				</a>
-				<figcaption class="figure-caption">Click the image above to see common experiences in which social proof plays an important role and how this phenomenon affects your life.</figcaption>
-			</figure>
-
-
-			
-
-			<p>Product reviews also influence brand reputation, which in turn impacts sales (Amblee and Bui, 95). A study considered Shorts, short stories available on Amazon.com for 49 cents each, and looked at the relationship between reviews, ratings and sales. Shorts with reviews had higher ratings than those without reviews. Although researchers did not find a statistically significant correlation between the average customer rating and sales, they did find that Shorts with customer reviews had more sales. Thus, electronic word of mouth plays a significant role in determining reputation of products. </p>
-
-			<p>Another relevant topic social proof can impact today is information disclosure in services based on location. With social proof, the provider can create trusting beliefs which increase the likelihood that users will share their information. This mechanism was tested and, as hypothesized, social proof positively influenced trusting beliefs, which had a positive effect on information disclosure for users of a fictious app. Additionally, people are less concerned with privacy when social cues are present (Klumpe, Koch and Benlian, 12). </p>
-
-			<p>Not only online users’ actions are manipulated by social proof, but also their opinions. A set of studies analyzed comments and likes on Facebook pages. Specifically, participants viewed an image of a Facebook post about organic food with four comments, which had either positive or negative valence, and were reinforced by either a high or a low number of likes. The more clear and useful participants perceived the comments, the more benefits they perceived and the more motivated they were to find additional information. When they read reinforced positive comments, participants were willing to pay more for an organic product than a regular one. The effect of comment valence was not influenced by the number of likes, so this variable did not influence consumers’ attitudes, they are usually more easily influenced by comments than likes (Hilverda, Kuttschreuter and Glebels, 12). This is probably due to the perception of comments as concrete examples and opinions. Although, there can be instances when people are under time pressure, so they might depend on the number of likes as a heuristic cue for validation because they do not have enough cognitive resources to read the comments carefully.
-				In group discussions too, social proof plays a relevant role. When people learn that other possess the same information as them, the information becomes socially validated and is judged to be more relevant, accurate, and of higher quality (Mojzisch, Grouneva and Schulz-Hardt, 946).
-			</p>
-
-			<p>Social proof is often used in a positive matter. Nonetheless, it might be used maliciously as well, and it sometimes has negative consequences in real life situations. One possible negative outcome is called the bystander effect, and it happens when someone is in a dangerous situation and no one around is helping them because they see others not worrying about it. Thus, they do not think it is appropriate or necessary to step into the situation. An interesting analysis would be understanding whether this effect can happen analogously online, and potential methods of resisting it. </p>
-
-
-
-
-
-			<p>The phenomenon of social proof is a powerful tactic that can modify people’s opinions and behaviors in many various ways. It is often utilized to convince citizens to perform positive actions or to boost businesses’ revenues. Since it might not always be taken advantage of to benefit individuals and it might lead them to do something they would not have done otherwise, it is important to be aware of this tactic. That way, people can ensure their behavior is not simply manipulated by the actions of others, but it is also informed by useful information.</p>
-
-
 		</div>
 	</div>
 </div>
 
 
+<div class="container-fluid px-0 my-2 mb-4">
+	<div class="container px-0">
+		<div class="row">
+			<div class="col-12">
+
+				<!-- 
+				<figure class="figure">
+					<a href="https://www.buzzfeed.com/videangelis/how-does-social-proof-affect-your-life-8c30v4saj3" target="_blank">
+						<img src="img/how-does-image.png" alt="cult map" class="figure-img w-100 img-fluid">
+					</a>
+					<figcaption class="figure-caption">Click the image above to see common experiences in which social proof plays an important role and how this phenomenon affects your life.</figcaption>
+				</figure> 
+				-->
+
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="angelisrecode/public/" scrolling="no"></iframe>
+
+				<figcaption class="figure-caption">
 
 
+					<details>
+						<summary>How Does Social Proof Affect Your Life? by Vittoria De Angelis</summary>
 
+						<p>
+							Take this quiz to learn about common experiences in which social proof plays an important role and how this phenomenon affects your life.
+						</p>
 
-<div class="container">
-	<div class="row my-2">
-		<div class="col-12 col-lg-8 offset-lg-2">
+						<p>
+							Social proof is the tendency of people to consider what others are doing correct, and adapt their behavior according to it. There are countless examples of situations that take advantage of this phenomenon. Check all of the ones you relate with and have experienced in your life to discover the impact that this phenomenon has on you.
+						</p>
 
+					</details>
+				</figcaption>
 
-
-			<h4>Bibliography</h4>
-
-
-			<ol>
-
-				<li id='#bib01'>Amblee, Naveen, and Tung Bui. "Harnessing the Influence of Social Proof in Online Shopping: The Effect of Electronic Word of Mouth on Sales of Digital Microproducts." International Journal of Electronic Commerce 16, no. 2 (2011): 91-113. Accessed January 17, 2020. www.jstor.org/stable/23106395.</li>
-
-				<li id='#bib02'>Bock, Marshall, and Lovin, Brian. “323: Designing Social Proof.” Design Details. Podcast audio, Nov. 20, 2019. https://spec.fm/podcasts/design-details/312744</li>
-
-				<li id='#bib03'>Brinker, Scott. “Hacking Marketing: Agile Practices to Make Marketing Smarter, Faster, and More Innovative.” Hoboken: John Wiley & Sons, Incorporated, 2016. Accessed January 17, 2020. ProQuest Ebook Central.</li>
-
-				<li id='#bib04'>DeMers, Jayson. “The Importance of Social Validation In Online Marketing.” Forbes, 19 Feb. 2015, https://www.forbes.com/sites/jaysondemers/2015/02/19/the-importance-of-social-validation-in-online-marketing/#45c9d86364d7</li>
-
-				<li id='#bib05'>Frank, Thomas, and Boehme, Martin. “Weapons of Influence #3: Social Proof (Ep. 193).” The College Info Geek Podcast: Study Tips & Advice for Students. Podcast audio, Jan. 8, 2018. https://collegeinfogeek.com/influence-social-proof/</li>
-
-				<li id='#bib06'>Goldstein, Noah J., Cialdini, Robert B., and Griskevicius, Vladas. “(2008). A Room with a Viewpoint: Using Social Norms to Motivate Environmental Conservation in Hotels.”</li>
-
-				<li id='#bib07'>Guadagno, Rosanna E., Muscanell, Nicole L., Rice, Lindsay M., and Roberts, Nicole. “Social Influence Online: The Impact of Social Validation and Likability on Compliance.” Psychology of Popular Media Culture 2, no. 1 (January 2013): 51–60.</li>
-
-				<li id='#bib08'>Hilverda, Femke, Kuttschreuter, Margôt, and Giebels, Ellen. “The Effect of Online Social Proof Regarding Organic Food: Comments and Likes on Facebook.” Frontiers in Communication 3 (August 1, 2018). https://doaj.org/article/6f99b521d78844119ae33f8f17c0d766.</li>
-
-				<li id='#bib09'>Klumpe, Johannes, Oliver Francis Koch, and Alexander Benlian. "How Pull Vs. Push Information Delivery and Social Proof Affect Information Disclosure in Location Based Services." Electronic Markets (11, 2018): 1-18. doi: http://dx.doi.org/10.1007/s12525-018-0318-1.</li>
-
-				<li id='#bib10'>Mojzisch, Andreas, Grouneva, Lilia and Schulz‐Hardt, Stefan (2010), Biased evaluation of information during discussion: Disentangling the effects of preference consistency, social validation, and ownership of information. Eur. J. Soc. Psychol., 40. 946-956. doi:10.1002/ejsp.660</li>
-
-				<li id='#bib11'>Platow, Michael J., Haslam, Alexander S., Both, Amanda, Chew, Ivanne, Cuddon, Michelle, Goharpey, Nahal, Maurer, Jacqui, Rosini, Simone, Tsekouras, Anna, and Grace, Diana M. “It’s not funny if they’re laughing”: Self-categorization, social influence, and responses to canned laughter.”Journal of Experimental Social Psychology 41 (2005): 542-550.</li>
-
-				<li id='#bib12'>Shang, Jingzhi, Basil, Debra, and Wymer, Walter (2010). Using Social Marketing to Enhance Hotel Reuse Programs. Journal of Business Research. 63. 166-172. 10.1016/j.jbusres.2009.02.012.</li>
-
-				<li id='#bib13'>Shearman, Sachiyo M, and Yoo, Jina H. “‘Even a Penny Will Help!’: Legitimization of Paltry Donation and Social Proof in Soliciting Donation to a Charitable Organization.” Communication Research Reports 24, no. 4 (October 18, 2007): 271–282. http://www.tandfonline.com/doi/abs/10.1080/08824090701624148.</li>
-
-			</ol>
-
-
-
-
+			</div>
 		</div>
 	</div>
-</div>
+
+
+	<div class="container">
+		<div class="row my-2">
+			<div class="col-12 col-lg-8 offset-lg-2">
 
 
 
-<?php include_once('../../inc/footer.php'); ?>
+
+
+				<p>Product reviews also influence brand reputation, which in turn impacts sales (Amblee and Bui, 95). A study considered Shorts, short stories available on Amazon.com for 49 cents each, and looked at the relationship between reviews, ratings and sales. Shorts with reviews had higher ratings than those without reviews. Although researchers did not find a statistically significant correlation between the average customer rating and sales, they did find that Shorts with customer reviews had more sales. Thus, electronic word of mouth plays a significant role in determining reputation of products. </p>
+
+				<p>Another relevant topic social proof can impact today is information disclosure in services based on location. With social proof, the provider can create trusting beliefs which increase the likelihood that users will share their information. This mechanism was tested and, as hypothesized, social proof positively influenced trusting beliefs, which had a positive effect on information disclosure for users of a fictious app. Additionally, people are less concerned with privacy when social cues are present (Klumpe, Koch and Benlian, 12). </p>
+
+				<p>Not only online users’ actions are manipulated by social proof, but also their opinions. A set of studies analyzed comments and likes on Facebook pages. Specifically, participants viewed an image of a Facebook post about organic food with four comments, which had either positive or negative valence, and were reinforced by either a high or a low number of likes. The more clear and useful participants perceived the comments, the more benefits they perceived and the more motivated they were to find additional information. When they read reinforced positive comments, participants were willing to pay more for an organic product than a regular one. The effect of comment valence was not influenced by the number of likes, so this variable did not influence consumers’ attitudes, they are usually more easily influenced by comments than likes (Hilverda, Kuttschreuter and Glebels, 12). This is probably due to the perception of comments as concrete examples and opinions. Although, there can be instances when people are under time pressure, so they might depend on the number of likes as a heuristic cue for validation because they do not have enough cognitive resources to read the comments carefully.
+					In group discussions too, social proof plays a relevant role. When people learn that other possess the same information as them, the information becomes socially validated and is judged to be more relevant, accurate, and of higher quality (Mojzisch, Grouneva and Schulz-Hardt, 946).
+				</p>
+
+				<p>Social proof is often used in a positive matter. Nonetheless, it might be used maliciously as well, and it sometimes has negative consequences in real life situations. One possible negative outcome is called the bystander effect, and it happens when someone is in a dangerous situation and no one around is helping them because they see others not worrying about it. Thus, they do not think it is appropriate or necessary to step into the situation. An interesting analysis would be understanding whether this effect can happen analogously online, and potential methods of resisting it. </p>
+
+
+
+
+
+				<p>The phenomenon of social proof is a powerful tactic that can modify people’s opinions and behaviors in many various ways. It is often utilized to convince citizens to perform positive actions or to boost businesses’ revenues. Since it might not always be taken advantage of to benefit individuals and it might lead them to do something they would not have done otherwise, it is important to be aware of this tactic. That way, people can ensure their behavior is not simply manipulated by the actions of others, but it is also informed by useful information.</p>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="container">
+		<div class="row my-2">
+			<div class="col-12 col-lg-8 offset-lg-2">
+
+
+
+				<h4>Bibliography</h4>
+
+
+				<ol>
+
+					<li id='#bib01'>Amblee, Naveen, and Tung Bui. "Harnessing the Influence of Social Proof in Online Shopping: The Effect of Electronic Word of Mouth on Sales of Digital Microproducts." International Journal of Electronic Commerce 16, no. 2 (2011): 91-113. Accessed January 17, 2020. www.jstor.org/stable/23106395.</li>
+
+					<li id='#bib02'>Bock, Marshall, and Lovin, Brian. “323: Designing Social Proof.” Design Details. Podcast audio, Nov. 20, 2019. https://spec.fm/podcasts/design-details/312744</li>
+
+					<li id='#bib03'>Brinker, Scott. “Hacking Marketing: Agile Practices to Make Marketing Smarter, Faster, and More Innovative.” Hoboken: John Wiley & Sons, Incorporated, 2016. Accessed January 17, 2020. ProQuest Ebook Central.</li>
+
+					<li id='#bib04'>DeMers, Jayson. “The Importance of Social Validation In Online Marketing.” Forbes, 19 Feb. 2015, https://www.forbes.com/sites/jaysondemers/2015/02/19/the-importance-of-social-validation-in-online-marketing/#45c9d86364d7</li>
+
+					<li id='#bib05'>Frank, Thomas, and Boehme, Martin. “Weapons of Influence #3: Social Proof (Ep. 193).” The College Info Geek Podcast: Study Tips & Advice for Students. Podcast audio, Jan. 8, 2018. https://collegeinfogeek.com/influence-social-proof/</li>
+
+					<li id='#bib06'>Goldstein, Noah J., Cialdini, Robert B., and Griskevicius, Vladas. “(2008). A Room with a Viewpoint: Using Social Norms to Motivate Environmental Conservation in Hotels.”</li>
+
+					<li id='#bib07'>Guadagno, Rosanna E., Muscanell, Nicole L., Rice, Lindsay M., and Roberts, Nicole. “Social Influence Online: The Impact of Social Validation and Likability on Compliance.” Psychology of Popular Media Culture 2, no. 1 (January 2013): 51–60.</li>
+
+					<li id='#bib08'>Hilverda, Femke, Kuttschreuter, Margôt, and Giebels, Ellen. “The Effect of Online Social Proof Regarding Organic Food: Comments and Likes on Facebook.” Frontiers in Communication 3 (August 1, 2018). https://doaj.org/article/6f99b521d78844119ae33f8f17c0d766.</li>
+
+					<li id='#bib09'>Klumpe, Johannes, Oliver Francis Koch, and Alexander Benlian. "How Pull Vs. Push Information Delivery and Social Proof Affect Information Disclosure in Location Based Services." Electronic Markets (11, 2018): 1-18. doi: http://dx.doi.org/10.1007/s12525-018-0318-1.</li>
+
+					<li id='#bib10'>Mojzisch, Andreas, Grouneva, Lilia and Schulz‐Hardt, Stefan (2010), Biased evaluation of information during discussion: Disentangling the effects of preference consistency, social validation, and ownership of information. Eur. J. Soc. Psychol., 40. 946-956. doi:10.1002/ejsp.660</li>
+
+					<li id='#bib11'>Platow, Michael J., Haslam, Alexander S., Both, Amanda, Chew, Ivanne, Cuddon, Michelle, Goharpey, Nahal, Maurer, Jacqui, Rosini, Simone, Tsekouras, Anna, and Grace, Diana M. “It’s not funny if they’re laughing”: Self-categorization, social influence, and responses to canned laughter.”Journal of Experimental Social Psychology 41 (2005): 542-550.</li>
+
+					<li id='#bib12'>Shang, Jingzhi, Basil, Debra, and Wymer, Walter (2010). Using Social Marketing to Enhance Hotel Reuse Programs. Journal of Business Research. 63. 166-172. 10.1016/j.jbusres.2009.02.012.</li>
+
+					<li id='#bib13'>Shearman, Sachiyo M, and Yoo, Jina H. “‘Even a Penny Will Help!’: Legitimization of Paltry Donation and Social Proof in Soliciting Donation to a Charitable Organization.” Communication Research Reports 24, no. 4 (October 18, 2007): 271–282. http://www.tandfonline.com/doi/abs/10.1080/08824090701624148.</li>
+
+				</ol>
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<?php include_once('../../inc/footer.php'); ?>
