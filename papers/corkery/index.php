@@ -4,9 +4,6 @@ $author = "corkery";
 include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
-// NOTES
-// ...
-
 ?>
 
 
@@ -17,14 +14,7 @@ include_once('../../inc/paper-heading.php');
 	<div class="row my-2">
 		<div class="col-12 col-lg-8 offset-lg-2">
 
-
-
-			<figure class="figure w-100">
-				<img src="img/ali-shah-lakhani-sp1BZ1atp7M-unsplash.jpg" alt="thumb" class="figure-img w-100 img-fluid">
-				<figcaption class="figure-caption">
-					Photo by <a href="https://unsplash.com/@alishahlakhani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ali Shah Lakhani</a>
-				</figcaption>
-			</figure>
+			<?php include_once('../../inc/paper-thumbnail.php'); ?>
 
 
 
@@ -108,17 +98,17 @@ include_once('../../inc/paper-heading.php');
 		<div class="col-12 col-lg-8 offset-lg-2">
 
 
-<p>
-	Machine learning models often have issues with bias: bias within the data used to train the models, and the biases these models can sometimes promote as a byproduct of the data. Datasets that contain human-reported data are naturally going to contain some sort of human bias. For example, machine learning is used to determine one’s bail or parole eligibility by predicting whether or not an individual is likely to commit crimes in the future. However, the data covers arrest records, not crimes committed, which creates a bias within the model against minorities––especially for drug crimes––as they are policed at a higher rate (Chouldechova). Producing biased results is not a major concern if the biases are recognized, but more often than not these results have a major influence on decisions made by humans. The influence algorithmic predictions have over human decisions can be described by the anchoring effect, which is “when individuals assimilate their estimates to a previously considered standard” (Vaccaro). Multiple experiments have been conducted over the years to back this idea, including a study where real estate agents were asked to visit a home, review a detailed booklet about the house, and then determine the value of the house. However, for one group, the booklet contained a low asking price for the house, whereas the other group’s booklets contained a high asking price for the home. Those with the higher asking prices valued the house 41% higher than those with the lower asking price (Vaccaro). Although the use of an algorithm was not used to list the asking prices, the study highlights the impact of a predetermined result over human decision-making.
-</p>
+			<p>
+				Machine learning models often have issues with bias: bias within the data used to train the models, and the biases these models can sometimes promote as a byproduct of the data. Datasets that contain human-reported data are naturally going to contain some sort of human bias. For example, machine learning is used to determine one’s bail or parole eligibility by predicting whether or not an individual is likely to commit crimes in the future. However, the data covers arrest records, not crimes committed, which creates a bias within the model against minorities––especially for drug crimes––as they are policed at a higher rate (Chouldechova). Producing biased results is not a major concern if the biases are recognized, but more often than not these results have a major influence on decisions made by humans. The influence algorithmic predictions have over human decisions can be described by the anchoring effect, which is “when individuals assimilate their estimates to a previously considered standard” (Vaccaro). Multiple experiments have been conducted over the years to back this idea, including a study where real estate agents were asked to visit a home, review a detailed booklet about the house, and then determine the value of the house. However, for one group, the booklet contained a low asking price for the house, whereas the other group’s booklets contained a high asking price for the home. Those with the higher asking prices valued the house 41% higher than those with the lower asking price (Vaccaro). Although the use of an algorithm was not used to list the asking prices, the study highlights the impact of a predetermined result over human decision-making.
+			</p>
 
-<p>
-	Although issues related to machine learning systems have been found and reported, nothing changes if the developers of these systems ignore them. Timnit Gebru, the former co-lead of Google’s ethical AI team, wrote a paper outline the risks and harms large language processing models have. These large models grab massive amounts of data from all over the internet, in hopes of covering as many perspectives as they can, but do not filter their data well enough to remove all instances of hate and extremist ideas. Furthermore, the data being pulled from the internet is only going to be from those with access to the internet, excluding perspectives from many minority groups, causing bias within the data. Google’s search engine is an example of one of these large language models, and while entering in a query, the engine works to predict and autocomplete the rest of the query (Bender). But when the model’s data is biased, the engine might autocomplete to a harmful query, either promoting the hateful idea, encouraging the user to click on the query, or exposing those affected to the hate. It’s important that biased data is taken care of, so misinformation and hate can lose any momentum to spread.
-</p>
+			<p>
+				Although issues related to machine learning systems have been found and reported, nothing changes if the developers of these systems ignore them. Timnit Gebru, the former co-lead of Google’s ethical AI team, wrote a paper outline the risks and harms large language processing models have. These large models grab massive amounts of data from all over the internet, in hopes of covering as many perspectives as they can, but do not filter their data well enough to remove all instances of hate and extremist ideas. Furthermore, the data being pulled from the internet is only going to be from those with access to the internet, excluding perspectives from many minority groups, causing bias within the data. Google’s search engine is an example of one of these large language models, and while entering in a query, the engine works to predict and autocomplete the rest of the query (Bender). But when the model’s data is biased, the engine might autocomplete to a harmful query, either promoting the hateful idea, encouraging the user to click on the query, or exposing those affected to the hate. It’s important that biased data is taken care of, so misinformation and hate can lose any momentum to spread.
+			</p>
 
 
-</div>
-</div>
+		</div>
+	</div>
 </div>
 
 

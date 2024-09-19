@@ -7,24 +7,13 @@ include_once('../../inc/paper-heading.php');
 ?>
 
 
-
-
-
 <div class="container">
-
 	<div class="row my-2">
 		<div class="col-12 col-lg-8 offset-lg-2">
 
 
+			<?php include_once('../../inc/paper-thumbnail.php'); ?>
 
-
-
-			<figure class="figure w-100">
-				<img src="img/<?php print $paper['thumbnail']; ?>" alt="thumb" class="figure-img w-100 img-fluid">
-				<figcaption class="figure-caption">
-					Image by <a href="https://www.instructables.com/How-to-Make-a-YouTube-80s-Based-Logo-Wallpaper-Tut/">screamonei</a>
-				</figcaption>
-			</figure>
 
 
 
