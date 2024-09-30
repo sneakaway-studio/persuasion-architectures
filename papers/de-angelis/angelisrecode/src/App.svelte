@@ -1,14 +1,27 @@
 <script>
+  //importing bootstrap/ sveltestrap elements:
+  // import { Button, Card, Container, Modal } from "@sveltestrap/sveltestrap";
+
   import InteractiveTitle from "./components/InteractiveTitle.svelte";
+  import Carousel from "./sharedComps/Carousel.svelte";
   import Tabs from "./sharedComps/Tabs.svelte";
   import ItemList from "./components/ItemList.svelte";
+  import Results from "./components/Results.svelte";
 
   // Tabs component:
+  //TODO: Number styling - num as text or icons?
   let items = [
-    "Popularity and Trends",
-    "Reviews, Ratings and Sales",
-    "Herd Mentality",
-    "Social Cues and Situational Norms",
+    "1. Popularity and Trends",
+    "2. Reviews, Ratings and Sales",
+    "3. Herd Mentality",
+    "4. Social Cues and Situational Norms",
+  ];
+
+  let slides = [
+    { id: 1, content: "1. Popularity and Trends" },
+    { id: 2, content: "2. Reviews, Ratings and Sales" },
+    { id: 3, content: "3. Herd Mentality" },
+    { id: 4, content: "4. Social Cues and Situational Norms" },
   ];
 
   let activeItem = items[0];
@@ -116,27 +129,47 @@
     { text: "Found a show funnier thanks to canned laughter", id: "45" },
     { text: "Ate at a restaurant many people were recommending", id: "46" },
   ];
+
+  let open = false;
+  const toggle = () => (open = !open);
+
+  let showResults = false; // State to track if results should be shown
+
+  // Function to handle submit event
+  function handleSubmit() {
+    showResults = true; // Set to true when submit is clicked
+  }
 </script>
 
 <InteractiveTitle />
+
 <main>
-  <h4>
+
+  <h4 style="color: whitesmoke;">
     There are countless examples of situations that take advantage of social
     proof. From the situations below, select boxes of ones you relate with or
     have experienced to discover the impact this phenomenon has on you.
   </h4>
-  <Tabs {activeItem} {items} on:changeTab={changeTab} />
 
-  {#if activeItem === "Popularity and Trends"}
-    <ItemList options={cat1} />
-  {:else if activeItem === "Reviews, Ratings and Sales"}
-    <ItemList options={cat2} />
-  {:else if activeItem === "Herd Mentality"}
-    <ItemList options={cat3} />
-  {:else if activeItem === "Social Cues and Situational Norms"}
-    <ItemList options={cat4} />
-  {/if}
+  <Carousel {items} on:submit={() => alert("Submit button clicked")}>
+    <div slot="slide-0">
+      <ItemList options={cat1} />
+    </div>
+    <div slot="slide-1">
+      <ItemList options={cat2} />
+    </div>
+    <div slot="slide-2">
+      <ItemList options={cat3} />
+    </div>
+    <div slot="slide-3">
+      <ItemList options={cat4} />
+    </div>
+  </Carousel>
 </main>
+
+{#if showResults}
+  <Results />
+{/if}
 
 <style>
   main {
