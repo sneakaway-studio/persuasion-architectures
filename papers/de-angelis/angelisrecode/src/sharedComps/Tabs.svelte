@@ -6,6 +6,11 @@
   export let items;
 
   const dispatch = createEventDispatcher();
+
+  // Function to handle the submit action
+  function handleSubmit() {
+    dispatch("submit"); // Dispatch a submit event
+  }
 </script>
 
 <div class="tabs-header">
@@ -21,6 +26,17 @@
     {/each}
   </ul>
 </div>
+
+<div class="item-list">
+  <slot></slot>
+</div>
+
+<!-- Conditionally render the submit button if the active tab is the last one -->
+{#if activeItem === items[items.length - 1]}
+  <div class="submit-container">
+    <button on:click={handleSubmit}>Submit</button>
+  </div>
+{/if}
 
 <!-- /* TODO: 
  1. current tab should be blue
@@ -58,5 +74,25 @@
     background-color: #bddff3; /* White background for active tab */
     color: #333;
     border-bottom: 2px solid #bddff3; /* Light blue border */
+  }
+
+  /* Styling for submit button container */
+  .submit-container {
+    text-align: center; /* Center the button */
+    margin-top: 20px; /* Space above the button */
+  }
+
+  button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    background-color: #6d519b; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+
+  button:hover {
+    background-color: #5a4286; /* Darker shade on hover */
   }
 </style>
