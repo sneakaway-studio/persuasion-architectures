@@ -1,9 +1,5 @@
 <!-- TODO:
- 1. font styling
- 2. finalize color palette
- 3. plaing bg or image? 
- 4. spacing-->
-
+ 3. plaing bg or image? -->
 
 <header>
     <h1>
@@ -14,15 +10,14 @@
   <style>
     header {
       background:#bddff3;
+      margin-top: 1rem;
       padding: 20px;
     }
   
     h1 {
       margin: 0;
       text-align: center;
-    }
-    img {
-      max-width:180px ;
+      color: black;
     }
   </style>
   

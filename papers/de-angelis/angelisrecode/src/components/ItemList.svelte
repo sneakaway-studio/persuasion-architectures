@@ -4,6 +4,7 @@
 
   // acepting data
   export let options = [];
+  export let disabled = false; 
 
   // Local variable to track current checkbox states
   let localCheckedStates = {};
@@ -42,9 +43,6 @@
   }
 </script>
 
-<!-- Display total number of checked items -->
-<!-- <p style="color: azure;">Total checked across lists: {$count}</p> -->
-
 <div class="table-body">
   {#each options as opt (opt.id)}
     <div class="checkbox-item">
@@ -52,7 +50,8 @@
         type="checkbox"
         id={`item` + opt.id}
         checked={localCheckedStates[opt.id] || false}  
-        on:change={(e) => updateCheckedState(opt, e)}
+        on:change={(e) => !disabled && updateCheckedState(opt, e)}
+        disabled={disabled}
       />
       <label for={`item` + opt.id}>{opt.text}</label>
     </div>
@@ -63,8 +62,8 @@
   /* Styling the table body (blue part) */
   .table-body {
     background-color: #d5eaf6; /* Light blue */
-    padding: 20px;
-    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    border-radius:10px;
   }
 
   /* Style for checkbox items */
@@ -82,13 +81,8 @@
     border: 2px solid #333;
   }
 
-  .checkbox-item input[type="checkbox"]:checked {
-    background-color: #6d519b; /* Purple color for checked boxes */
-    border-color: #6d519b;
-  }
-
   .checkbox-item label {
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
   }
 </style>
