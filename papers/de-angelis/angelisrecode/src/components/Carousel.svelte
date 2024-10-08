@@ -53,7 +53,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-12 col-md-8">
-      <div id="carouselExampleCaptions" class="carousel slide">
+      <div id="carouselExampleCaptions" class="carousel slide" style="height:500px">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -123,7 +123,7 @@
               <h5>Social Cues and Situational Norms</h5>
             </div>
             <ItemList options={items.category4} disabled={submitState} />
-            <button on:click={handleSubmit} class="btn btn-primary btn-lg"
+            <button on:click={handleSubmit} class="btn btn-primary btn-lg mt-3"
               >Submit</button
             >
           </div>
@@ -170,16 +170,10 @@
     margin: 2rem auto;
   }
 
-  .carousel-indicators {
-    position: absolute;
-    /* top: -40px; Position above the carousel */
-    top: 3.75rem;
-  }
-
   /* styling arrows */
   .carousel-control-prev,
   .carousel-control-next {
-    position: absolute;
+    /* position: absolute; */
     top: 50%; /* Center vertically */
     width: 5%;
     height: 100%;
@@ -194,10 +188,5 @@
 
   .carousel-control-next {
     right: -50px; /* Move outside the carousel */
-  }
-
-  /* for submit button */
-  .btn {
-    margin-top: 1rem;
   }
 </style>
