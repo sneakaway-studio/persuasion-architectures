@@ -8,13 +8,13 @@
 
 <div>
   {#if $count >= 0 && $count <= 9}
+  <img
+	src={results[0].media.image}
+	alt="An aerial view of a large group of people standing together to form the shape of an arrow pointing to the right. "
+  />
     <h2>{results[0].title}</h2>
     <p>{results[0].description}</p>
     <!-- TODO: write proper alt Text.  -->
-    <img
-      src={results[0].media.image}
-      alt="An aerial view of a large group of people standing together to form the shape of an arrow pointing to the right. "
-    />
     <p>
       <a href={results[0].credit_url}>Media Credits:</a>
       {results[0].credit}
@@ -54,7 +54,7 @@
 
   /* for similar img sizing; optional? */
   img {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+	float: right;
   }
 </style>

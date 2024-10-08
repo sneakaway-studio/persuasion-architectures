@@ -50,10 +50,10 @@
   });
 </script>
 
-<div class="container">
+<div class="container text-left">
   <div class="row justify-content-center">
-    <div class="col-12 col-md-8">
-      <div id="carouselExampleCaptions" class="carousel slide" style="height:500px">
+    <div class="col-12 col-md-12 col-lg-8">
+      <div id="carouselExampleCaptions" class="carousel slide pb-5">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -98,30 +98,30 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-captions">
+            <!-- <div class="carousel-captions">
               <h5>Popularity and Trends</h5>
-            </div>
+            </div> -->
             <ItemList options={items.category1} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-captions">
+            <!-- <div class="carousel-captions">
               <h5>Reviews, Ratings and Sales</h5>
-            </div>
+            </div> -->
             <ItemList options={items.category2} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-captions">
+            <!-- <div class="carousel-captions">
               <h5>Herd Mentality</h5>
-            </div>
+            </div> -->
             <ItemList options={items.category3} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-captions">
+            <!-- <div class="carousel-captions">
               <h5>Social Cues and Situational Norms</h5>
-            </div>
+            </div> -->
             <ItemList options={items.category4} disabled={submitState} />
             <button on:click={handleSubmit} class="btn btn-primary btn-lg mt-3"
               >Submit</button

@@ -8,7 +8,7 @@
 
 <!-- instructions -->
 <main>
-  <div class="container">
+  <div class="container d-none d-md-block text-center">
     <div class="row">
       <h4 style="color: whitesmoke;">
         There are countless examples of situations that take advantage of social
@@ -24,7 +24,6 @@
 
 <style>
   main {
-    text-align: center;
     padding: 1em;
     max-width: 500px;
     margin: 0 auto;
