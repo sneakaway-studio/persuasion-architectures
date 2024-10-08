@@ -112,6 +112,9 @@ export const results = [
       image:
         "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/23/17/enhanced/6bcbd806692c/enhanced-392-1587661661-2.jpg",
     },
+    credit: "axerosolutions.com / Via axerosolutions.com",
+    credit_url:
+      "https://axerosolutions.com/blogs/timeisenhauer/pulse/829/social-proof-at-work-how-to-master-persuasion-in-your-workplace",
   },
   {
     id: "2",
@@ -125,6 +128,9 @@ export const results = [
       image:
         "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/23/17/enhanced/bc71f6de0007/enhanced-360-1587661566-3.jpg",
     },
+    credit: "dreamhost.com / Via dreamhost.com",
+    credit_url:
+      "https://www.dreamhost.com/blog/customer-testimonials-social-proof/",
   },
   {
     id: "3",
@@ -137,5 +143,9 @@ export const results = [
       image:
         "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/30/20/enhanced/98bcd8c28f1d/enhanced-831-1588279128-25.jpg",
     },
+    credit:
+      "sehealthcarequalityconsulting.com / Via sehealthcarequalityconsulting.com",
+    credit_url:
+      "https://www.sehealthcarequalityconsulting.com/2018/01/09/principles-influence-healthcare-marketing-social-proof/",
   },
 ];
