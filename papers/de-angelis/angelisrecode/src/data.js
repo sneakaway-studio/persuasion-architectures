@@ -1,102 +1,43 @@
 // list items data (28 total)
 export const items = {
   category1: [
-    {
-      text: "Followed a trend just because a lot of people were doing it",
-      id: "11",
-    },
-    {
-      text: "Watched a movie/tv show everyone had been talking about",
-      id: "12",
-    },
-    { text: "Recreated a recipe have seen a lot of people try", id: "13" },
-    { text: "Visited a not-so-exciting but trendy place", id: "14" },
-    { text: "Watched a video just because it was trending", id: "15" },
-    {
-      text: 'Bought an item because it was a "best-seller" or "fastest growing"',
-      id: "16",
-    },
-    {
-      text: 'Watched a movie/tv show that appeared in the "most popular" list',
-      id: "17",
-    },
-    { text: 'Bought an item from the "recommended to me" section', id: "18" },
+    { text: "Bought an item in the stores many people were recommending", id: "1" },
+    { text: "Followed a trend just because a lot of people were doing it", id: "2" },
+    { text: "Filtered out items with ratings of three stars or less", id: "3" },
+    { text: "Adhered to an opinion because it was shared by a lot of people", id: "4" },
+    { text: "Thought something was worth buying because it was almost sold out", id: "5" },
+    { text: "Watched a movie/tv show everyone had been talking about", id: "6" },
+    { text: "Thought a waiter was deserving but did not put money in an empty tip jar", id: "7" }
   ],
   category2: [
-    {
-      text: "Filtered out items with ratings of three stars or less",
-      id: "21",
-    },
-    {
-      text: "Chose to buy something online based on the number and quality of its reviews",
-      id: "22",
-    },
-    {
-      text: "Considered a restaurant/store good because it always had a line outside the door",
-      id: "23",
-    },
-    {
-      text: "Liked a post just because it already had a lot of likes",
-      id: "24",
-    },
-    { text: "Bought something because it had many likes", id: "25" },
-    {
-      text: "Thought something was worth buying because it was almost sold out",
-      id: "26",
-    },
-    {
-      text: "Bought an item in the stores many people were recommending",
-      id: "27",
-    },
-    {
-      text: "Signed up for a service based on the number of people already using it",
-      id: "28",
-    },
+    { text: "Chose to buy something online based on the number and quality of its reviews", id: "8" },
+    { text: "Thanked a bus driver after hearing most of the other passengers doing the same", id: "9" },
+    { text: "Stayed quiet about a concerning situation in a public place because no one else was saying anything", id: "10" },
+    { text: "Ate something at a buffet because it was almost gone", id: "11" },
+    { text: "Signed up for a service based on the number of people already using it", id: "12" },
+    { text: "Considered a restaurant/store good because it always had a line outside the door", id: "13" },
+    { text: "Liked a post just because it already had a lot of likes", id: "14" }
   ],
   category3: [
-    {
-      text: "Thanked a bus driver after hearing most of the other passengers doing the same",
-      id: "31",
-    },
-    {
-      text: "Stayed quiet about a concerning situation in a public place because no one else was saying anything",
-      id: "32",
-    },
-    {
-      text: "Joined a line even though did not know what it was for",
-      id: "33",
-    },
-    {
-      text: "Clapped at a live show following the rest of the audience's example",
-      id: "34",
-    },
-    {
-      text: "Did not comment an interesting post because no one else had commented it",
-      id: "35",
-    },
-    {
-      text: "Adhered to an opinion because it was shared by a lot of people",
-      id: "36",
-    },
+    { text: "Bought an item because it was a 'best-seller' or 'fastest growing'", id: "15" },
+    { text: "Recreated a recipe have seen a lot of people try", id: "16" },
+    { text: "Joined a line even though did not know what it was for", id: "17" },
+    { text: "Found a show funnier thanks to canned laughter", id: "18" },
+    { text: "Visited a not-so-exciting but trendy place", id: "19" },
+    { text: "Watched a video just because it was trending", id: "20" },
+    { text: "Bought something because it had many likes", id: "21" }
   ],
   category4: [
-    {
-      text: "Thought a waiter was deserving but did not put money in an empty tip jar",
-      id: "41",
-    },
-    { text: "Ate something at a buffet because it was almost gone", id: "42" },
-    {
-      text: "Got convinced by the sign to reuse the towel in a hotel",
-      id: "43",
-    },
-    {
-      text: "Donated to a charity after getting told a lot of people were donating",
-      id: "44",
-    },
-    { text: "Found a show funnier thanks to canned laughter", id: "45" },
-    { text: "Ate at a restaurant many people were recommending", id: "46" },
-  ],
+    { text: "Got convinced by the sign to reuse the towel in a hotel", id: "22" },
+    { text: "Donated to a charity after getting told a lot of people were donating", id: "23" },
+    { text: "Did not comment an interesting post because no one else had commented it", id: "24" },
+    { text: "Bought an item from the 'recommended to me' section", id: "25" },
+    { text: "Clapped at a live show following the rest of the audience's example", id: "26" },
+    { text: "Watched a movie/tv show that appeared in the 'most popular' list", id: "27" },
+    { text: "Ate at a restaurant many people were recommending", id: "28" }
+  ]
 };
+
 
 // result text and image data (3 total)
 export const results = [

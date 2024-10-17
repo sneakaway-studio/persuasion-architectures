@@ -49,8 +49,6 @@
 
   /*checkbox items */
   .checkbox-item {
-    /* display: flex;
-    align-items: center; */
     margin-bottom: 15px;
   }
 

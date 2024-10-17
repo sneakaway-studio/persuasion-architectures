@@ -3,18 +3,17 @@
   import { results } from "../data";
 </script>
 
-<!-- Display the count -->
-<p style="color: azure;">Total checked boxes: {$count}</p>
+<!-- Display the count
+<p style="color: azure;">Total checked boxes: {$count}</p> -->
 
 <div>
   {#if $count >= 0 && $count <= 9}
-  <img
-	src={results[0].media.image}
-	alt="An aerial view of a large group of people standing together to form the shape of an arrow pointing to the right. "
-  />
+    <img
+      src={results[0].media.image}
+      alt="An aerial view of a large group of people standing together to form the shape of an arrow pointing to the right. "
+    />
     <h2>{results[0].title}</h2>
     <p>{results[0].description}</p>
-    <!-- TODO: write proper alt Text.  -->
     <p>
       <a href={results[0].credit_url}>Media Credits:</a>
       {results[0].credit}
@@ -55,6 +54,6 @@
   /* for similar img sizing; optional? */
   img {
     width: 300px;
-	float: right;
+    float: right;
   }
 </style>
