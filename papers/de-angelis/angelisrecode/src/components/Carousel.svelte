@@ -30,7 +30,7 @@
     updateArrows();
 
     // Event listener for slide event
-    const carouselElement = document.getElementById("carouselExampleCaptions");
+    const carouselElement = document.getElementById("carousel-quiz");
     carouselElement.addEventListener("slid.bs.carousel", updateArrows);
   });
 
@@ -43,7 +43,7 @@
   afterUpdate(() => {
     if (submitState) {
       const carousel = new bootstrap.Carousel(
-        document.getElementById("carouselExampleCaptions")
+        document.getElementById("carousel-quiz")
       );
       carousel.to(4); // Move to the fifth slide (i=4)
     }
@@ -53,11 +53,11 @@
 <div class="container text-left">
   <div class="row justify-content-center">
     <div class="col-12 col-md-12 col-lg-8">
-      <div id="carouselExampleCaptions" class="carousel slide pb-5">
+      <div id="carousel-quiz" class="carousel slide pb-5">
         <div class="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carouselExampleCaptions"
+            data-bs-target="#carousel-quiz"
             data-bs-slide-to="0"
             class="active"
             aria-current="true"
@@ -66,21 +66,21 @@
 
           <button
             type="button"
-            data-bs-target="#carouselExampleCaptions"
+            data-bs-target="#carousel-quiz"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
 
           <button
             type="button"
-            data-bs-target="#carouselExampleCaptions"
+            data-bs-target="#carousel-quiz"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
 
           <button
             type="button"
-            data-bs-target="#carouselExampleCaptions"
+            data-bs-target="#carousel-quiz"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
@@ -89,7 +89,7 @@
           {#if submitState}
             <button
               type="button"
-              data-bs-target="#carouselExampleCaptions"
+              data-bs-target="#carousel-quiz"
               data-bs-slide-to="4"
               aria-label="Slide 5"
             ></button>
@@ -98,41 +98,31 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <!-- <div class="carousel-captions">
-              <h5>Popularity and Trends</h5>
-            </div> -->
             <ItemList options={items.category1} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <!-- <div class="carousel-captions">
-              <h5>Reviews, Ratings and Sales</h5>
-            </div> -->
             <ItemList options={items.category2} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <!-- <div class="carousel-captions">
-              <h5>Herd Mentality</h5>
-            </div> -->
             <ItemList options={items.category3} disabled={submitState} />
           </div>
 
           <div class="carousel-item">
-            <!-- <div class="carousel-captions">
-              <h5>Social Cues and Situational Norms</h5>
-            </div> -->
             <ItemList options={items.category4} disabled={submitState} />
-            <button on:click={handleSubmit} class="btn btn-primary btn-lg mt-3"
-              >Submit</button
-            >
+            <div class="d-grid gap-2 col-4 mx-auto">
+              <button
+                on:click={handleSubmit}
+                class="btn btn-primary btn-lg mt-3">Submit</button>
+            </div>
           </div>
 
           <!-- results slide, hidden until submit -->
           {#if submitState}
             <div class="carousel-item">
               <div class="carousel-captions">
-                <h5>Your Result is...</h5>
+                <!-- <h5>Your Result is...</h5> -->
               </div>
               <Results />
             </div>
@@ -143,7 +133,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carousel-quiz"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -154,7 +144,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carousel-quiz"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -166,10 +156,6 @@
 </div>
 
 <style>
-  .carousel-captions {
-    margin: 2rem auto;
-  }
-
   /* styling arrows */
   .carousel-control-prev,
   .carousel-control-next {
