@@ -1,12 +1,10 @@
 <!-- makes use of bootstrap v5.3 carousel -->
 <script>
   import { onMount, afterUpdate } from "svelte";
-  // import { createEventDispatcher } from "svelte";
   import ItemList from "./ItemList.svelte";
   import { items } from "../data";
   import Results from "./Results.svelte";
 
-  // const dispatch = createEventDispatcher();
   let submitState = false;
 
   // Function to handle arrow visibility
@@ -98,32 +96,31 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <ItemList options={items.category1} disabled={submitState} />
+            <ItemList options={items.category1} />
           </div>
 
           <div class="carousel-item">
-            <ItemList options={items.category2} disabled={submitState} />
+            <ItemList options={items.category2} />
           </div>
 
           <div class="carousel-item">
-            <ItemList options={items.category3} disabled={submitState} />
+            <ItemList options={items.category3} />
           </div>
 
           <div class="carousel-item">
-            <ItemList options={items.category4} disabled={submitState} />
+            <ItemList options={items.category4} />
             <div class="d-grid gap-2 col-4 mx-auto">
               <button
                 on:click={handleSubmit}
-                class="btn btn-primary btn-lg mt-3">Submit</button>
+                class="btn btn-primary btn-lg mt-3">Submit</button
+              >
             </div>
           </div>
 
           <!-- results slide, hidden until submit -->
           {#if submitState}
             <div class="carousel-item">
-              <div class="carousel-captions">
-                <!-- <h5>Your Result is...</h5> -->
-              </div>
+              <div class="carousel-captions"></div>
               <Results />
             </div>
           {/if}
@@ -159,7 +156,6 @@
   /* styling arrows */
   .carousel-control-prev,
   .carousel-control-next {
-    /* position: absolute; */
     top: 50%; /* Center vertically */
     width: 5%;
     height: 100%;

@@ -3,7 +3,6 @@
 
   // acepting data
   export let options = [];
-  export let disabled = false;
 
   // Function to update the global count and checked states
   function updateCheckedState(opt, event) {
@@ -27,15 +26,15 @@
 <div class="table-body">
   {#each options as opt (opt.id)}
     <div class="checkbox-item">
-		<label for={`item` + opt.id}>
-      <input
-        type="checkbox"
-        id={`item` + opt.id}
-        checked={checkedStates[opt.id] || false}
-        on:change={(e) => !disabled && updateCheckedState(opt, e)}
-        {disabled}
-      />
-      {opt.text}</label>
+      <label for={`item` + opt.id}>
+        <input
+          type="checkbox"
+          id={`item` + opt.id}
+          checked={checkedStates[opt.id] || false}
+          on:change={(e) => updateCheckedState(opt, e)}
+        />
+        {opt.text}</label
+      >
     </div>
   {/each}
 </div>
@@ -44,10 +43,9 @@
   .table-body {
     background-color: #fff;
     padding: 15px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
 
-  /*checkbox items */
   .checkbox-item {
     margin-bottom: 15px;
   }
