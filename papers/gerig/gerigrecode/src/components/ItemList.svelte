@@ -28,7 +28,7 @@
   {#each options as opt (opt.id)}
     <div class="checkbox-item">
       <label for={`item` + opt.id}>
-        <img src={opt.img_url} class="mb-2" />
+      <img src={opt.img_url} alt="image {opt.text}" class="mb-2" />
         <br />
         <input
           type="checkbox"
