@@ -1181,19 +1181,19 @@ var app = (function () {
 
 	function get_each_context(ctx, list, i) {
 		const child_ctx = ctx.slice();
-		child_ctx[4] = list[i];
+		child_ctx[3] = list[i];
 		return child_ctx;
 	}
 
-	// (28:2) {#each options as opt (opt.id)}
+	// (27:2) {#each options as opt (opt.id)}
 	function create_each_block(key_1, ctx) {
 		let div;
+		let label;
 		let input;
 		let input_id_value;
 		let input_checked_value;
 		let t0;
-		let label;
-		let t1_value = /*opt*/ ctx[4].text + "";
+		let t1_value = /*opt*/ ctx[3].text + "";
 		let t1;
 		let label_for_value;
 		let t2;
@@ -1201,7 +1201,7 @@ var app = (function () {
 		let dispose;
 
 		function change_handler(...args) {
-			return /*change_handler*/ ctx[3](/*opt*/ ctx[4], ...args);
+			return /*change_handler*/ ctx[2](/*opt*/ ctx[3], ...args);
 		}
 
 		const block = {
@@ -1209,29 +1209,28 @@ var app = (function () {
 			first: null,
 			c: function create() {
 				div = element("div");
+				label = element("label");
 				input = element("input");
 				t0 = space();
-				label = element("label");
 				t1 = text(t1_value);
 				t2 = space();
 				attr_dev(input, "type", "checkbox");
-				attr_dev(input, "id", input_id_value = `item` + /*opt*/ ctx[4].id);
-				input.checked = input_checked_value = checkedStates[/*opt*/ ctx[4].id] || false;
-				input.disabled = /*disabled*/ ctx[1];
-				attr_dev(input, "class", "svelte-e74p");
-				add_location(input, file$3, 29, 6, 839);
-				attr_dev(label, "for", label_for_value = `item` + /*opt*/ ctx[4].id);
-				attr_dev(label, "class", "svelte-e74p");
-				add_location(label, file$3, 36, 6, 1056);
-				attr_dev(div, "class", "checkbox-item svelte-e74p");
-				add_location(div, file$3, 28, 4, 804);
+				attr_dev(input, "id", input_id_value = `item` + /*opt*/ ctx[3].id);
+				input.checked = input_checked_value = checkedStates[/*opt*/ ctx[3].id] || false;
+				attr_dev(input, "class", "svelte-2s1lok");
+				add_location(input, file$3, 29, 8, 846);
+				attr_dev(label, "for", label_for_value = `item` + /*opt*/ ctx[3].id);
+				attr_dev(label, "class", "svelte-2s1lok");
+				add_location(label, file$3, 28, 6, 807);
+				attr_dev(div, "class", "checkbox-item svelte-2s1lok");
+				add_location(div, file$3, 27, 4, 772);
 				this.first = div;
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div, anchor);
-				append_dev(div, input);
-				append_dev(div, t0);
 				append_dev(div, label);
+				append_dev(label, input);
+				append_dev(label, t0);
 				append_dev(label, t1);
 				append_dev(div, t2);
 
@@ -1243,21 +1242,17 @@ var app = (function () {
 			p: function update(new_ctx, dirty) {
 				ctx = new_ctx;
 
-				if (dirty & /*options*/ 1 && input_id_value !== (input_id_value = `item` + /*opt*/ ctx[4].id)) {
+				if (dirty & /*options*/ 1 && input_id_value !== (input_id_value = `item` + /*opt*/ ctx[3].id)) {
 					attr_dev(input, "id", input_id_value);
 				}
 
-				if (dirty & /*options*/ 1 && input_checked_value !== (input_checked_value = checkedStates[/*opt*/ ctx[4].id] || false)) {
+				if (dirty & /*options*/ 1 && input_checked_value !== (input_checked_value = checkedStates[/*opt*/ ctx[3].id] || false)) {
 					prop_dev(input, "checked", input_checked_value);
 				}
 
-				if (dirty & /*disabled*/ 2) {
-					prop_dev(input, "disabled", /*disabled*/ ctx[1]);
-				}
+				if (dirty & /*options*/ 1 && t1_value !== (t1_value = /*opt*/ ctx[3].text + "")) set_data_dev(t1, t1_value);
 
-				if (dirty & /*options*/ 1 && t1_value !== (t1_value = /*opt*/ ctx[4].text + "")) set_data_dev(t1, t1_value);
-
-				if (dirty & /*options*/ 1 && label_for_value !== (label_for_value = `item` + /*opt*/ ctx[4].id)) {
+				if (dirty & /*options*/ 1 && label_for_value !== (label_for_value = `item` + /*opt*/ ctx[3].id)) {
 					attr_dev(label, "for", label_for_value);
 				}
 			},
@@ -1275,7 +1270,7 @@ var app = (function () {
 			block,
 			id: create_each_block.name,
 			type: "each",
-			source: "(28:2) {#each options as opt (opt.id)}",
+			source: "(27:2) {#each options as opt (opt.id)}",
 			ctx
 		});
 
@@ -1287,7 +1282,7 @@ var app = (function () {
 		let each_blocks = [];
 		let each_1_lookup = new Map();
 		let each_value = ensure_array_like_dev(/*options*/ ctx[0]);
-		const get_key = ctx => /*opt*/ ctx[4].id;
+		const get_key = ctx => /*opt*/ ctx[3].id;
 		validate_each_keys(ctx, each_value, get_each_context, get_key);
 
 		for (let i = 0; i < each_value.length; i += 1) {
@@ -1304,8 +1299,8 @@ var app = (function () {
 					each_blocks[i].c();
 				}
 
-				attr_dev(div, "class", "table-body svelte-e74p");
-				add_location(div, file$3, 26, 0, 739);
+				attr_dev(div, "class", "table-body svelte-2s1lok");
+				add_location(div, file$3, 25, 0, 707);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1320,7 +1315,7 @@ var app = (function () {
 				}
 			},
 			p: function update(ctx, [dirty]) {
-				if (dirty & /*options, disabled, updateCheckedState*/ 7) {
+				if (dirty & /*options, updateCheckedState*/ 3) {
 					each_value = ensure_array_like_dev(/*options*/ ctx[0]);
 					validate_each_keys(ctx, each_value, get_each_context, get_key);
 					each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, div, destroy_block, create_each_block, null, get_each_context);
@@ -1354,7 +1349,6 @@ var app = (function () {
 		let { $$slots: slots = {}, $$scope } = $$props;
 		validate_slots('ItemList', slots, []);
 		let { options = [] } = $$props;
-		let { disabled = false } = $$props;
 
 		// Function to update the global count and checked states
 		function updateCheckedState(opt, event) {
@@ -1374,43 +1368,40 @@ var app = (function () {
 			});
 		}
 
-		const writable_props = ['options', 'disabled'];
+		const writable_props = ['options'];
 
 		Object_1.keys($$props).forEach(key => {
 			if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<ItemList> was created with unknown prop '${key}'`);
 		});
 
-		const change_handler = (opt, e) => !disabled && updateCheckedState(opt, e);
+		const change_handler = (opt, e) => updateCheckedState(opt, e);
 
 		$$self.$$set = $$props => {
 			if ('options' in $$props) $$invalidate(0, options = $$props.options);
-			if ('disabled' in $$props) $$invalidate(1, disabled = $$props.disabled);
 		};
 
 		$$self.$capture_state = () => ({
 			count,
 			checkedStates,
 			options,
-			disabled,
 			updateCheckedState
 		});
 
 		$$self.$inject_state = $$props => {
 			if ('options' in $$props) $$invalidate(0, options = $$props.options);
-			if ('disabled' in $$props) $$invalidate(1, disabled = $$props.disabled);
 		};
 
 		if ($$props && "$$inject" in $$props) {
 			$$self.$inject_state($$props.$$inject);
 		}
 
-		return [options, disabled, updateCheckedState, change_handler];
+		return [options, updateCheckedState, change_handler];
 	}
 
 	class ItemList extends SvelteComponentDev {
 		constructor(options) {
 			super(options);
-			init(this, options, instance$3, create_fragment$3, safe_not_equal, { options: 0, disabled: 1 });
+			init(this, options, instance$3, create_fragment$3, safe_not_equal, { options: 0 });
 
 			dispatch_dev("SvelteRegisterComponent", {
 				component: this,
@@ -1427,113 +1418,102 @@ var app = (function () {
 		set options(value) {
 			throw new Error("<ItemList>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
 		}
-
-		get disabled() {
-			throw new Error("<ItemList>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-		}
-
-		set disabled(value) {
-			throw new Error("<ItemList>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-		}
 	}
 
 	// list items data (28 total)
 	const items = {
 	  category1: [
 	    {
+	      text: "Bought an item in the stores many people were recommending",
+	      id: "1",
+	    },
+	    {
 	      text: "Followed a trend just because a lot of people were doing it",
-	      id: "11",
+	      id: "2",
+	    },
+	    { text: "Filtered out items with ratings of three stars or less", id: "3" },
+	    {
+	      text: "Adhered to an opinion because it was shared by a lot of people",
+	      id: "4",
+	    },
+	    {
+	      text: "Thought something was worth buying because it was almost sold out",
+	      id: "5",
 	    },
 	    {
 	      text: "Watched a movie/tv show everyone had been talking about",
-	      id: "12",
-	    },
-	    { text: "Recreated a recipe have seen a lot of people try", id: "13" },
-	    { text: "Visited a not-so-exciting but trendy place", id: "14" },
-	    { text: "Watched a video just because it was trending", id: "15" },
-	    {
-	      text: 'Bought an item because it was a "best-seller" or "fastest growing"',
-	      id: "16",
+	      id: "6",
 	    },
 	    {
-	      text: 'Watched a movie/tv show that appeared in the "most popular" list',
-	      id: "17",
+	      text: "Thought a waiter was deserving but did not put money in an empty tip jar",
+	      id: "7",
 	    },
-	    { text: 'Bought an item from the "recommended to me" section', id: "18" },
 	  ],
 	  category2: [
 	    {
-	      text: "Filtered out items with ratings of three stars or less",
-	      id: "21",
+	      text: "Chose to buy something online based on the number and quality of its reviews",
+	      id: "8",
 	    },
 	    {
-	      text: "Chose to buy something online based on the number and quality of its reviews",
-	      id: "22",
+	      text: "Thanked a bus driver after hearing most of the other passengers doing the same",
+	      id: "9",
+	    },
+	    {
+	      text: "Stayed quiet about a concerning situation in a public place because no one else was saying anything",
+	      id: "10",
+	    },
+	    { text: "Ate something at a buffet because it was almost gone", id: "11" },
+	    {
+	      text: "Signed up for a service based on the number of people already using it",
+	      id: "12",
 	    },
 	    {
 	      text: "Considered a restaurant/store good because it always had a line outside the door",
-	      id: "23",
+	      id: "13",
 	    },
 	    {
 	      text: "Liked a post just because it already had a lot of likes",
-	      id: "24",
-	    },
-	    { text: "Bought something because it had many likes", id: "25" },
-	    {
-	      text: "Thought something was worth buying because it was almost sold out",
-	      id: "26",
-	    },
-	    {
-	      text: "Bought an item in the stores many people were recommending",
-	      id: "27",
-	    },
-	    {
-	      text: "Signed up for a service based on the number of people already using it",
-	      id: "28",
+	      id: "14",
 	    },
 	  ],
 	  category3: [
 	    {
-	      text: "Thanked a bus driver after hearing most of the other passengers doing the same",
-	      id: "31",
+	      text: "Bought an item because it was a 'best-seller' or 'fastest growing'",
+	      id: "15",
 	    },
-	    {
-	      text: "Stayed quiet about a concerning situation in a public place because no one else was saying anything",
-	      id: "32",
-	    },
+	    { text: "Recreated a recipe have seen a lot of people try", id: "16" },
 	    {
 	      text: "Joined a line even though did not know what it was for",
-	      id: "33",
+	      id: "17",
 	    },
-	    {
-	      text: "Clapped at a live show following the rest of the audience's example",
-	      id: "34",
-	    },
-	    {
-	      text: "Did not comment an interesting post because no one else had commented it",
-	      id: "35",
-	    },
-	    {
-	      text: "Adhered to an opinion because it was shared by a lot of people",
-	      id: "36",
-	    },
+	    { text: "Found a show funnier thanks to canned laughter", id: "18" },
+	    { text: "Visited a not-so-exciting but trendy place", id: "19" },
+	    { text: "Watched a video just because it was trending", id: "20" },
+	    { text: "Bought something because it had many likes", id: "21" },
 	  ],
 	  category4: [
 	    {
-	      text: "Thought a waiter was deserving but did not put money in an empty tip jar",
-	      id: "41",
-	    },
-	    { text: "Ate something at a buffet because it was almost gone", id: "42" },
-	    {
 	      text: "Got convinced by the sign to reuse the towel in a hotel",
-	      id: "43",
+	      id: "22",
 	    },
 	    {
 	      text: "Donated to a charity after getting told a lot of people were donating",
-	      id: "44",
+	      id: "23",
 	    },
-	    { text: "Found a show funnier thanks to canned laughter", id: "45" },
-	    { text: "Ate at a restaurant many people were recommending", id: "46" },
+	    {
+	      text: "Did not comment an interesting post because no one else had commented it",
+	      id: "24",
+	    },
+	    { text: "Bought an item from the 'recommended to me' section", id: "25" },
+	    {
+	      text: "Clapped at a live show following the rest of the audience's example",
+	      id: "26",
+	    },
+	    {
+	      text: "Watched a movie/tv show that appeared in the 'most popular' list",
+	      id: "27",
+	    },
+	    { text: "Ate at a restaurant many people were recommending", id: "28" },
 	  ],
 	};
 
@@ -1548,8 +1528,7 @@ var app = (function () {
 	    description:
 	      'You do not really pay attention to the number of comments, likes and reviews on online platforms. Or maybe you do, but they are not the factors that control your actions online. You would rather watch something without hearing how other people react to it, and you would rather not follow the crowd just because "everyone else is doing it."',
 	    media: {
-	      image:
-	        "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/23/17/enhanced/6bcbd806692c/enhanced-392-1587661661-2.jpg",
+	      image: "images/arrow-by-people.jpg",
 	    },
 	    credit: "axerosolutions.com / Via axerosolutions.com",
 	    credit_url:
@@ -1564,8 +1543,7 @@ var app = (function () {
 	    description:
 	      "Of course you use social media and look at how people react to the content, buy products online and read their reviews. But, you are able to not get influenced too much by the way others use online platform, and can often decide what to do based on what you believe is best. Aside from the online space, you visit popular places, do activities recommended by many, and follow trends, but not just merely because the majority of people suggest doing so, also if you personally think they are worthy.",
 	    media: {
-	      image:
-	        "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/23/17/enhanced/bc71f6de0007/enhanced-360-1587661566-3.jpg",
+	      image: "images/group-huddle-social-feed.jpg",
 	    },
 	    credit: "dreamhost.com / Via dreamhost.com",
 	    credit_url:
@@ -1579,8 +1557,7 @@ var app = (function () {
 	    description:
 	      "Posts, images, videos and products seem less interesting and less valid to you if the number of likes, or similar positive reinforcement, is low. You consider the numbers on different online platform to be the main indication of the quality of the content posted there. You are more likely to engage in activities if you see that many other people, especially if they are your friends or similar to you, are also doing them. Additionally, you would feel lost watching a sitcom without the laugh track, and appreciate shows with a live audience, so that the jokes sound funnier and you get a sense of when it is the right time to laugh. In real life, you think lines outside of stores are a clear symbol of good quality and you always try the new trend if many people around you are recommending it.",
 	    media: {
-	      image:
-	        "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/30/20/enhanced/98bcd8c28f1d/enhanced-831-1588279128-25.jpg",
+	      image: "images/icons-surround-person.jpg",
 	    },
 	    credit:
 	      "sehealthcarequalityconsulting.com / Via sehealthcarequalityconsulting.com",
@@ -1592,307 +1569,110 @@ var app = (function () {
 	/* src\components\Results.svelte generated by Svelte v4.2.19 */
 	const file$2 = "src\\components\\Results.svelte";
 
-	// (33:41) 
-	function create_if_block_2(ctx) {
-		let h2;
-		let t1;
-		let p0;
-		let t3;
-		let img;
-		let img_src_value;
-		let t4;
-		let p1;
-		let a;
-		let t6;
-		let t7_value = results[2].credit + "";
-		let t7;
-
-		const block = {
-			c: function create() {
-				h2 = element("h2");
-				h2.textContent = `${results[2].title}`;
-				t1 = space();
-				p0 = element("p");
-				p0.textContent = `${results[2].description}`;
-				t3 = space();
-				img = element("img");
-				t4 = space();
-				p1 = element("p");
-				a = element("a");
-				a.textContent = "Media Credits:";
-				t6 = space();
-				t7 = text(t7_value);
-				attr_dev(h2, "class", "svelte-1g1bg1m");
-				add_location(h2, file$2, 33, 4, 1083);
-				attr_dev(p0, "class", "svelte-1g1bg1m");
-				add_location(p0, file$2, 34, 4, 1116);
-				if (!src_url_equal(img.src, img_src_value = results[2].media.image)) attr_dev(img, "src", img_src_value);
-				attr_dev(img, "alt", "A character outlined in the middle with social icons such as a money bag, idea light bulbs, people conversing, etc. around it.");
-				attr_dev(img, "class", "svelte-1g1bg1m");
-				add_location(img, file$2, 35, 4, 1153);
-				attr_dev(a, "href", results[2].credit_url);
-				add_location(a, file$2, 40, 6, 1358);
-				attr_dev(p1, "class", "svelte-1g1bg1m");
-				add_location(p1, file$2, 39, 4, 1347);
-			},
-			m: function mount(target, anchor) {
-				insert_dev(target, h2, anchor);
-				insert_dev(target, t1, anchor);
-				insert_dev(target, p0, anchor);
-				insert_dev(target, t3, anchor);
-				insert_dev(target, img, anchor);
-				insert_dev(target, t4, anchor);
-				insert_dev(target, p1, anchor);
-				append_dev(p1, a);
-				append_dev(p1, t6);
-				append_dev(p1, t7);
-			},
-			d: function destroy(detaching) {
-				if (detaching) {
-					detach_dev(h2);
-					detach_dev(t1);
-					detach_dev(p0);
-					detach_dev(t3);
-					detach_dev(img);
-					detach_dev(t4);
-					detach_dev(p1);
-				}
-			}
-		};
-
-		dispatch_dev("SvelteRegisterBlock", {
-			block,
-			id: create_if_block_2.name,
-			type: "if",
-			source: "(33:41) ",
-			ctx
-		});
-
-		return block;
-	}
-
-	// (22:41) 
-	function create_if_block_1$1(ctx) {
-		let h2;
-		let t1;
-		let p0;
-		let t3;
-		let img;
-		let img_src_value;
-		let t4;
-		let p1;
-		let a;
-		let t6;
-		let t7_value = results[1].credit + "";
-		let t7;
-
-		const block = {
-			c: function create() {
-				h2 = element("h2");
-				h2.textContent = `${results[1].title}`;
-				t1 = space();
-				p0 = element("p");
-				p0.textContent = `${results[1].description}`;
-				t3 = space();
-				img = element("img");
-				t4 = space();
-				p1 = element("p");
-				a = element("a");
-				a.textContent = "Media Credits:";
-				t6 = space();
-				t7 = text(t7_value);
-				attr_dev(h2, "class", "svelte-1g1bg1m");
-				add_location(h2, file$2, 22, 4, 678);
-				attr_dev(p0, "class", "svelte-1g1bg1m");
-				add_location(p0, file$2, 23, 4, 711);
-				if (!src_url_equal(img.src, img_src_value = results[1].media.image)) attr_dev(img, "src", img_src_value);
-				attr_dev(img, "alt", "An icon of a group of people huddled together with an icon of four out five star rating and a thumbs up icon above them.");
-				attr_dev(img, "class", "svelte-1g1bg1m");
-				add_location(img, file$2, 24, 4, 748);
-				attr_dev(a, "href", results[1].credit_url);
-				add_location(a, file$2, 29, 6, 947);
-				attr_dev(p1, "class", "svelte-1g1bg1m");
-				add_location(p1, file$2, 28, 4, 936);
-			},
-			m: function mount(target, anchor) {
-				insert_dev(target, h2, anchor);
-				insert_dev(target, t1, anchor);
-				insert_dev(target, p0, anchor);
-				insert_dev(target, t3, anchor);
-				insert_dev(target, img, anchor);
-				insert_dev(target, t4, anchor);
-				insert_dev(target, p1, anchor);
-				append_dev(p1, a);
-				append_dev(p1, t6);
-				append_dev(p1, t7);
-			},
-			d: function destroy(detaching) {
-				if (detaching) {
-					detach_dev(h2);
-					detach_dev(t1);
-					detach_dev(p0);
-					detach_dev(t3);
-					detach_dev(img);
-					detach_dev(t4);
-					detach_dev(p1);
-				}
-			}
-		};
-
-		dispatch_dev("SvelteRegisterBlock", {
-			block,
-			id: create_if_block_1$1.name,
-			type: "if",
-			source: "(22:41) ",
-			ctx
-		});
-
-		return block;
-	}
-
-	// (10:2) {#if $count >= 0 && $count <= 9}
-	function create_if_block$1(ctx) {
-		let h2;
-		let t1;
-		let p0;
-		let t3;
-		let img;
-		let img_src_value;
-		let t4;
-		let p1;
-		let a;
-		let t6;
-		let t7_value = results[0].credit + "";
-		let t7;
-
-		const block = {
-			c: function create() {
-				h2 = element("h2");
-				h2.textContent = `${results[0].title}`;
-				t1 = space();
-				p0 = element("p");
-				p0.textContent = `${results[0].description}`;
-				t3 = space();
-				img = element("img");
-				t4 = space();
-				p1 = element("p");
-				a = element("a");
-				a.textContent = "Media Credits:";
-				t6 = space();
-				t7 = text(t7_value);
-				attr_dev(h2, "class", "svelte-1g1bg1m");
-				add_location(h2, file$2, 10, 4, 236);
-				attr_dev(p0, "class", "svelte-1g1bg1m");
-				add_location(p0, file$2, 11, 4, 269);
-				if (!src_url_equal(img.src, img_src_value = results[0].media.image)) attr_dev(img, "src", img_src_value);
-				attr_dev(img, "alt", "An aerial view of a large group of people standing together to form the shape of an arrow pointing to the right. ");
-				attr_dev(img, "class", "svelte-1g1bg1m");
-				add_location(img, file$2, 13, 4, 350);
-				attr_dev(a, "href", results[0].credit_url);
-				add_location(a, file$2, 18, 6, 542);
-				attr_dev(p1, "class", "svelte-1g1bg1m");
-				add_location(p1, file$2, 17, 4, 531);
-			},
-			m: function mount(target, anchor) {
-				insert_dev(target, h2, anchor);
-				insert_dev(target, t1, anchor);
-				insert_dev(target, p0, anchor);
-				insert_dev(target, t3, anchor);
-				insert_dev(target, img, anchor);
-				insert_dev(target, t4, anchor);
-				insert_dev(target, p1, anchor);
-				append_dev(p1, a);
-				append_dev(p1, t6);
-				append_dev(p1, t7);
-			},
-			d: function destroy(detaching) {
-				if (detaching) {
-					detach_dev(h2);
-					detach_dev(t1);
-					detach_dev(p0);
-					detach_dev(t3);
-					detach_dev(img);
-					detach_dev(t4);
-					detach_dev(p1);
-				}
-			}
-		};
-
-		dispatch_dev("SvelteRegisterBlock", {
-			block,
-			id: create_if_block$1.name,
-			type: "if",
-			source: "(10:2) {#if $count >= 0 && $count <= 9}",
-			ctx
-		});
-
-		return block;
-	}
-
 	function create_fragment$2(ctx) {
-		let p;
+		let div2;
+		let div0;
+		let h2;
+		let t0_value = results[/*resultId*/ ctx[0]].title + "";
 		let t0;
 		let t1;
+		let p;
+		let t2_value = results[/*resultId*/ ctx[0]].description + "";
 		let t2;
-		let div;
-
-		function select_block_type(ctx, dirty) {
-			if (/*$count*/ ctx[0] >= 0 && /*$count*/ ctx[0] <= 9) return create_if_block$1;
-			if (/*$count*/ ctx[0] >= 10 && /*$count*/ ctx[0] <= 19) return create_if_block_1$1;
-			if (/*$count*/ ctx[0] >= 20 && /*$count*/ ctx[0] <= 28) return create_if_block_2;
-		}
-
-		let current_block_type = select_block_type(ctx);
-		let if_block = current_block_type && current_block_type(ctx);
+		let t3;
+		let div1;
+		let img;
+		let img_src_value;
+		let img_alt_value;
+		let t4;
+		let small;
+		let a;
+		let t5;
+		let a_href_value;
+		let t6;
+		let t7_value = results[/*resultId*/ ctx[0]].credit + "";
+		let t7;
 
 		const block = {
 			c: function create() {
+				div2 = element("div");
+				div0 = element("div");
+				h2 = element("h2");
+				t0 = text(t0_value);
+				t1 = space();
 				p = element("p");
-				t0 = text("Total checked boxes: ");
-				t1 = text(/*$count*/ ctx[0]);
-				t2 = space();
-				div = element("div");
-				if (if_block) if_block.c();
-				set_style(p, "color", "azure");
-				attr_dev(p, "class", "svelte-1g1bg1m");
-				add_location(p, file$2, 6, 0, 127);
-				add_location(div, file$2, 8, 0, 189);
+				t2 = text(t2_value);
+				t3 = space();
+				div1 = element("div");
+				img = element("img");
+				t4 = space();
+				small = element("small");
+				a = element("a");
+				t5 = text("Media Credits:");
+				t6 = space();
+				t7 = text(t7_value);
+				attr_dev(h2, "class", "svelte-1kxxdxa");
+				add_location(h2, file$2, 19, 4, 504);
+				attr_dev(p, "class", "svelte-1kxxdxa");
+				add_location(p, file$2, 20, 4, 544);
+				attr_dev(div0, "class", "col-12 col-md-6");
+				add_location(div0, file$2, 18, 2, 469);
+				if (!src_url_equal(img.src, img_src_value = results[/*resultId*/ ctx[0]].media.image)) attr_dev(img, "src", img_src_value);
+				attr_dev(img, "class", "img-fluid svelte-1kxxdxa");
+				attr_dev(img, "alt", img_alt_value = "image " + results[/*resultId*/ ctx[0]].title);
+				add_location(img, file$2, 24, 4, 657);
+				attr_dev(a, "href", a_href_value = results[/*resultId*/ ctx[0]].credit_url);
+				add_location(a, file$2, 30, 6, 803);
+				add_location(small, file$2, 29, 4, 788);
+				attr_dev(div1, "class", "col-12 col-md-6");
+				add_location(div1, file$2, 23, 2, 622);
+				attr_dev(div2, "class", "row");
+				add_location(div2, file$2, 16, 0, 423);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
 			},
 			m: function mount(target, anchor) {
-				insert_dev(target, p, anchor);
-				append_dev(p, t0);
-				append_dev(p, t1);
-				insert_dev(target, t2, anchor);
-				insert_dev(target, div, anchor);
-				if (if_block) if_block.m(div, null);
+				insert_dev(target, div2, anchor);
+				append_dev(div2, div0);
+				append_dev(div0, h2);
+				append_dev(h2, t0);
+				append_dev(div0, t1);
+				append_dev(div0, p);
+				append_dev(p, t2);
+				append_dev(div2, t3);
+				append_dev(div2, div1);
+				append_dev(div1, img);
+				append_dev(div1, t4);
+				append_dev(div1, small);
+				append_dev(small, a);
+				append_dev(a, t5);
+				append_dev(small, t6);
+				append_dev(small, t7);
 			},
 			p: function update(ctx, [dirty]) {
-				if (dirty & /*$count*/ 1) set_data_dev(t1, /*$count*/ ctx[0]);
+				if (dirty & /*resultId*/ 1 && t0_value !== (t0_value = results[/*resultId*/ ctx[0]].title + "")) set_data_dev(t0, t0_value);
+				if (dirty & /*resultId*/ 1 && t2_value !== (t2_value = results[/*resultId*/ ctx[0]].description + "")) set_data_dev(t2, t2_value);
 
-				if (current_block_type !== (current_block_type = select_block_type(ctx))) {
-					if (if_block) if_block.d(1);
-					if_block = current_block_type && current_block_type(ctx);
-
-					if (if_block) {
-						if_block.c();
-						if_block.m(div, null);
-					}
+				if (dirty & /*resultId*/ 1 && !src_url_equal(img.src, img_src_value = results[/*resultId*/ ctx[0]].media.image)) {
+					attr_dev(img, "src", img_src_value);
 				}
+
+				if (dirty & /*resultId*/ 1 && img_alt_value !== (img_alt_value = "image " + results[/*resultId*/ ctx[0]].title)) {
+					attr_dev(img, "alt", img_alt_value);
+				}
+
+				if (dirty & /*resultId*/ 1 && a_href_value !== (a_href_value = results[/*resultId*/ ctx[0]].credit_url)) {
+					attr_dev(a, "href", a_href_value);
+				}
+
+				if (dirty & /*resultId*/ 1 && t7_value !== (t7_value = results[/*resultId*/ ctx[0]].credit + "")) set_data_dev(t7, t7_value);
 			},
 			i: noop,
 			o: noop,
 			d: function destroy(detaching) {
 				if (detaching) {
-					detach_dev(p);
-					detach_dev(t2);
-					detach_dev(div);
-				}
-
-				if (if_block) {
-					if_block.d();
+					detach_dev(div2);
 				}
 			}
 		};
@@ -1911,17 +1691,38 @@ var app = (function () {
 	function instance$2($$self, $$props, $$invalidate) {
 		let $count;
 		validate_store(count, 'count');
-		component_subscribe($$self, count, $$value => $$invalidate(0, $count = $$value));
+		component_subscribe($$self, count, $$value => $$invalidate(1, $count = $$value));
 		let { $$slots: slots = {}, $$scope } = $$props;
 		validate_slots('Results', slots, []);
+		let resultId = 0;
 		const writable_props = [];
 
 		Object.keys($$props).forEach(key => {
 			if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Results> was created with unknown prop '${key}'`);
 		});
 
-		$$self.$capture_state = () => ({ count, results, $count });
-		return [$count];
+		$$self.$capture_state = () => ({ count, results, resultId, $count });
+
+		$$self.$inject_state = $$props => {
+			if ('resultId' in $$props) $$invalidate(0, resultId = $$props.resultId);
+		};
+
+		if ($$props && "$$inject" in $$props) {
+			$$self.$inject_state($$props.$$inject);
+		}
+
+		$$self.$$.update = () => {
+			if ($$self.$$.dirty & /*$count*/ 2) {
+				// logic for result display:
+				// as reactive block to allow change after
+				// submission if user changes count
+				{
+					if ($count >= 0 && $count <= 9) $$invalidate(0, resultId = 0); else if ($count >= 10 && $count <= 19) $$invalidate(0, resultId = 1); else $$invalidate(0, resultId = 2); // if $count >= 20 && $count <= 28}
+				}
+			}
+		};
+
+		return [resultId, $count];
 	}
 
 	class Results extends SvelteComponentDev {
@@ -1941,7 +1742,7 @@ var app = (function () {
 	/* src\components\Carousel.svelte generated by Svelte v4.2.19 */
 	const file$1 = "src\\components\\Carousel.svelte";
 
-	// (89:10) {#if submitState}
+	// (87:10) {#if submitState}
 	function create_if_block_1(ctx) {
 		let button;
 
@@ -1949,10 +1750,10 @@ var app = (function () {
 			c: function create() {
 				button = element("button");
 				attr_dev(button, "type", "button");
-				attr_dev(button, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button, "data-bs-target", "#carousel-quiz");
 				attr_dev(button, "data-bs-slide-to", "4");
 				attr_dev(button, "aria-label", "Slide 5");
-				add_location(button, file$1, 89, 12, 2906);
+				add_location(button, file$1, 87, 12, 2738);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, button, anchor);
@@ -1968,19 +1769,18 @@ var app = (function () {
 			block,
 			id: create_if_block_1.name,
 			type: "if",
-			source: "(89:10) {#if submitState}",
+			source: "(87:10) {#if submitState}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (132:10) {#if submitState}
+	// (121:10) {#if submitState}
 	function create_if_block(ctx) {
 		let div1;
 		let div0;
-		let h5;
-		let t1;
+		let t;
 		let results;
 		let current;
 		results = new Results({ $$inline: true });
@@ -1989,21 +1789,17 @@ var app = (function () {
 			c: function create() {
 				div1 = element("div");
 				div0 = element("div");
-				h5 = element("h5");
-				h5.textContent = "Your Result is...";
-				t1 = space();
+				t = space();
 				create_component(results.$$.fragment);
-				add_location(h5, file$1, 134, 16, 4482);
-				attr_dev(div0, "class", "carousel-captions svelte-auyz00");
-				add_location(div0, file$1, 133, 14, 4433);
+				attr_dev(div0, "class", "carousel-captions");
+				add_location(div0, file$1, 122, 14, 3805);
 				attr_dev(div1, "class", "carousel-item");
-				add_location(div1, file$1, 132, 12, 4390);
+				add_location(div1, file$1, 121, 12, 3762);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div1, anchor);
 				append_dev(div1, div0);
-				append_dev(div0, h5);
-				append_dev(div1, t1);
+				append_dev(div1, t);
 				mount_component(results, div1, null);
 				current = true;
 			},
@@ -2029,7 +1825,7 @@ var app = (function () {
 			block,
 			id: create_if_block.name,
 			type: "if",
-			source: "(132:10) {#if submitState}",
+			source: "(121:10) {#if submitState}",
 			ctx
 		});
 
@@ -2037,10 +1833,10 @@ var app = (function () {
 	}
 
 	function create_fragment$1(ctx) {
-		let div13;
-		let div12;
-		let div11;
 		let div10;
+		let div9;
+		let div8;
+		let div7;
 		let div0;
 		let button0;
 		let t0;
@@ -2051,42 +1847,31 @@ var app = (function () {
 		let button3;
 		let t3;
 		let t4;
-		let div9;
-		let div2;
-		let div1;
-		let h50;
-		let t6;
-		let itemlist0;
-		let t7;
-		let div4;
-		let div3;
-		let h51;
-		let t9;
-		let itemlist1;
-		let t10;
 		let div6;
-		let div5;
-		let h52;
-		let t12;
+		let div1;
+		let itemlist0;
+		let t5;
+		let div2;
+		let itemlist1;
+		let t6;
+		let div3;
 		let itemlist2;
-		let t13;
-		let div8;
-		let div7;
-		let h53;
-		let t15;
+		let t7;
+		let div5;
 		let itemlist3;
-		let t16;
+		let t8;
+		let div4;
 		let button4;
-		let t18;
-		let t19;
+		let t10;
+		let t11;
 		let button5;
 		let span0;
-		let t20;
+		let t12;
 		let span1;
-		let t22;
+		let t14;
 		let button6;
 		let span2;
-		let t23;
+		let t15;
 		let span3;
 		let current;
 		let mounted;
@@ -2094,34 +1879,22 @@ var app = (function () {
 		let if_block0 = /*submitState*/ ctx[0] && create_if_block_1(ctx);
 
 		itemlist0 = new ItemList({
-				props: {
-					options: items.category1,
-					disabled: /*submitState*/ ctx[0]
-				},
+				props: { options: items.category1 },
 				$$inline: true
 			});
 
 		itemlist1 = new ItemList({
-				props: {
-					options: items.category2,
-					disabled: /*submitState*/ ctx[0]
-				},
+				props: { options: items.category2 },
 				$$inline: true
 			});
 
 		itemlist2 = new ItemList({
-				props: {
-					options: items.category3,
-					disabled: /*submitState*/ ctx[0]
-				},
+				props: { options: items.category3 },
 				$$inline: true
 			});
 
 		itemlist3 = new ItemList({
-				props: {
-					options: items.category4,
-					disabled: /*submitState*/ ctx[0]
-				},
+				props: { options: items.category4 },
 				$$inline: true
 			});
 
@@ -2129,10 +1902,10 @@ var app = (function () {
 
 		const block = {
 			c: function create() {
-				div13 = element("div");
-				div12 = element("div");
-				div11 = element("div");
 				div10 = element("div");
+				div9 = element("div");
+				div8 = element("div");
+				div7 = element("div");
 				div0 = element("div");
 				button0 = element("button");
 				t0 = space();
@@ -2144,139 +1917,113 @@ var app = (function () {
 				t3 = space();
 				if (if_block0) if_block0.c();
 				t4 = space();
-				div9 = element("div");
-				div2 = element("div");
-				div1 = element("div");
-				h50 = element("h5");
-				h50.textContent = "Popularity and Trends";
-				t6 = space();
-				create_component(itemlist0.$$.fragment);
-				t7 = space();
-				div4 = element("div");
-				div3 = element("div");
-				h51 = element("h5");
-				h51.textContent = "Reviews, Ratings and Sales";
-				t9 = space();
-				create_component(itemlist1.$$.fragment);
-				t10 = space();
 				div6 = element("div");
-				div5 = element("div");
-				h52 = element("h5");
-				h52.textContent = "Herd Mentality";
-				t12 = space();
+				div1 = element("div");
+				create_component(itemlist0.$$.fragment);
+				t5 = space();
+				div2 = element("div");
+				create_component(itemlist1.$$.fragment);
+				t6 = space();
+				div3 = element("div");
 				create_component(itemlist2.$$.fragment);
-				t13 = space();
-				div8 = element("div");
-				div7 = element("div");
-				h53 = element("h5");
-				h53.textContent = "Social Cues and Situational Norms";
-				t15 = space();
+				t7 = space();
+				div5 = element("div");
 				create_component(itemlist3.$$.fragment);
-				t16 = space();
+				t8 = space();
+				div4 = element("div");
 				button4 = element("button");
 				button4.textContent = "Submit";
-				t18 = space();
+				t10 = space();
 				if (if_block1) if_block1.c();
-				t19 = space();
+				t11 = space();
 				button5 = element("button");
 				span0 = element("span");
-				t20 = space();
+				t12 = space();
 				span1 = element("span");
 				span1.textContent = "Previous";
-				t22 = space();
+				t14 = space();
 				button6 = element("button");
 				span2 = element("span");
-				t23 = space();
+				t15 = space();
 				span3 = element("span");
 				span3.textContent = "Next";
 				attr_dev(button0, "type", "button");
-				attr_dev(button0, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button0, "data-bs-target", "#carousel-quiz");
 				attr_dev(button0, "data-bs-slide-to", "0");
 				attr_dev(button0, "class", "active");
 				attr_dev(button0, "aria-current", "true");
 				attr_dev(button0, "aria-label", "Slide 1");
-				add_location(button0, file$1, 57, 10, 1991);
+				add_location(button0, file$1, 55, 10, 1863);
 				attr_dev(button1, "type", "button");
-				attr_dev(button1, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button1, "data-bs-target", "#carousel-quiz");
 				attr_dev(button1, "data-bs-slide-to", "1");
 				attr_dev(button1, "aria-label", "Slide 2");
-				add_location(button1, file$1, 66, 10, 2245);
+				add_location(button1, file$1, 64, 10, 2107);
 				attr_dev(button2, "type", "button");
-				attr_dev(button2, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button2, "data-bs-target", "#carousel-quiz");
 				attr_dev(button2, "data-bs-slide-to", "2");
 				attr_dev(button2, "aria-label", "Slide 3");
-				add_location(button2, file$1, 73, 10, 2438);
+				add_location(button2, file$1, 71, 10, 2290);
 				attr_dev(button3, "type", "button");
-				attr_dev(button3, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button3, "data-bs-target", "#carousel-quiz");
 				attr_dev(button3, "data-bs-slide-to", "3");
 				attr_dev(button3, "aria-label", "Slide 4");
-				add_location(button3, file$1, 80, 10, 2631);
+				add_location(button3, file$1, 78, 10, 2473);
 				attr_dev(div0, "class", "carousel-indicators");
-				add_location(div0, file$1, 56, 8, 1946);
-				add_location(h50, file$1, 101, 14, 3275);
-				attr_dev(div1, "class", "carousel-captions svelte-auyz00");
-				add_location(div1, file$1, 100, 12, 3228);
-				attr_dev(div2, "class", "carousel-item active");
-				add_location(div2, file$1, 99, 10, 3180);
-				add_location(h51, file$1, 108, 14, 3520);
-				attr_dev(div3, "class", "carousel-captions svelte-auyz00");
-				add_location(div3, file$1, 107, 12, 3473);
-				attr_dev(div4, "class", "carousel-item");
-				add_location(div4, file$1, 106, 10, 3432);
-				add_location(h52, file$1, 115, 14, 3770);
-				attr_dev(div5, "class", "carousel-captions svelte-auyz00");
-				add_location(div5, file$1, 114, 12, 3723);
-				attr_dev(div6, "class", "carousel-item");
-				add_location(div6, file$1, 113, 10, 3682);
-				add_location(h53, file$1, 122, 14, 4008);
-				attr_dev(div7, "class", "carousel-captions svelte-auyz00");
-				add_location(div7, file$1, 121, 12, 3961);
+				add_location(div0, file$1, 54, 8, 1818);
+				attr_dev(div1, "class", "carousel-item active");
+				add_location(div1, file$1, 97, 10, 3002);
+				attr_dev(div2, "class", "carousel-item");
+				add_location(div2, file$1, 101, 10, 3120);
+				attr_dev(div3, "class", "carousel-item");
+				add_location(div3, file$1, 105, 10, 3231);
 				attr_dev(button4, "class", "btn btn-primary btn-lg mt-3");
-				add_location(button4, file$1, 125, 12, 4159);
-				attr_dev(div8, "class", "carousel-item");
-				add_location(div8, file$1, 120, 10, 3920);
-				attr_dev(div9, "class", "carousel-inner");
-				add_location(div9, file$1, 98, 8, 3140);
+				add_location(button4, file$1, 112, 14, 3491);
+				attr_dev(div4, "class", "d-grid gap-2 col-4 mx-auto");
+				add_location(div4, file$1, 111, 12, 3435);
+				attr_dev(div5, "class", "carousel-item");
+				add_location(div5, file$1, 109, 10, 3342);
+				attr_dev(div6, "class", "carousel-inner");
+				add_location(div6, file$1, 96, 8, 2962);
 				attr_dev(span0, "class", "carousel-control-prev-icon");
 				attr_dev(span0, "aria-hidden", "true");
-				add_location(span0, file$1, 148, 10, 4849);
+				add_location(span0, file$1, 135, 10, 4151);
 				attr_dev(span1, "class", "visually-hidden");
-				add_location(span1, file$1, 149, 10, 4928);
-				attr_dev(button5, "class", "carousel-control-prev svelte-auyz00");
+				add_location(span1, file$1, 136, 10, 4230);
+				attr_dev(button5, "class", "carousel-control-prev svelte-118215r");
 				attr_dev(button5, "type", "button");
-				attr_dev(button5, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button5, "data-bs-target", "#carousel-quiz");
 				attr_dev(button5, "data-bs-slide", "prev");
-				add_location(button5, file$1, 142, 8, 4668);
+				add_location(button5, file$1, 129, 8, 3980);
 				attr_dev(span2, "class", "carousel-control-next-icon");
 				attr_dev(span2, "aria-hidden", "true");
-				add_location(span2, file$1, 159, 10, 5227);
+				add_location(span2, file$1, 146, 10, 4519);
 				attr_dev(span3, "class", "visually-hidden");
-				add_location(span3, file$1, 160, 10, 5306);
-				attr_dev(button6, "class", "carousel-control-next svelte-auyz00");
+				add_location(span3, file$1, 147, 10, 4598);
+				attr_dev(button6, "class", "carousel-control-next svelte-118215r");
 				attr_dev(button6, "type", "button");
-				attr_dev(button6, "data-bs-target", "#carouselExampleCaptions");
+				attr_dev(button6, "data-bs-target", "#carousel-quiz");
 				attr_dev(button6, "data-bs-slide", "next");
-				add_location(button6, file$1, 153, 8, 5046);
-				attr_dev(div10, "id", "carouselExampleCaptions");
-				attr_dev(div10, "class", "carousel slide");
-				set_style(div10, "height", "500px");
-				add_location(div10, file$1, 55, 6, 1858);
-				attr_dev(div11, "class", "col-12 col-md-8");
-				add_location(div11, file$1, 54, 4, 1821);
-				attr_dev(div12, "class", "row justify-content-center");
-				add_location(div12, file$1, 53, 2, 1775);
-				attr_dev(div13, "class", "container");
-				add_location(div13, file$1, 52, 0, 1748);
+				add_location(button6, file$1, 140, 8, 4348);
+				attr_dev(div7, "id", "carousel-quiz");
+				attr_dev(div7, "class", "carousel slide pb-5");
+				add_location(div7, file$1, 53, 6, 1756);
+				attr_dev(div8, "class", "col-12 col-md-12 col-lg-8");
+				add_location(div8, file$1, 52, 4, 1709);
+				attr_dev(div9, "class", "row justify-content-center");
+				add_location(div9, file$1, 51, 2, 1663);
+				attr_dev(div10, "class", "container text-left");
+				add_location(div10, file$1, 50, 0, 1626);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
 			},
 			m: function mount(target, anchor) {
-				insert_dev(target, div13, anchor);
-				append_dev(div13, div12);
-				append_dev(div12, div11);
-				append_dev(div11, div10);
-				append_dev(div10, div0);
+				insert_dev(target, div10, anchor);
+				append_dev(div10, div9);
+				append_dev(div9, div8);
+				append_dev(div8, div7);
+				append_dev(div7, div0);
 				append_dev(div0, button0);
 				append_dev(div0, t0);
 				append_dev(div0, button1);
@@ -2286,44 +2033,33 @@ var app = (function () {
 				append_dev(div0, button3);
 				append_dev(div0, t3);
 				if (if_block0) if_block0.m(div0, null);
-				append_dev(div10, t4);
-				append_dev(div10, div9);
-				append_dev(div9, div2);
-				append_dev(div2, div1);
-				append_dev(div1, h50);
-				append_dev(div2, t6);
-				mount_component(itemlist0, div2, null);
-				append_dev(div9, t7);
-				append_dev(div9, div4);
-				append_dev(div4, div3);
-				append_dev(div3, h51);
-				append_dev(div4, t9);
-				mount_component(itemlist1, div4, null);
-				append_dev(div9, t10);
-				append_dev(div9, div6);
+				append_dev(div7, t4);
+				append_dev(div7, div6);
+				append_dev(div6, div1);
+				mount_component(itemlist0, div1, null);
+				append_dev(div6, t5);
+				append_dev(div6, div2);
+				mount_component(itemlist1, div2, null);
+				append_dev(div6, t6);
+				append_dev(div6, div3);
+				mount_component(itemlist2, div3, null);
+				append_dev(div6, t7);
 				append_dev(div6, div5);
-				append_dev(div5, h52);
-				append_dev(div6, t12);
-				mount_component(itemlist2, div6, null);
-				append_dev(div9, t13);
-				append_dev(div9, div8);
-				append_dev(div8, div7);
-				append_dev(div7, h53);
-				append_dev(div8, t15);
-				mount_component(itemlist3, div8, null);
-				append_dev(div8, t16);
-				append_dev(div8, button4);
-				append_dev(div9, t18);
-				if (if_block1) if_block1.m(div9, null);
-				append_dev(div10, t19);
-				append_dev(div10, button5);
+				mount_component(itemlist3, div5, null);
+				append_dev(div5, t8);
+				append_dev(div5, div4);
+				append_dev(div4, button4);
+				append_dev(div6, t10);
+				if (if_block1) if_block1.m(div6, null);
+				append_dev(div7, t11);
+				append_dev(div7, button5);
 				append_dev(button5, span0);
-				append_dev(button5, t20);
+				append_dev(button5, t12);
 				append_dev(button5, span1);
-				append_dev(div10, t22);
-				append_dev(div10, button6);
+				append_dev(div7, t14);
+				append_dev(div7, button6);
 				append_dev(button6, span2);
-				append_dev(button6, t23);
+				append_dev(button6, t15);
 				append_dev(button6, span3);
 				current = true;
 
@@ -2344,19 +2080,6 @@ var app = (function () {
 					if_block0 = null;
 				}
 
-				const itemlist0_changes = {};
-				if (dirty & /*submitState*/ 1) itemlist0_changes.disabled = /*submitState*/ ctx[0];
-				itemlist0.$set(itemlist0_changes);
-				const itemlist1_changes = {};
-				if (dirty & /*submitState*/ 1) itemlist1_changes.disabled = /*submitState*/ ctx[0];
-				itemlist1.$set(itemlist1_changes);
-				const itemlist2_changes = {};
-				if (dirty & /*submitState*/ 1) itemlist2_changes.disabled = /*submitState*/ ctx[0];
-				itemlist2.$set(itemlist2_changes);
-				const itemlist3_changes = {};
-				if (dirty & /*submitState*/ 1) itemlist3_changes.disabled = /*submitState*/ ctx[0];
-				itemlist3.$set(itemlist3_changes);
-
 				if (/*submitState*/ ctx[0]) {
 					if (if_block1) {
 						if (dirty & /*submitState*/ 1) {
@@ -2366,7 +2089,7 @@ var app = (function () {
 						if_block1 = create_if_block(ctx);
 						if_block1.c();
 						transition_in(if_block1, 1);
-						if_block1.m(div9, null);
+						if_block1.m(div6, null);
 					}
 				} else if (if_block1) {
 					group_outros();
@@ -2397,7 +2120,7 @@ var app = (function () {
 			},
 			d: function destroy(detaching) {
 				if (detaching) {
-					detach_dev(div13);
+					detach_dev(div10);
 				}
 
 				if (if_block0) if_block0.d();
@@ -2444,7 +2167,7 @@ var app = (function () {
 			updateArrows();
 
 			// Event listener for slide event
-			const carouselElement = document.getElementById("carouselExampleCaptions");
+			const carouselElement = document.getElementById("carousel-quiz");
 
 			carouselElement.addEventListener("slid.bs.carousel", updateArrows);
 		});
@@ -2457,7 +2180,7 @@ var app = (function () {
 		// trigger results slide when submitState changes
 		afterUpdate(() => {
 			if (submitState) {
-				const carousel = new bootstrap.Carousel(document.getElementById("carouselExampleCaptions"));
+				const carousel = new bootstrap.Carousel(document.getElementById("carousel-quiz"));
 				carousel.to(4); // Move to the fifth slide (i=4)
 			}
 		});
@@ -2528,18 +2251,18 @@ var app = (function () {
 				div1 = element("div");
 				div0 = element("div");
 				h4 = element("h4");
-				h4.textContent = "There are countless examples of situations that take advantage of social\n        proof. From the situations below, select boxes of ones you relate with\n        or have experienced to discover the impact this phenomenon has on you.";
+				h4.textContent = "Select items that reflect your experience(s) to discover the impact this\r\n        phenomenon has on you.";
 				t2 = space();
 				create_component(carousel.$$.fragment);
 				set_style(h4, "color", "whitesmoke");
-				attr_dev(h4, "class", "svelte-f7jw4t");
-				add_location(h4, file, 12, 6, 245);
+				attr_dev(h4, "class", "svelte-28thvs");
+				add_location(h4, file, 12, 6, 287);
 				attr_dev(div0, "class", "row");
-				add_location(div0, file, 11, 4, 221);
-				attr_dev(div1, "class", "container");
-				add_location(div1, file, 10, 2, 193);
-				attr_dev(main, "class", "svelte-f7jw4t");
-				add_location(main, file, 9, 0, 184);
+				add_location(div0, file, 11, 4, 262);
+				attr_dev(div1, "class", "container d-none d-md-block text-center");
+				add_location(div1, file, 10, 2, 203);
+				attr_dev(main, "class", "svelte-28thvs");
+				add_location(main, file, 9, 0, 193);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

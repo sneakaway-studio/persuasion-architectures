@@ -1,10 +1,12 @@
 <!-- makes use of bootstrap v5.3 carousel -->
 <script>
   import { onMount, afterUpdate } from "svelte";
+  // import { createEventDispatcher } from "svelte";
   import ItemList from "./ItemList.svelte";
   import { items } from "../data";
   import Results from "./Results.svelte";
 
+  // const dispatch = createEventDispatcher();
   let submitState = false;
 
   // Function to handle arrow visibility
@@ -28,7 +30,7 @@
     updateArrows();
 
     // Event listener for slide event
-    const carouselElement = document.getElementById("carousel-quiz");
+    const carouselElement = document.getElementById("carouselExampleCaptions");
     carouselElement.addEventListener("slid.bs.carousel", updateArrows);
   });
 
@@ -41,9 +43,9 @@
   afterUpdate(() => {
     if (submitState) {
       const carousel = new bootstrap.Carousel(
-        document.getElementById("carousel-quiz")
+        document.getElementById("carouselExampleCaptions")
       );
-      carousel.to(4); // Move to the fifth slide (i=4)
+      carousel.to(3);
     }
   });
 </script>
@@ -51,11 +53,11 @@
 <div class="container text-left">
   <div class="row justify-content-center">
     <div class="col-12 col-md-12 col-lg-8">
-      <div id="carousel-quiz" class="carousel slide pb-5">
+      <div id="carouselExampleCaptions" class="carousel slide pb-5">
         <div class="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carousel-quiz"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
             class="active"
             aria-current="true"
@@ -64,32 +66,25 @@
 
           <button
             type="button"
-            data-bs-target="#carousel-quiz"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
 
           <button
             type="button"
-            data-bs-target="#carousel-quiz"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="2"
             aria-label="Slide 3"
-          ></button>
-
-          <button
-            type="button"
-            data-bs-target="#carousel-quiz"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
           ></button>
 
           <!-- add indicator for results slide-->
           {#if submitState}
             <button
               type="button"
-              data-bs-target="#carousel-quiz"
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
             ></button>
           {/if}
         </div>
@@ -105,10 +100,6 @@
 
           <div class="carousel-item">
             <ItemList options={items.category3} />
-          </div>
-
-          <div class="carousel-item">
-            <ItemList options={items.category4} />
             <div class="d-grid gap-2 col-4 mx-auto">
               <button
                 on:click={handleSubmit}
@@ -120,7 +111,9 @@
           <!-- results slide, hidden until submit -->
           {#if submitState}
             <div class="carousel-item">
-              <div class="carousel-captions"></div>
+              <div class="carousel-captions">
+                <h5>Your Result is...</h5>
+              </div>
               <Results />
             </div>
           {/if}
@@ -130,7 +123,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carousel-quiz"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -141,7 +134,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carousel-quiz"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -153,6 +146,10 @@
 </div>
 
 <style>
+  .carousel-captions {
+    margin: 2rem auto;
+  }
+
   /* styling arrows */
   .carousel-control-prev,
   .carousel-control-next {
@@ -164,11 +161,12 @@
     transform: translateY(-50%);
   }
 
+  /* Move arrows outside carousel */
   .carousel-control-prev {
-    left: -50px; /* Move outside the carousel */
+    left: -50px;
   }
 
   .carousel-control-next {
-    right: -50px; /* Move outside the carousel */
+    right: -50px;
   }
 </style>

@@ -26,6 +26,7 @@
     padding: 1em;
     max-width: 500px;
     margin: 0 auto;
+    /* background-color: #01b8e2; */
     font-family: "PT Sans", sans-serif; /*body font*/
   }
 

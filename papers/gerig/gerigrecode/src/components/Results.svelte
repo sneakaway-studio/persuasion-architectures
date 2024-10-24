@@ -8,9 +8,9 @@
   // as reactive block to allow change after
   // submission if user changes count
   $: {
-    if ($count >= 0 && $count <= 9) resultId = 0;
-    else if ($count >= 10 && $count <= 19) resultId = 1;
-    else resultId = 2; // if $count >= 20 && $count <= 28}
+    if ($count >= 0 && $count <= 4) resultId = 0;
+    else if ($count >= 5 && $count <= 8) resultId = 1;
+    else resultId = 2; // if $count >= 9 && $count <= 12}
   }
 </script>
 
