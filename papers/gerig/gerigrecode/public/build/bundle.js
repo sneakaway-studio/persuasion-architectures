@@ -772,18 +772,18 @@ var app = (function () {
     			t3 = text(t3_value);
     			t4 = space();
     			if (!src_url_equal(img.src, img_src_value = /*opt*/ ctx[3].img_url)) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "mb-2 svelte-1sxzebm");
+    			attr_dev(img, "class", "mb-2 svelte-13lfsma");
     			add_location(img, file$3, 30, 8, 888);
     			add_location(br, file$3, 31, 8, 936);
     			attr_dev(input, "type", "checkbox");
     			attr_dev(input, "id", input_id_value = `item` + /*opt*/ ctx[3].id);
     			input.checked = input_checked_value = checkedStates[/*opt*/ ctx[3].id] || false;
-    			attr_dev(input, "class", "svelte-1sxzebm");
+    			attr_dev(input, "class", "svelte-13lfsma");
     			add_location(input, file$3, 32, 8, 952);
     			attr_dev(label, "for", label_for_value = `item` + /*opt*/ ctx[3].id);
-    			attr_dev(label, "class", "svelte-1sxzebm");
+    			attr_dev(label, "class", "svelte-13lfsma");
     			add_location(label, file$3, 29, 6, 849);
-    			attr_dev(div, "class", "checkbox-item svelte-1sxzebm");
+    			attr_dev(div, "class", "checkbox-item svelte-13lfsma");
     			add_location(div, file$3, 28, 4, 814);
     			this.first = div;
     		},
@@ -866,7 +866,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div, "class", "grid-container svelte-1sxzebm");
+    			attr_dev(div, "class", "grid-container svelte-13lfsma");
     			add_location(div, file$3, 26, 0, 745);
     		},
     		l: function claim(nodes) {
@@ -992,80 +992,68 @@ var app = (function () {
       category1: [
         {
           text: "You are under 25",
-          id:"1",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/4d8cacf28af2/enhanced-buzz-993-1588103233-0.jpg?output-format=jpg&output-quality=auto",
+          id: "1",
+          img_url: "/images/drink-this-much.png",
         },
         {
           text: "You are a perfectionist",
-          id:"2",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/a51b300e382c/enhanced-buzz-1518-1588103246-4.jpg?output-format=jpg&output-quality=auto",
+          id: "2",
+          img_url: "/images/crowd-gathering.jpg",
         },
         {
           text: "You have dealt with an anxiety or a mood disorder",
-          id:"3",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/a51b300e382c/enhanced-buzz-1522-1588103259-0.jpg?output-format=jpg&output-quality=auto",
+          id: "3",
+          img_url: "/images/walking-crowd.jpg",
         },
         {
           text: "You have a problematic familial relationship",
-          id:"4",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/db28b57bc4fd/enhanced-buzz-973-1588103265-22.jpg?output-format=jpg&output-quality=auto",
+          id: "4",
+          img_url: "/images/ghostly-figures.jpg",
         },
       ],
       category2: [
         {
           text: "You blame others for your failures",
-          id:"5",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/9b28760df41c/enhanced-buzz-1515-1588103279-8.jpg?output-format=jpg&output-quality=auto",
+          id: "5",
+          img_url: "/images/children-of-god.jpg",
         },
 
         {
           text: "You have dealt with an addictive disorder",
-          id:"6",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/54fabedce698/enhanced-buzz-994-1588103289-0.jpg?output-format=jpg&output-quality=auto",
+          id: "6",
+          img_url: "/images/walking-red-crowd.jpg",
         },
         {
           text: "You have attained high financial success",
-          id:"7",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/43a9b3f2fa54/enhanced-buzz-1501-1588103456-0.jpg?output-format=jpg&output-quality=auto",
+          id: "7",
+          img_url: "/images/people-prayer.jpg",
         },
         {
           text: "A weaker spiritual background/ upbringing",
-          id:"8",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/9b28760df41c/enhanced-buzz-1515-1588103465-27.jpg?output-format=jpg&output-quality=auto",
+          id: "8",
+          img_url: "/images/raised-hands-circle.jpg",
         },
       ],
       category3: [
         {
           text: "You have high educational attainment",
-          id:"9",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/1593bcadc012/enhanced-buzz-1518-1588103476-18.jpg?output-format=jpg&output-quality=auto",
+          id: "9",
+          img_url: "/images/family-portrait.jpg",
         },
         {
           text: "People call you open-minded",
-          id:"10",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/d195d67ecbe0/enhanced-buzz-1479-1588103561-1.jpg?output-format=jpg&output-quality=auto",
+          id: "10",
+          img_url: "/images/raised-hands-room.jpg",
         },
         {
           text: "You are going through a major life change",
-          id:"11",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/a51b300e382c/enhanced-buzz-1535-1588103576-7.jpg?output-format=jpg&output-quality=auto",
+          id: "11",
+          img_url: "/images/outdoor-ritual.jpg",
         },
         {
           text: "You rarely question authority",
-          id:"12",
-          img_url:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/36517ba3257e/enhanced-buzz-1597-1588103625-0.jpg?output-format=jpg&output-quality=auto",
+          id: "12",
+          img_url: "/images/trump-maga-rally.jpg",
         },
       ],
     };
@@ -1079,8 +1067,7 @@ var app = (function () {
         score_max: 33,
         description: "It would be hard to persuade you to change your beliefs.",
         media: {
-          image:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/4d8cacf28af2/enhanced-1014-1588103815-5.jpg",
+          image: "/images/birds-on-wire.jpg",
         },
         credit: "TODO",
         credit_url: "TODO",
@@ -1092,8 +1079,7 @@ var app = (function () {
         score_max: 67,
         description: "Remember to stick to your gut!",
         media: {
-          image:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/54fabedce698/enhanced-1025-1588103823-1.jpg",
+          image: "/images/cartoon-stock.jpg",
         },
         credit: "TODO",
         credit_url: "TODO",
@@ -1106,8 +1092,7 @@ var app = (function () {
         score_max: 100,
         description: "Stay strong!",
         media: {
-          image:
-            "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/28/19/enhanced/db28b57bc4fd/enhanced-1009-1588103829-19.jpg",
+          image: "/images/cult-gathering.jpg",
         },
         credit: "TODO",
         credit_url: "TODO",

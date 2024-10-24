@@ -51,8 +51,8 @@
   }
 
   img {
-    width: 100%; 
-    max-width: 300px; 
+    width: 100%;
+    max-width: 250px;
     height: auto;
   }
 
