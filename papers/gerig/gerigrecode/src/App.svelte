@@ -8,15 +8,14 @@
 
 <!-- instructions -->
 <main>
-  <!-- <div class="container d-none d-md-block text-center">
+  <div class="container d-none d-md-block text-center">
     <div class="row">
       <h4 style="color: whitesmoke;">
-        There are countless examples of situations that take advantage of social
-        proof. From the situations below, select boxes of ones you relate with
-        or have experienced to discover the impact this phenomenon has on you.
+        Select items that reflect your experience(s) to discover the impact this
+        phenomenon has on you.
       </h4>
     </div>
-  </div> -->
+  </div>
 
   <!-- carousel contains items + results as well -->
   <Carousel />

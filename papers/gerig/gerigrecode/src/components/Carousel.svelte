@@ -87,29 +87,19 @@
               aria-label="Slide 4"
             ></button>
           {/if}
-
-          <!-- add indicator for results slide
-          {#if submitState}
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
-            ></button>
-          {/if} -->
         </div>
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <ItemList options={items.category1} disabled={submitState} />
+            <ItemList options={items.category1} />
           </div>
 
           <div class="carousel-item">
-            <ItemList options={items.category2} disabled={submitState} />
+            <ItemList options={items.category2} />
           </div>
 
           <div class="carousel-item">
-            <ItemList options={items.category3} disabled={submitState} />
+            <ItemList options={items.category3} />
             <div class="d-grid gap-2 col-4 mx-auto">
               <button
                 on:click={handleSubmit}
@@ -117,12 +107,6 @@
               >
             </div>
           </div>
-
-          <!-- <div class="carousel-item">
-  
-            <ItemList options={items.category4} disabled={submitState} />
-            
-          </div> -->
 
           <!-- results slide, hidden until submit -->
           {#if submitState}
@@ -169,7 +153,6 @@
   /* styling arrows */
   .carousel-control-prev,
   .carousel-control-next {
-    /* position: absolute; */
     top: 50%; /* Center vertically */
     width: 5%;
     height: 100%;
@@ -178,11 +161,12 @@
     transform: translateY(-50%);
   }
 
+  /* Move arrows outside carousel */
   .carousel-control-prev {
-    left: -50px; /* Move outside the carousel */
+    left: -50px;
   }
 
   .carousel-control-next {
-    right: -50px; /* Move outside the carousel */
+    right: -50px;
   }
 </style>
