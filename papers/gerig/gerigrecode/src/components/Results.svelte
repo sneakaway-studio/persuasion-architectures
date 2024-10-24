@@ -1,59 +1,42 @@
 <script>
-  import { count } from "../stores";
-  import { results } from "../data";
+	import { count } from "../stores";
+	import { results } from "../data";
+
+	let resultId = 0;
+
+	if ($count >= 0 && $count <= 4) resultId = 0;
+	else if ($count >= 5 && $count <= 8) resultId = 1;
+	// if $count >= 9 && $count <= 12}
+	else resultId = 2;
 </script>
 
-<div>
-  {#if $count >= 0 && $count <= 4}
-    <div class="wrap">
-      <img src={results[0].media.image} />
-
-      <small style="clear: right;">
-        <a href={results[0].credit_url}>Media Credits:</a>
-        {results[0].credit}
-      </small>
-    </div>
-
-    <h2>{results[0].title}</h2>
-    <p>{results[0].description}</p>
-  {:else if $count >= 5 && $count <= 8}
-    <div class="wrap">
-      <img src={results[1].media.image} />
-
-      <small style="clear: right;">
-        <a href={results[1].credit_url}>Media Credits:</a>
-        {results[1].credit}
-      </small>
-    </div>
-
-    <h2>{results[1].title}</h2>
-    <p>{results[1].description}</p>
-  {:else if $count >= 9 && $count <= 12}
-    <div class="wrap">
-      <img src={results[2].media.image} />
-
-      <small style="clear: right;">
-        <a href={results[2].credit_url}>Media Credits:</a>
-        {results[2].credit}
-      </small>
-    </div>
-
-    <h2>{results[2].title}</h2>
-    <p>{results[2].description}</p>
-  {/if}
+<div class="row">
+	<div class="col-12 col-md-6">
+		<h2>{results[resultId].title}</h2>
+		<p>{results[resultId].description}</p>
+	</div>
+	<div class="col-12 col-md-6">
+		<img
+			src={results[resultId].media.image}
+			class="img-fluid"
+			alt="image {results[resultId].title}"
+		/>
+		<small>
+			<a href={results[resultId].credit_url}>Media Credits:</a>
+			{results[resultId].credit}
+		</small>
+	</div>
 </div>
 
 <style>
-  /* spacing all elements */
-  h2,
-  p,
-  img {
-    margin-top: 1.5rem;
-  }
+	/* spacing all elements */
+	h2,
+	p,
+	img {
+		margin-top: 1.5rem;
+	}
 
-  /* for similar img sizing; optional? */
-  img {
-    width: 300px;
-    float: right;
-  }
+	img {
+		width: 100%;
+	}
 </style>
