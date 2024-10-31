@@ -1,7 +1,9 @@
 <!-- TODOs
  1. smoother transitions?
  2. color palette
- 3. randomize tile placement -->
+ 3. code review - refine 
+ 4. display counts
+ 5. reset option ?-->
 <script>
   import ImageTile from "./imageTile.svelte";
   import { images } from "../data";
@@ -16,10 +18,10 @@
 
   function IndexGenerator() {
     // generate [0, 1, 2, ..., 15]
-    // 16 - number of images
+    // 16 = number of images
     const indices = Array.from({ length: 16 }, (_, i) => i);
 
-    // // - 0.5 allows for neg values
+    // - 0.5 allows for neg values
     return indices.sort(() => Math.random() - 0.5);
   }
 
@@ -81,7 +83,7 @@
 <div class="container">
   <div class="row">
     <!-- {#each $images as imgtile (imgtile.id)} -->
-     
+
       <!-- including ramdomization -->
       <!-- {#each $images.slice().sort(shuffler) as imgtile (imgtile.id)} -->
       {#each randomIndices as index}
