@@ -1,64 +1,131 @@
+<!-- TODOs
+ 1. smoother transitions?
+ 2. color palette
+ 3. randomize tile placement -->
 <script>
   import ImageTile from "./imageTile.svelte";
   import { images } from "../data";
 
-  //todo: add actual mathcing logic
+  let selectedTiles = [];
 
+  // //to shuffle image order each rendering
+  // function shuffler() {
+  //   return Math.random() - 0.5;
+  //   // - 0.5 allows for neg values
+  // }
+
+  function IndexGenerator() {
+    // generate [0, 1, 2, ..., 15]
+    // 16 - number of images
+    const indices = Array.from({ length: 16 }, (_, i) => i);
+
+    // // - 0.5 allows for neg values
+    return indices.sort(() => Math.random() - 0.5);
+  }
+
+  // Reactive random indices array
+  $: randomIndices = IndexGenerator();
+
+  //showing tile +
+  //logging tile selections
   function handleTileClick(tileId) {
     images.update((currentTiles) =>
       currentTiles.map((tile) =>
         tile.id === tileId ? { ...tile, isRevealed: !tile.isRevealed } : tile
       )
     );
+    //DEBUGUGING
     console.log("tile clicked logic.svelte");
+
+    // record selected tile for match
+    selectedTiles.push(tileId);
+
+    // check for match when 2 tiles selected
+    if (selectedTiles.length === 2) {
+      checkForMatch(selectedTiles);
+    }
+  }
+
+  // checking for tile matches
+  function checkForMatch(tiles) {
+    const [firstTile, secondTile] = tiles;
+
+    //second digit in ID to match
+    const firstMatchId = firstTile.toString().slice(1);
+    const secondMatchId = secondTile.toString().slice(1);
+
+    if (firstMatchId === secondMatchId) {
+      //DEBUUGIGN
+      console.log("Match found!");
+    } else {
+      // DEBUGGING
+      console.log("No match. Hiding tiles.");
+      // hide tiles
+      setTimeout(() => {
+        images.update((currentTiles) =>
+          currentTiles.map((tile) =>
+            tile.id === firstTile || tile.id === secondTile
+              ? { ...tile, isRevealed: false }
+              : tile
+          )
+        );
+      }, 1000);
+    }
+
+    // resect selection record
+    selectedTiles = [];
   }
 </script>
 
-<div class="game-board">
-  {#each $images as imgtile (imgtile.id)}
-    <!-- <ImageTile
-        imageUrl={imgtile.img_url}
-        isRevealed={imgtile.isRevealed}
-      
-        on:click={() => handleTileClick(imgtile.id)}
-      /> -->
+<!-- bootstrap grid  -->
+<div class="container">
+  <div class="row">
+    <!-- {#each $images as imgtile (imgtile.id)} -->
+     
+      <!-- including ramdomization -->
+      <!-- {#each $images.slice().sort(shuffler) as imgtile (imgtile.id)} -->
+      {#each randomIndices as index}
 
-      <button on:click={() => handleTileClick(imgtile.id)}>
-        <div class="card {imgtile.isRevealed ? 'revealed' : ''} mb-2">
-          {#if imgtile.isRevealed}
-            <!-- <img src={imgtile.img_url} alt="Matching tile" /> -->
-             <div class="image" style="background-image: url({imgtile.img_url});">
-             </div>
-          {/if}
-        </div>
-      </button>
-  {/each}
+      <!-- bootstrap column  -->
+      <div class="col-12 col-md-6 col-lg-3 col{$images[index].id}">
+        <button
+          class="btn btn-link p-2 no-border"
+          on:click={() => handleTileClick($images[index].id)}
+        >
+          <div class="card {$images[index].isRevealed ? 'revealed' : ''} mb-2">
+            {#if $images[index].isRevealed}
+              <!-- <img src={imgtile.img_url} alt="Matching tile" /> -->
+              <div
+                class="image"
+                style="background-image: url({$images[index].img_url});"
+              ></div>
+            {/if}
+          </div>
+        </button>
+      </div>
+    {/each}
+  </div>
 </div>
 
 <style>
-  .image{
+  .image {
     height: 200px;
     width: 200px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover; /*only issues with lindsey lohan - change?*/
   }
 
-  .game-board {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    max-width: 600px; /* TO OD: look into*/
-    margin: 0 auto;
+  .no-border,
+  .btn-link {
+    border: none !important;
+    background-color: transparent !important;
+    color: inherit;
   }
-
-
   .card {
-    min-height: 100px;
-    max-width: 100px; /* Adjust width to be square */
-    background-color: lightgray; /* Placeholder color */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 200px;
+    width: 200px; /*doesn't cater to phone sizes - todo?*/
+    /* max-width: 200px; */
+    background-color: lightgray;
   }
 
   .card:hover {
