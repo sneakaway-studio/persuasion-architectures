@@ -1,20 +1,13 @@
 <!-- TODOs
- 1. smoother transitions?
- 2. color palette
  3. code review - refine 
- 4. display counts
- 5. reset option ?-->
+-->
 <script>
-  import ImageTile from "./imageTile.svelte";
   import { images } from "../data";
+  import Modal from "./Modal.svelte";
 
   let selectedTiles = [];
-
-  // //to shuffle image order each rendering
-  // function shuffler() {
-  //   return Math.random() - 0.5;
-  //   // - 0.5 allows for neg values
-  // }
+  let matchCount = 0;
+  let gameCompleted = false;
 
   function IndexGenerator() {
     // generate [0, 1, 2, ..., 15]
@@ -31,6 +24,10 @@
   //showing tile +
   //logging tile selections
   function handleTileClick(tileId) {
+    // Prevent double-clicking on the same tile
+    if (selectedTiles.includes(tileId)) return;
+
+    //update reveal status
     images.update((currentTiles) =>
       currentTiles.map((tile) =>
         tile.id === tileId ? { ...tile, isRevealed: !tile.isRevealed } : tile
@@ -59,6 +56,18 @@
     if (firstMatchId === secondMatchId) {
       //DEBUUGIGN
       console.log("Match found!");
+      images.update((currentTiles) =>
+        currentTiles.map((tile) =>
+          tile.id === firstTile || tile.id === secondTile
+            ? { ...tile, matched: true }
+            : tile
+        )
+      );
+      matchCount += 1;
+
+      if (matchCount === 8) {
+        gameCompleted = true; // triggers pop up
+      }
     } else {
       // DEBUGGING
       console.log("No match. Hiding tiles.");
@@ -71,35 +80,71 @@
               : tile
           )
         );
-      }, 1000);
+      }, 500);
     }
 
-    // resect selection record
+    // reset selection record
     selectedTiles = [];
+  }
+
+  // Function to restart the game
+  function restartGame() {
+    // Reset selected tiles, matched count, and completion flag
+    selectedTiles = [];
+    matchCount = 0;
+    gameCompleted = false;
+
+    // reset tile stats
+    images.update((currentTiles) =>
+      currentTiles.map((tile) => ({
+        ...tile,
+        isRevealed: false,
+        matched: false,
+      }))
+    );
+  }
+
+  // Close the modal function (without restarting the game)
+  function closeModal() {
+    gameCompleted = false; // Simply hide the modal without restarting the game
   }
 </script>
 
+<!-- Display the pop-up message if the game is completed -->
+<!-- Modal component -->
+<Modal {gameCompleted} resetBoard={restartGame} closeOnly={closeModal} />
+
 <!-- bootstrap grid  -->
-<div class="container">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row justify-content-center">
     <!-- {#each $images as imgtile (imgtile.id)} -->
 
-      <!-- including ramdomization -->
-      <!-- {#each $images.slice().sort(shuffler) as imgtile (imgtile.id)} -->
-      {#each randomIndices as index}
-
+    <!-- including ramdomization -->
+    <!-- {#each $images.slice().sort(shuffler) as imgtile (imgtile.id)} -->
+    {#each randomIndices as index}
       <!-- bootstrap column  -->
-      <div class="col-12 col-md-6 col-lg-3 col{$images[index].id}">
+      <!-- hm. todo. confirm; slight issue bw small and medium -->
+      <div
+        class="col-sm-6 col-md-3 col-lg-3 col{$images[index]
+          .id} d-flex justify-content-center"
+      >
         <button
-          class="btn btn-link p-2 no-border"
+          class="btn btn-link p-1 no-border"
           on:click={() => handleTileClick($images[index].id)}
         >
-          <div class="card {$images[index].isRevealed ? 'revealed' : ''} mb-2">
+          <div
+            class="card {$images[index].isRevealed ? 'revealed' : ''} {$images[
+              index
+            ].matched
+              ? 'matched'
+              : ''} mb-1"
+          >
             {#if $images[index].isRevealed}
               <!-- <img src={imgtile.img_url} alt="Matching tile" /> -->
               <div
                 class="image"
-                style="background-image: url({$images[index].img_url});"
+                style="background-image: url({$images[index]
+                  .img_url}); width:100%;"
               ></div>
             {/if}
           </div>
@@ -111,10 +156,10 @@
 
 <style>
   .image {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 160px;
     background-repeat: no-repeat;
-    background-size: cover; /*only issues with lindsey lohan - change?*/
+    background-size: cover;
   }
 
   .no-border,
@@ -124,9 +169,8 @@
     color: inherit;
   }
   .card {
-    min-height: 200px;
-    width: 200px; /*doesn't cater to phone sizes - todo?*/
-    /* max-width: 200px; */
+    min-height: 160px;
+    width: 160px;
     background-color: lightgray;
   }
 
@@ -136,5 +180,10 @@
 
   .card.revealed {
     background-color: transparent; /* remove bg upon revelation */
+  }
+
+  .matched {
+    border-width: 4px;
+    border-color: rgba(34, 168, 92, 0.7);
   }
 </style>

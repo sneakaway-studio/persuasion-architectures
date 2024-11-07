@@ -6,12 +6,12 @@ body {
 }
 
 body {
-  color: azure;
+  color: black;
   margin: 0;
   padding: 8px;
   box-sizing: border-box;
   font-family: "PT Serif", serif;
-  background-color: #01b8e2;
+  background-color: white;
 }
 
 a {
@@ -40,10 +40,10 @@ textarea {
   padding: 0.4em;
   margin: 0 0 0.5em 0;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
   border-radius: 2px;
 }
 
 input:disabled {
-  color: #ccc;
+  color:grey;
 }

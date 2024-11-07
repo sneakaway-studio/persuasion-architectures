@@ -6,24 +6,17 @@
 <!-- content to render -->
 <Title />
 <main>
-  <GameLogic></GameLogic>
-
-  <!-- <div class="card" style="width: 18rem;">
-	<img class="card-img-top" src="..." alt="Card image cap">
-  </div> -->
+  <GameLogic>
+    <!-- invokes Modal.svelte within -->
+  </GameLogic>
 </main>
 
 <style>
   main {
     padding: 1em;
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto auto;
     font-family: "PT Sans", sans-serif; /*body font*/
-  }
-
-  h4 {
-    color: #333;
-    margin-bottom: 20px;
   }
 
   @media (min-width: 640px) {
