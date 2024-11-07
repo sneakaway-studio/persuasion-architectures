@@ -108,6 +108,37 @@
   function closeModal() {
     gameCompleted = false; // Simply hide the modal without restarting the game
   }
+
+
+  // Adds a new breakpoint @ 400px
+  // https://www.w3schools.com/howto/howto_js_media_queries.asp
+  function changeBreakpoints(mql) {
+	let eles = document.querySelectorAll(".colClass");
+	if (mql.matches) { // If media query matches
+		// document.body.style.backgroundColor = "yellow";
+		eles.forEach((ele,i) => {
+			ele.classList.remove("col-6");
+			ele.classList.add("col-12");
+		})
+	} else {
+		// document.body.style.backgroundColor = "pink";
+		eles.forEach((ele,i) => {
+			ele.classList.add("col-6");
+			ele.classList.remove("col-12");
+		})
+	}
+  }
+
+	// Create a MediaQueryList object
+	var mql = window.matchMedia("(max-width: 400px)")
+
+	// Call listener function at run time
+	changeBreakpoints(mql);
+
+	// Attach listener function on state changes
+	mql.addEventListener("change", function() {
+		changeBreakpoints(mql);
+	});
 </script>
 
 <!-- Display the pop-up message if the game is completed -->
@@ -125,8 +156,8 @@
       <!-- bootstrap column  -->
       <!-- hm. todo. confirm; slight issue bw small and medium -->
       <div
-        class="col-sm-6 col-md-3 col-lg-3 col{$images[index]
-          .id} d-flex justify-content-center"
+        class="col-12 col-sm-4 col-md-3 col-lg-3 col{$images[index]
+          .id} d-flex justify-content-center g-0 colClass"
       >
         <button
           class="btn btn-link p-1 no-border"
