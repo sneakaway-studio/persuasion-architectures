@@ -63,13 +63,54 @@ include_once('../../inc/paper-heading.php');
 
 <p>Applications, games, and social media sites only aid in the process of crafting the ideal. Video games with female characters are designed according to the ideal body in order to entice users to engage with the game on a more personal level. For example, Lauren Croft, the star of the Tomb Raider video games, was digitally created to meet society’s expectations. “Her pouting red lips, her long pony tail reaching to her waist, and her over-sized breasts and eyes are all carved from the virtual media world of an ideal sexuality” (Lancaster, 88). Croft has gathered more money, fame, and power than many real people, all due to her seemingly perfect appearance that was crafted with an ideal “beauty” and sexual desire in mind. In addition to video games, editing applications, such as Photoshop and Adobe Lightroom, allow users to redesign and edit “imperfections” of oneself to meet desires regarding physical appearance. Editors of magazine covers especially utilize these tools to manipulate photos of celebrities on magazine covers.</p>
 
+</div>
+</div>
+</div>
 
-<figure class="figure">
+
+
+<div class="container px-0">
+	<div class="row">
+		<div class="col-12 text-center">
+
+
+<!-- <figure class="figure">
 <a href="https://www.freememorygame.com/?dn=Celebrity+Matching" target="_blank">
     <img src="img/matching-game.png" alt="" class="figure-img w-100 img-fluid">
 </a>
 <figcaption class="figure-caption">Match the celebrity on the streets to the celebrity on the magazine cover. What differences do you notice? How have the photos on the magazine covers been edited to fit the ideal?</figcaption>
-</figure>
+</figure> -->
+
+
+			<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="./mackie-recode/public/" scrolling="no"></iframe>
+
+			<figcaption class="figure-caption">
+
+
+				<details>
+					<summary>Celebrity Matching Game by <?php print $paper['author']; ?>; recoded (2024) by Yumna Ahmed</summary>
+
+					<p>
+					Match the celebrity on the streets to the celebrity on the magazine cover. What differences do you notice? How have the photos on the magazine covers been edited to fit the ideal?
+					</p>
+
+				</details>
+			</figcaption>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+        <div class="row my-2">
+            <div class="col-12 col-lg-8 offset-lg-2">
+
 
 <p>Unfortunately, a desire for unachievable qualities or goals, in this case beauty as the media defines it, can have detrimental effects on an individual and on society as a whole. According to the Social Comparison Theory, individuals determine their worth based on how they compare to others. Facilitated through the media, comparing oneself to others can boost one’s self confidence positively or negatively, depending on the degree to which one experiences the need to compare. When the effects are negative, escaping the cycle is close to impossible. Beginning with social comparison, insecurities and negated self-worth quickly arise. A lack of respect for oneself or others leads to bullying or putting others down in order to better oneself. Bullying leads to feelings of betrayal, worthlessness, and sadness. This spiraling effect not only brings the comparing person down, but several others that fell in the path of destruction. In the current age, increased media exposure fosters an unhealthy environment for comparison, affecting nearly every woman that has access to the Internet.</p>
 

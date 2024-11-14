@@ -48,13 +48,13 @@ include_once('../../inc/paper-heading.php');
 				</figure> -->
 
 
-				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="../gerig/gerigrecode/public" scrolling="no"></iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="./gerigrecode/public" scrolling="no"></iframe>
 
 				<figcaption class="figure-caption">
 
 
 					<details>
-						<summary>How Likely Would You Be To Join A Cult? by <?php print $paper['author']; ?></summary>
+						<summary>How Likely Would You Be To Join A Cult? by <?php print $paper['author']; ?>; recoded (2024) by Yumna Ahmed</summary>
 
 						<p>
 							According to Michael Rousselet's article in 2017, "Cult membership: What factors contribute to joining or leaving?" there are many factors which may contribute to cult membership joining. Take this quiz to learn more.
