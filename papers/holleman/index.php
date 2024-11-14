@@ -73,7 +73,7 @@ include_once('../../inc/paper-heading.php');
 	<div class="container px-0">
 		<div class="row">
 			<div class="col-12">
-				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/Magical Manipulation.html" scrolling="no"> </iframe>
+				<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="game/Magical-Manipulation-20220510.html" scrolling="no"> </iframe>
 
 				<figcaption class="figure-caption">
 					<details>
