@@ -82,7 +82,7 @@ include_once('../../inc/paper-heading.php');
 </figure> -->
 
 
-			<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="./mackie-recode/public" scrolling="no"></iframe>
+			<iframe id="iframe1" width="100%" height="860px" frameBorder="0" src="./mackie-recode/public"></iframe>
 
 			<figcaption class="figure-caption">
 
@@ -195,8 +195,8 @@ include_once('../../inc/paper-heading.php');
 <li id='#bib03'>Kilbourne, Jean. Deadly Persuasion: Why Women and Girls Must Fight the Addictive Power of Advertising. New York, NY: Free Press, 1999. Print.</li>
 <li id='#bib04'>Lancaster, Kurt. “Lara Croft: The Ultimate Young Adventure Girl: Or the Unending Media Desire for Models, Sex, and Fantasy.” PAJ: A Journal of Performance and Art 26.3 (2004): 87–97. Web.</li>
 <li id='#bib05'>Prinzivalli, Leah. “The 10 Most Groundbreaking Beauty Campaigns of 2018.” Glamour. 22 December 2018. https://www.glamour.com/story/inclusive-beauty-campaigns.</li>
-<li id='#bib06'>Swinson, Jo. “False beauty in advertising and pressure to look ‘good’.” CNN Opinion. 10 August 2011. http://www.cnn.com/2011/OPINION/08/08/swinson.airbrushing.ads/index.html.</li>
-<li id='#bib07'>Weiss, Dyanne. “How Does Advertising Affect Wants and Needs?” Chron. https://smallbusiness.chron.com/advertising-affect-wants-needs-69071.html. Accessed 23 Jaunary 2020.</li>
+<li id='#bib06'>Swinson, Jo. “<a href="http://www.cnn.com/2011/OPINION/08/08/swinson.airbrushing.ads/index.html" target="_blank">False beauty in advertising and pressure to look ‘good’</a>.” CNN Opinion. 10 August 2011.</li>
+<li id='#bib07'>Weiss, Dyanne. “<a href="https://smallbusiness.chron.com/advertising-affect-wants-needs-69071.html" target="_blank">Does Advertising Affect Wants and Needs?</a>” Chron. Accessed 23 Jaunary 2020.</li>
 
 
 </ol>
