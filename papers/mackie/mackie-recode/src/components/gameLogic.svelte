@@ -1,25 +1,11 @@
-<!-- TODOs
- 3. code review - refine 
--->
 <script>
   import { images } from "../data";
-  import Modal from "./Modal.svelte";
+  import { randomIndices } from "../indexRandomizer";
 
+  export let onGameCompleted;
+  export let matchCount;
   let selectedTiles = [];
-  let matchCount = 0;
-  let gameCompleted = false;
-
-  function IndexGenerator() {
-    // generate [0, 1, 2, ..., 15]
-    // 16 = number of images
-    const indices = Array.from({ length: 16 }, (_, i) => i);
-
-    // - 0.5 allows for neg values
-    return indices.sort(() => Math.random() - 0.5);
-  }
-
-  // Reactive random indices array
-  $: randomIndices = IndexGenerator();
+  $: randomIndices;
 
   //showing tile +
   //logging tile selections
@@ -33,8 +19,6 @@
         tile.id === tileId ? { ...tile, isRevealed: !tile.isRevealed } : tile
       )
     );
-    //DEBUGUGING
-    console.log("tile clicked logic.svelte");
 
     // record selected tile for match
     selectedTiles.push(tileId);
@@ -54,8 +38,6 @@
     const secondMatchId = secondTile.toString().slice(1);
 
     if (firstMatchId === secondMatchId) {
-      //DEBUUGIGN
-      console.log("Match found!");
       images.update((currentTiles) =>
         currentTiles.map((tile) =>
           tile.id === firstTile || tile.id === secondTile
@@ -66,11 +48,9 @@
       matchCount += 1;
 
       if (matchCount === 8) {
-        gameCompleted = true; // triggers pop up
+        onGameCompleted(); // triggers pop up
       }
     } else {
-      // DEBUGGING
-      console.log("No match. Hiding tiles.");
       // hide tiles
       setTimeout(() => {
         images.update((currentTiles) =>
@@ -86,75 +66,12 @@
     // reset selection record
     selectedTiles = [];
   }
-
-  // Function to restart the game
-  function restartGame() {
-    // Reset selected tiles, matched count, and completion flag
-    selectedTiles = [];
-    matchCount = 0;
-    gameCompleted = false;
-
-    // reset tile stats
-    images.update((currentTiles) =>
-      currentTiles.map((tile) => ({
-        ...tile,
-        isRevealed: false,
-        matched: false,
-      }))
-    );
-  }
-
-  // Close the modal function (without restarting the game)
-  function closeModal() {
-    gameCompleted = false; // Simply hide the modal without restarting the game
-  }
-
-
-  // Adds a new breakpoint @ 400px
-  // https://www.w3schools.com/howto/howto_js_media_queries.asp
-  function changeBreakpoints(mql) {
-	let eles = document.querySelectorAll(".colClass");
-	if (mql.matches) { // If media query matches
-		// document.body.style.backgroundColor = "yellow";
-		eles.forEach((ele,i) => {
-			ele.classList.remove("col-6");
-			ele.classList.add("col-12");
-		})
-	} else {
-		// document.body.style.backgroundColor = "pink";
-		eles.forEach((ele,i) => {
-			ele.classList.add("col-6");
-			ele.classList.remove("col-12");
-		})
-	}
-  }
-
-	// Create a MediaQueryList object
-	var mql = window.matchMedia("(max-width: 400px)")
-
-	// Call listener function at run time
-	changeBreakpoints(mql);
-
-	// Attach listener function on state changes
-	mql.addEventListener("change", function() {
-		changeBreakpoints(mql);
-	});
 </script>
 
-<!-- Display the pop-up message if the game is completed -->
-<!-- Modal component -->
-<Modal {gameCompleted} resetBoard={restartGame} closeOnly={closeModal} />
-
-<!-- bootstrap grid  -->
+<!-- render image tiles -->
 <div class="container-fluid">
   <div class="row justify-content-center">
-    <!-- {#each $images as imgtile (imgtile.id)} -->
-
-    <!-- including ramdomization -->
-    <!-- {#each $images.slice().sort(shuffler) as imgtile (imgtile.id)} -->
-    {#each randomIndices as index}
-      <!-- bootstrap column  -->
-      <!-- hm. todo. confirm; slight issue bw small and medium -->
+    {#each $randomIndices as index}
       <div
         class="col-12 col-sm-4 col-md-3 col-lg-3 col{$images[index]
           .id} d-flex justify-content-center g-0 colClass"
@@ -162,6 +79,7 @@
         <button
           class="btn btn-link p-1 no-border"
           on:click={() => handleTileClick($images[index].id)}
+          disabled={$images[index].matched}
         >
           <div
             class="card {$images[index].isRevealed ? 'revealed' : ''} {$images[
@@ -171,7 +89,6 @@
               : ''} mb-1"
           >
             {#if $images[index].isRevealed}
-              <!-- <img src={imgtile.img_url} alt="Matching tile" /> -->
               <div
                 class="image"
                 style="background-image: url({$images[index]
@@ -203,6 +120,7 @@
     min-height: 160px;
     width: 160px;
     background-color: lightgray;
+    border-radius: 0%;
   }
 
   .card:hover {

@@ -35,7 +35,6 @@
   .content {
     background-color: white;
     padding: 20px;
-    border-radius: 8px;
     text-align: center;
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

@@ -1,7 +1,7 @@
 <!-- Quiz/ game/ built-in interactive experience title -->
 <div class="container">
   <div class="row header">
-    <h2>Celebrity Matching Game</h2>
+    <h3>Celebrity Matching Game</h3>
   </div>
 </div>
 
@@ -16,12 +16,10 @@
 
 <style>
   .header {
-    /* background:#01b8e2; */
-    /* margin-top: rem; */
-    padding: 10px;
+    padding: 5px;
   }
 
-  h2 {
+  h3 {
     margin: 0.5rem;
     text-align: center;
     color: black;
@@ -29,6 +27,6 @@
 
   h4 {
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
   }
 </style>

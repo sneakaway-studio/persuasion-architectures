@@ -1,14 +1,15 @@
 <script>
   import Title from "./components/Title.svelte";
-  import GameLogic from "./components/gameLogic.svelte";
+  import GameUI from "./components/gameUI.svelte";
 </script>
 
 <!-- content to render -->
 <Title />
 <main>
-  <GameLogic>
+  <GameUI>
     <!-- invokes Modal.svelte within -->
-  </GameLogic>
+    <!-- invokes gameLogic.svelte within -->
+  </GameUI>
 </main>
 
 <style>
