@@ -4,27 +4,25 @@ $author = "gilliland";
 include_once('../../inc/paper-heading.php');
 // print_r($paper);
 
-// NOTES
-// ...
-
 ?>
 
 
 
 
 <div class="container">
+	<div class="row my-2">
+		<div class="col-12 col-lg-8 offset-lg-2">
 
-    <div class="row my-2">
-        <div class="col-12 col-lg-8 offset-lg-2">
-
-
-
-<h5 class="subheading">Introduction</h5>
+			<?php include_once('../../inc/paper-thumbnail.php'); ?>
 
 
 
+			<h5 class="subheading">Introduction</h5>
 
-<!-- https://drive.google.com/drive/folders/1THFi-hH7KDKMXDVnJnjp4Asn2NyIawJb -->
+
+
+
+			<!-- https://drive.google.com/drive/folders/1THFi-hH7KDKMXDVnJnjp4Asn2NyIawJb -->
 
 
 
@@ -63,17 +61,17 @@ include_once('../../inc/paper-heading.php');
 	<div class="row my-2">
 		<div class="col-12 col-lg-8 offset-lg-2">
 
-		<h4>Bibliography</h4>
+			<h4>Bibliography</h4>
 
 
-		<ol>
+			<ol>
 
-		<li>xxxx</li>
+				<li>xxxx</li>
 
-		</ol>
+			</ol>
 
 
-	    </div>
+		</div>
 	</div>
 </div>
 

@@ -76,7 +76,11 @@
 		"author": "Maddie Holleman",
 		"title": "Magical Manipulation",
 		"subtitle": "Consumer Persuasion at Disney Parks and Resorts",
-		"thumbnail": "disney.jpg",
+		"thumbnail": "disney-thumb.jpg",
+		"thumbnail-caption": "",
+		"thumbnail-credit": "",
+		"thumbnail-link": "",
+		"thumbnail-license": "unlicensed",
 		"tags": ["disney", "sensory", "experience", "smell"],
 		"date": 2022
 	},
