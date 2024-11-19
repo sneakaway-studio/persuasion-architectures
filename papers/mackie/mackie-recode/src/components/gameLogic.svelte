@@ -118,10 +118,9 @@
 							: ''} {$images[index].matched ? 'matched' : ''} mb-1"
 					>
 						{#if $images[index].isRevealed}
-							{console.log($images[index])}
 							<div
 								class="image"
-								style="background-image: url({$images[index].tile
+								style="background-image: url({$images[index]
 									.img_url}); width:100%;"
 							></div>
 						{/if}
@@ -154,20 +153,7 @@
 		border-radius: 0%;
 	}
 
-	.card:hover {
-		transform: scale(1.05);
-	}
-
-	.card.revealed {
-		background-color: transparent; /* remove bg upon revelation */
-	}
-
-	.matched {
-		border-width: 4px;
-		border-color: rgba(34, 168, 92, 0.7);
-	}
-
-	/* sm */
+		/* sm */
 	@media (min-width: 576px) {
 		.card {
 			width: 18vw;
@@ -185,8 +171,20 @@
 			width: 11vw;
 		}
 	}
-	/* xl */
 	@media (min-width: 1200px) {
-		/* .card {} */
+		.card {
+		}
+	}
+	.card:hover {
+		transform: scale(1.05);
+	}
+
+	.card.revealed {
+		background-color: transparent; /* remove bg upon revelation */
+	}
+
+	.matched {
+		border-width: 4px;
+		border-color: rgba(34, 168, 92, 0.7);
 	}
 </style>
