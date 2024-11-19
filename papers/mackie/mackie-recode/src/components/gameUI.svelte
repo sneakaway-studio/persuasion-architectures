@@ -29,7 +29,36 @@
     gameCompleted = true;
   }
 
+  // Adds a new breakpoint @ 400px
+  // https://www.w3schools.com/howto/howto_js_media_queries.asp
+  function changeBreakpoints(mql) {
+    let eles = document.querySelectorAll(".colClass");
+    if (mql.matches) {
+      // If media query matches
+      // document.body.style.backgroundColor = "yellow";
+      eles.forEach((ele, i) => {
+        ele.classList.remove("col-6");
+        ele.classList.add("col-12");
+      });
+    } else {
+      // document.body.style.backgroundColor = "pink";
+      eles.forEach((ele, i) => {
+        ele.classList.add("col-6");
+        ele.classList.remove("col-12");
+      });
+    }
+  }
 
+  // Create a MediaQueryList object
+  var mql = window.matchMedia("(max-width: 400px)");
+
+  // Call listener function at run time
+  changeBreakpoints(mql);
+
+  // Attach listener function on state changes
+  mql.addEventListener("change", function () {
+    changeBreakpoints(mql);
+  });
 
   //initial randomize
   shuffleIndices();
