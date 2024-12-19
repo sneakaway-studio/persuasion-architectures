@@ -62,7 +62,7 @@ include_once('../../inc/paper-heading.php');
 
 
 					<details>
-						<summary>drawn() by Owen corkery</summary>
+						<summary>drawn() by <?php print $paper['author']; ?>; recoded (2024) by Yumna Ahmed</summary>
 
 
 						<p>
